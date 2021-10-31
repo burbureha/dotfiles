@@ -1,0 +1,42 @@
+set completion-group-bg         "#181818"
+set completion-group-fg         "#ddceb9"
+set completion-bg               "#181818"
+set completion-fg               "#ddceb9"
+set completion-highlight-bg     "#458588"
+set completion-highlight-fg     "#ddceb9"
+
+set notification-error-bg       "#3c3836"
+set notification-error-fg       "#ddceb9"
+set notification-warning-bg     "#3c3836"
+set notification-warning-fg     "#ddceb9"
+set notification-bg             "#3c3836"
+set notification-fg             "#ddceb9"
+
+set index-bg                    "#1d2021"
+set index-fg                    "#ddceb9"
+set index-active-bg             "#181818"
+set index-active-fg             "#ddceb9"
+
+set inputbar-bg                 "#3c3836"
+set inputbar-fg                 "#ddceb9"
+
+set statusbar-bg                "#181818"
+set statusbar-fg                "#ddceb9"
+
+set highlight-color             "#458588"
+set highlight-active-color      "#458588"
+
+set default-bg                  "#1d2021"
+set default-fg                  "#001512"
+set recolor-lightcolor          "#181818"
+set recolor-darkcolor           "#ddceb9"
+
+set statusbar-h-padding 0
+set statusbar-v-padding 0
+set page-padding 1
+set recolor                     true
+
+map u scroll half-up
+map d scroll half-down
+map D toggle_page_mode
+map i recolor

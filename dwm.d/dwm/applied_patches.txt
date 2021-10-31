@@ -1,0 +1,7 @@
++ autoresize.diff
++ pertag.diff
++ vanitygaps.diff
++ attachaside.diff
++ always_center
++ cycle_layouts
++ centeredmaster

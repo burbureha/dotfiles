@@ -1,0 +1,29 @@
++ always_center
++ cyclelayouts
++ pertag
++ vanitygaps with different layouts
++ attachbelow
+
+
+If you struggling with miniscule fonts I kind of solved it
+
+1) First of all install font-awesome
+        yay -S ttf-line-awesome
+        yay -S awesome-terminal-fonts
+
+2) Update you font system path
+        fc-cache -f -v
+
+3) Change you config.h file in dwm directory, (You can keep you original font that you like, 
+   you just need to add new additional font awesome)
+        static const char *fonts[] = { "UbuntuMono-R:size=10", "fontawesome-regular:size=10"};
+        
+4) Go to https://www.nerdfonts.com/cheat-sheet and search for glyphs that starts with "nf-fa", 
+   in my experience other glyphs still will look very small
+
+5) Pick glyphs you like put them in your tags array
+
+6) Recompile your build of dwm
+        sudo make clean install
+
+Done :)
