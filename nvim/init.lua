@@ -1,0 +1,22 @@
+require("dev.globals")
+
+require("user.options")
+require("user.keymaps")
+require("user.plugins")
+require("user.colorscheme")
+
+require("plugins.tokyodark")
+require("plugins.treesitter")
+require("plugins.telescope")
+require("plugins.blankline")
+require("plugins.gitsigns")
+require("plugins.nvimtree")
+require("plugins.mason")
+require("plugins.cmp-lsp")
+-- require("plugins.lsp")
+
+require("plugins.lualine")
+require("plugins.rainbowdelims")
+require("plugins.toggleterm")
+-- require("plugins.symbols")
+require("plugins.smartsplits")
