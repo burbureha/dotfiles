@@ -1,0 +1,40 @@
+file:///home/anton/dev/web/alles/frontend/src/components/LandingPage/LandingPage.js {"mtime":1713821840469,"ctime":1713572674864,"size":1021,"etag":"3ca6i271m11t","orphaned":false,"typeId":""}
+import { Header } from "../Header/Header";
+import { Footer } from "../Footer/Footer";
+import { useState } from 'react'
+import { Link, Button, Box, Typography, Input, Stack, Container } from "@mui/material"
+import NewMainInfo from './MainInfo'
+import Courses from './Courses'
+import Reviews from './Reviews'
+import SubmitForm from './SubmitForm'
+
+
+const LandingPage = () => {
+  const [mode, setMode] = useState('light');
+  const mainBackground = require("../../assets/LandingBackground.png")
+
+    return (
+        <>
+            <Header />
+            <Box
+              width="100%"
+              height="auto"
+              display="flex"
+              flexDirection="column"
+              alignItems="center"
+              justifyContent="center"
+              gap="30px"
+            >
+                <NewMainInfo image={mainBackground}/>
+                <Courses />
+                <Reviews />
+                <SubmitForm />
+            </Box>
+            <Footer />
+        </>
+    );
+}
+
+
+
+export default LandingPage;

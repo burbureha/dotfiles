@@ -1,0 +1,312 @@
+          SpriteFonts
+     4 ms |   Precache common|FreeSans.ttf 10px
+     1 ms |   Precache common|FreeSansBold.ttf 10px
+     1 ms |   Precache common|FreeSans.ttf 14px
+     1 ms |   Precache common|FreeSansBold.ttf 14px
+     1 ms |   Precache common|FreeSansBold.ttf 18px
+     1 ms |   Precache common|FreeSansBold.ttf 24px
+    25 ms --------------------------------------------------
+     2 ms LoadMaps
+          SpriteFonts
+     1 ms |   Precache common|FreeSans.ttf 10px
+     1 ms |   Precache common|FreeSansBold.ttf 10px
+     1 ms |   Precache common|FreeSans.ttf 12px
+     1 ms |   Precache common|FreeSans.ttf 14px
+     1 ms |   Precache common|FreeSansBold.ttf 14px
+     1 ms |   Precache common|FreeSansBold.ttf 18px
+     1 ms |   Precache common|FreeSansBold.ttf 24px
+     8 ms --------------------------------------------------
+          LoadMaps
+    46 ms |   16-9.oramap
+     2 ms |   a-new-winter.oramap
+     2 ms |   african-gambit.oramap
+     2 ms |   aggressive-tendencies.oramap
+    15 ms |   alpha-juno-5.oramap
+     3 ms |   antrax.oramap
+     4 ms |   anvil-of-war.oramap
+     1 ms |   arcade.oramap
+     4 ms |   armageddon.oramap
+     2 ms |   axis-of-advance.oramap
+     3 ms |   back-to-basics.oramap
+     3 ms |   badland-ridges.oramap
+    21 ms |   blank-shellmap
+     3 ms |   blood-and-sand.oramap
+     2 ms |   blue-mountains.oramap
+     3 ms |   botany.oramap
+     2 ms |   break-of-day.oramap
+     2 ms |   burning-hammer.oramap
+     2 ms |   carters-ridge.oramap
+     3 ms |   chill-out.oramap
+     4 ms |   chokepoint.oramap
+    13 ms |   cnc64gdi01
+     2 ms |   collateral-chaos.oramap
+     2 ms |   control-and-chaos.oramap
+     2 ms |   crackpoint.oramap
+     3 ms |   crossing-the-divide.oramap
+    14 ms |   desert-invasion.oramap
+     1 ms |   desert-mandarins.oramap
+     9 ms |   desert-rats-cnc
+     1 ms |   desert-storm-3.oramap
+     4 ms |   deserted-outpost.oramap
+     2 ms |   deterring-democracy-plus.oramap
+     1 ms |   deterring-democracy.oramap
+     1 ms |   dualism.oramap
+     1 ms |   east-vs-west-3.oramap
+     4 ms |   elysian-expanse.oramap
+     3 ms |   escalations.oramap
+    10 ms |   eviction-notice
+     4 ms |   fight-win-prevail.oramap
+     1 ms |   frigid-pass.oramap
+     9 ms |   funpark01
+    13 ms |   gdi01
+    10 ms |   gdi02
+    15 ms |   gdi03
+     8 ms |   gdi04a
+    14 ms |   gdi04b
+    14 ms |   gdi04c
+    13 ms |   gdi05a
+     8 ms |   gdi05b
+    10 ms |   gdi05c
+    11 ms |   gdi06
+    15 ms |   gdi07
+     9 ms |   gdi08a
+    15 ms |   gdi08b
+     8 ms |   gdi09
+     2 ms |   haos-ridges-cnc.oramap
+     1 ms |   hattrix.oramap
+     3 ms |   hegemony-or-survival.oramap
+     3 ms |   island-duel.oramap
+     2 ms |   jungle-conflict.oramap
+     3 ms |   kolosseum.oramap
+     3 ms |   lockdown.oramap
+     1 ms |   manufacturing-consent.oramap
+     2 ms |   master-alert.oramap
+     3 ms |   master-of-the-jungle-book.oramap
+     2 ms |   matchpoint.oramap
+     4 ms |   media-control.oramap
+     1 ms |   model-200.oramap
+     2 ms |   morbid-aimless-poseidon.oramap
+     2 ms |   mountain-town-madness.oramap
+     1 ms |   mt-nukebait.oramap
+    10 ms |   nod01
+     8 ms |   nod02a
+    16 ms |   nod02b
+     8 ms |   nod03a
+    13 ms |   nod03b
+     8 ms |   nod04a
+    10 ms |   nod04b
+    11 ms |   nod05
+     9 ms |   nod06a
+    14 ms |   nod06b
+    10 ms |   nod06c
+    14 ms |   nod07a
+     9 ms |   nod07b
+    15 ms |   nod07c
+     9 ms |   nod08a
+    16 ms |   nod08b
+    49 ms |   nod09
+    20 ms |   nod10a
+     8 ms |   nod10b
+     3 ms |   order-of-battle.oramap
+     2 ms |   ping-pong-bay.oramap
+     2 ms |   pirates-and-emperors.oramap
+     2 ms |   pressure-cnc.oramap
+     3 ms |   reaching-out.oramap
+     2 ms |   riverside-frontline.oramap
+     2 ms |   scorched-earth.oramap
+     2 ms |   sustain.oramap
+     3 ms |   tactical-advance.oramap
+     7 ms |   the-hot-box
+     5 ms |   tiberian-falls.oramap
+     4 ms |   tiberium-forest.oramap
+     1 ms |   tiberium-garden-2.oramap
+     2 ms |   tiberium-rift.oramap
+     1 ms |   too-hot.oramap
+     3 ms |   trial-of-possession.oramap
+     4 ms |   tropic-expanse.oramap
+     4 ms |   twin-lakes.oramap
+    12 ms |   twist-of-fate
+     2 ms |   two-ponds.oramap
+     3 ms |   valley-of-gold-6p.oramap
+     3 ms |   valley-of-gold.oramap
+     2 ms |   vectors-of-battle.oramap
+     2 ms |   war-zone-x.oramap
+     9 ms |   warchild.oramap
+     2 ms |   warkraft.oramap
+     1 ms |   x896.oramap
+     3 ms |   year-501.oramap
+   796 ms --------------------------------------------------
+          StartGame
+          |   NewWorld
+          |   |   PrepareMap
+          |   |   |   Map
+    58 ms |   |   |   |   LoadSequences
+   290 ms |   |   |   --------------------------------------
+     7 ms |   |   |   Map.Music
+   518 ms |   |   ------------------------------------------
+   730 ms |   ----------------------------------------------
+          |   LoadComplete
+     0 ms |   |   ScreenMap.WorldLoaded
+     0 ms |   |   MenuPaletteEffect.WorldLoaded
+     7 ms |   |   MusicPlaylist.WorldLoaded
+     7 ms |   |   TerrainRenderer.WorldLoaded
+     1 ms |   |   TerrainGeometryOverlay.WorldLoaded
+    11 ms |   |   ShroudRenderer.WorldLoaded
+     2 ms |   |   DevCommands.WorldLoaded
+     2 ms |   |   DebugVisualizationCommands.WorldLoaded
+     0 ms |   |   PlayerCommands.WorldLoaded
+     0 ms |   |   HelpCommand.WorldLoaded
+     0 ms |   |   ScreenShaker.WorldLoaded
+    10 ms |   |   LegacyBridgeLayer.WorldLoaded
+     4 ms |   |   SmudgeLayer.WorldLoaded
+     0 ms |   |   SmudgeLayer.WorldLoaded
+     0 ms |   |   CustomTerrainDebugOverlay.WorldLoaded
+     3 ms |   |   SpawnMapActors.WorldLoaded
+    35 ms |   |   LoadWidgetAtGameStart.WorldLoaded
+     0 ms |   |   CellTriggerOverlay.WorldLoaded
+     0 ms |   |   TimeLimitManager.WorldLoaded
+    14 ms |   |   Locomotor.WorldLoaded
+     0 ms |   |   Locomotor.WorldLoaded
+     0 ms |   |   Locomotor.WorldLoaded
+     0 ms |   |   Locomotor.WorldLoaded
+     0 ms |   |   Locomotor.WorldLoaded
+     0 ms |   |   Locomotor.WorldLoaded
+     0 ms |   |   Locomotor.WorldLoaded
+     0 ms |   |   Locomotor.WorldLoaded
+     0 ms |   |   Locomotor.WorldLoaded
+     0 ms |   |   Locomotor.WorldLoaded
+     4 ms |   |   ResourceLayer.WorldLoaded
+     8 ms |   |   ResourceRenderer.WorldLoaded
+    65 ms |   |   PathFinder.WorldLoaded
+     0 ms |   |   PathFinderOverlay.WorldLoaded
+     0 ms |   |   HierarchicalPathFinderOverlay.WorldLoaded
+     0 ms |   |   MissionObjectives.WorldLoaded
+     0 ms |   |   PlayerStatistics.WorldLoaded
+     0 ms |   |   GameSaveViewportManager.WorldLoaded
+     1 ms |   |   PlayerRadarTerrain.WorldLoaded
+     0 ms |   |   MissionObjectives.WorldLoaded
+     0 ms |   |   PlayerStatistics.WorldLoaded
+     0 ms |   |   GameSaveViewportManager.WorldLoaded
+     0 ms |   |   PlayerRadarTerrain.WorldLoaded
+   181 ms |   ----------------------------------------------
+  1044 ms --------------------------------------------------
+          NewWorld
+          |   PrepareMap
+          |   |   Map
+    25 ms |   |   |   LoadSequences
+    30 ms |   |   ------------------------------------------
+     2 ms |   |   Map.Music
+   212 ms |   ----------------------------------------------
+   256 ms --------------------------------------------------
+          LoadComplete
+     0 ms |   ScreenMap.WorldLoaded
+     0 ms |   MenuPaletteEffect.WorldLoaded
+     0 ms |   MusicPlaylist.WorldLoaded
+     5 ms |   TerrainRenderer.WorldLoaded
+     0 ms |   TerrainGeometryOverlay.WorldLoaded
+     9 ms |   ShroudRenderer.WorldLoaded
+     0 ms |   DevCommands.WorldLoaded
+     0 ms |   DebugVisualizationCommands.WorldLoaded
+     0 ms |   PlayerCommands.WorldLoaded
+     0 ms |   HelpCommand.WorldLoaded
+     0 ms |   ScreenShaker.WorldLoaded
+     1 ms |   LegacyBridgeLayer.WorldLoaded
+     2 ms |   SmudgeLayer.WorldLoaded
+     2 ms |   SmudgeLayer.WorldLoaded
+     0 ms |   CustomTerrainDebugOverlay.WorldLoaded
+   185 ms |   SpawnMapActors.WorldLoaded
+     5 ms |   MapStartingLocations.WorldLoaded
+   101 ms |   LoadWidgetAtGameStart.WorldLoaded
+     0 ms |   CellTriggerOverlay.WorldLoaded
+     0 ms |   TimeLimitManager.WorldLoaded
+     8 ms |   Locomotor.WorldLoaded
+    14 ms |   Locomotor.WorldLoaded
+     5 ms |   Locomotor.WorldLoaded
+     5 ms |   Locomotor.WorldLoaded
+     4 ms |   Locomotor.WorldLoaded
+     5 ms |   Locomotor.WorldLoaded
+     4 ms |   Locomotor.WorldLoaded
+     5 ms |   Locomotor.WorldLoaded
+     5 ms |   Locomotor.WorldLoaded
+     4 ms |   Locomotor.WorldLoaded
+     2 ms |   ResourceLayer.WorldLoaded
+     5 ms |   ResourceRenderer.WorldLoaded
+    12 ms |   SpawnStartingUnits.WorldLoaded
+   218 ms |   PathFinder.WorldLoaded
+     0 ms |   PathFinderOverlay.WorldLoaded
+     0 ms |   HierarchicalPathFinderOverlay.WorldLoaded
+     0 ms |   MissionObjectives.WorldLoaded
+     0 ms |   PlayerStatistics.WorldLoaded
+     0 ms |   GameSaveViewportManager.WorldLoaded
+     0 ms |   PlayerRadarTerrain.WorldLoaded
+     0 ms |   MissionObjectives.WorldLoaded
+     0 ms |   PlayerStatistics.WorldLoaded
+     0 ms |   GameSaveViewportManager.WorldLoaded
+     0 ms |   PlayerRadarTerrain.WorldLoaded
+     0 ms |   MissionObjectives.WorldLoaded
+     0 ms |   PlayerStatistics.WorldLoaded
+     0 ms |   GameSaveViewportManager.WorldLoaded
+     0 ms |   PlayerRadarTerrain.WorldLoaded
+     0 ms |   MissionObjectives.WorldLoaded
+     0 ms |   PlayerStatistics.WorldLoaded
+     0 ms |   GameSaveViewportManager.WorldLoaded
+     0 ms |   PlayerRadarTerrain.WorldLoaded
+     0 ms |   MissionObjectives.WorldLoaded
+     0 ms |   PlayerStatistics.WorldLoaded
+     0 ms |   GameSaveViewportManager.WorldLoaded
+     0 ms |   PlayerRadarTerrain.WorldLoaded
+   607 ms --------------------------------------------------
+          StartGame
+          |   NewWorld
+          |   |   PrepareMap
+          |   |   |   Map
+    20 ms |   |   |   |   LoadSequences
+   116 ms |   |   |   --------------------------------------
+     2 ms |   |   |   Map.Music
+   267 ms |   |   ------------------------------------------
+   283 ms |   ----------------------------------------------
+          |   LoadComplete
+     0 ms |   |   ScreenMap.WorldLoaded
+     0 ms |   |   MenuPaletteEffect.WorldLoaded
+     0 ms |   |   MusicPlaylist.WorldLoaded
+     0 ms |   |   TerrainRenderer.WorldLoaded
+     0 ms |   |   TerrainGeometryOverlay.WorldLoaded
+     0 ms |   |   ShroudRenderer.WorldLoaded
+     0 ms |   |   DevCommands.WorldLoaded
+     0 ms |   |   DebugVisualizationCommands.WorldLoaded
+     0 ms |   |   PlayerCommands.WorldLoaded
+     0 ms |   |   HelpCommand.WorldLoaded
+     0 ms |   |   ScreenShaker.WorldLoaded
+     0 ms |   |   LegacyBridgeLayer.WorldLoaded
+     0 ms |   |   SmudgeLayer.WorldLoaded
+     0 ms |   |   SmudgeLayer.WorldLoaded
+     0 ms |   |   CustomTerrainDebugOverlay.WorldLoaded
+     0 ms |   |   SpawnMapActors.WorldLoaded
+     3 ms |   |   LoadWidgetAtGameStart.WorldLoaded
+     0 ms |   |   CellTriggerOverlay.WorldLoaded
+     0 ms |   |   TimeLimitManager.WorldLoaded
+     0 ms |   |   Locomotor.WorldLoaded
+     0 ms |   |   Locomotor.WorldLoaded
+     0 ms |   |   Locomotor.WorldLoaded
+     0 ms |   |   Locomotor.WorldLoaded
+     0 ms |   |   Locomotor.WorldLoaded
+     0 ms |   |   Locomotor.WorldLoaded
+     0 ms |   |   Locomotor.WorldLoaded
+     0 ms |   |   Locomotor.WorldLoaded
+     0 ms |   |   Locomotor.WorldLoaded
+     0 ms |   |   Locomotor.WorldLoaded
+     0 ms |   |   ResourceLayer.WorldLoaded
+     0 ms |   |   ResourceRenderer.WorldLoaded
+     0 ms |   |   PathFinder.WorldLoaded
+     0 ms |   |   PathFinderOverlay.WorldLoaded
+     0 ms |   |   HierarchicalPathFinderOverlay.WorldLoaded
+     0 ms |   |   MissionObjectives.WorldLoaded
+     0 ms |   |   PlayerStatistics.WorldLoaded
+     0 ms |   |   GameSaveViewportManager.WorldLoaded
+     0 ms |   |   PlayerRadarTerrain.WorldLoaded
+     0 ms |   |   MissionObjectives.WorldLoaded
+     0 ms |   |   PlayerStatistics.WorldLoaded
+     0 ms |   |   GameSaveViewportManager.WorldLoaded
+     0 ms |   |   PlayerRadarTerrain.WorldLoaded
+     5 ms |   ----------------------------------------------
+   442 ms --------------------------------------------------

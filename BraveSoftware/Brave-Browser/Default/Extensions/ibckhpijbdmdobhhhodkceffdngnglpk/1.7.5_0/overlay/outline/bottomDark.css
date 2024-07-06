@@ -1,0 +1,24 @@
+.bottom-container {
+    /* --lindy-dark-theme-text-color and background color injected from common/theme.ts */
+
+    color: var(--lindy-dark-theme-text-color) !important;
+}
+
+.article-container {
+    filter: brightness(90%);
+}
+.article-container > .star-icon {
+    color: hsl(51, 80%, 43%) !important; /* lindyDark */
+}
+.article-container > .publish-year,
+.article-container > .progress-bar {
+    background-color: hsl(51, 80%, 43%); /* lindyDark */
+}
+
+.signup-container {
+    background-color: hsl(51, 80%, 43%) !important; /* lindyDark */
+}
+
+.related-caption {
+    color: #52525b !important;
+}

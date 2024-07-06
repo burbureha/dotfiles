@@ -1,0 +1,17 @@
+2024/04/22-01:44:44.803 af2 Creating DB /home/anton/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_user.blocksite.co_0.indexeddb.leveldb since it was missing.
+2024/04/22-01:44:44.807 af2 Reusing MANIFEST /home/anton/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_user.blocksite.co_0.indexeddb.leveldb/MANIFEST-000001
+2024/04/22-01:44:44.818 b00 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/04/22-01:57:11.378 af6 Level-0 table #5: started
+2024/04/22-01:57:11.385 af6 Level-0 table #5: 5327 bytes OK
+2024/04/22-01:57:11.389 af6 Delete type=0 #3
+2024/04/22-01:57:11.389 b00 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/04/22-02:02:06.653 af2 Level-0 table #7: started
+2024/04/22-02:02:06.655 af2 Level-0 table #7: 6375 bytes OK
+2024/04/22-02:02:06.656 af2 Delete type=0 #4
+2024/04/22-02:02:06.657 af2 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/04/22-02:02:27.342 af2 Compacting 1@1 + 1@2 files
+2024/04/22-02:02:27.353 af2 Generated table #8@1: 36 keys, 3267 bytes
+2024/04/22-02:02:27.353 af2 Compacted 1@1 + 1@2 files => 3267 bytes
+2024/04/22-02:02:27.354 af2 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/04/22-02:02:27.355 af2 Delete type=2 #5
+2024/04/22-02:02:27.355 af2 Delete type=2 #7

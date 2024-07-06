@@ -1,0 +1,17 @@
+/* ------------------ Hide Section - History ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_you_page_hide_section_history="true"]:has(div[tab-identifier="FElibrary"]) ytm-item-section-renderer:has(a.ytm-rich-list-header-text[href*="feed/history"]),
+
+/* ------------------ Hide Section - Playlists ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_you_page_hide_section_playlists="true"]:has(div[tab-identifier="FElibrary"]) ytm-item-section-renderer:has(ytm-playlist-card-renderer),
+
+/* ------------------ Hide Button - Your Videos ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_you_page_hide_section_your_videos="true"]:has(div[tab-identifier="FElibrary"]) a.compact-link-endpoint[href*="/channel/"],
+
+/* ------------------ Hide Button - Your Movies ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_you_page_hide_section_your_movies="true"]:has(div[tab-identifier="FElibrary"]) a.compact-link-endpoint[href*="/feed/storefront"] {
+    display: none!important;
+}

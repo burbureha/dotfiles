@@ -1,0 +1,18 @@
+# Music control
+super + F3
+         music_control up
+super + F2
+         music_control down
+super + F1
+         music_control toggle
+super + F4
+         music_control bluetooth
+Shift_L + Alt_L
+         killsleep
+super + s
+         takescreenshot
+#super + w
+#         firefox
+#super + Return
+#         alacritty
+

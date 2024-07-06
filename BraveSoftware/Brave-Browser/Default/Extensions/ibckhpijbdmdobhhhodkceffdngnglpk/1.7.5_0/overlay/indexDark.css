@@ -1,0 +1,18 @@
+:root {
+    color-scheme: dark !important;
+}
+
+.lindy-page-settings-toprght,
+.lindy-page-settings-pageadjacent {
+    --background-color: rgb(33, 33, 33) !important;
+    --text-color: #bdbdbd !important;
+    --color-muted: #525252 !important;
+}
+
+/* .lindy-highlight:not(#fakeID#fakeID#fakeID#fakeID) {
+    background-color: var(--darker-annotation-color) !important;
+}
+.lindy-smart-highlight:not(#fakeID#fakeID#fakeID#fakeID),
+.lindy-smart-highlight-scroll:not(#fakeID#fakeID#fakeID#fakeID) {
+    --active-color: var(--darker-annotation-color) !important;
+} */

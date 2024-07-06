@@ -1,0 +1,11 @@
+2024-04-23 02:33:53.076 [info] 
+E21: Cannot make changes, 'modifiable' is off
+2024-04-23 02:33:56.252 [info] 
+Error detected while processing function <SNR>5_vscodeGoToDefinition:
+line    5:
+E433: No tags file
+E426: tag not found: dev
+2024-04-23 02:35:29.384 [info] 
+8 fewer lines
+2024-04-23 02:35:29.384 [info] 
+8 fewer lines

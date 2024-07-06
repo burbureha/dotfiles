@@ -1,0 +1,69 @@
+/* ------------------ Search Bar - Hide Suggestions ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_search_bar_hide_suggestions="true"] ytm-searchbox .searchbox-dropdown,
+
+/* ------------------ Search Bar - Hide Previous Searches ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_search_bar_hide_previous_searches="true"] ytm-searchbox .searchbox-dropdown li:has(.sbpqs_d),
+
+/* ------------------ Hide Top Header ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_header_hide_top_header="true"] ytm-mobile-topbar-renderer#header-bar {
+    display: none!important;
+}
+
+/* ------------------ Hide Search Button ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_header_mobile_hide_search_button="true"] ytm-mobile-topbar-renderer button:has(path[d*="m20.87 20.17-5.59-5.59C16.35 13.35 17 11.75 17 10c0-3.87-3.13-7-7-7s-7 3.13-7 7 3.13 7 7 7c1.75 0 3.35-.65 4.58-1.71l5.59 5.59.7-.71zM10 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z"]),
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_header_mobile_hide_search_button="true"] ytm-mobile-topbar-renderer .search-filter-icon:has(path[d*="m20.87 20.17-5.59-5.59C16.35 13.35 17 11.75 17 10c0-3.87-3.13-7-7-7s-7 3.13-7 7 3.13 7 7 7c1.75 0 3.35-.65 4.58-1.71l5.59 5.59.7-.71zM10 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z"]) {
+    display: none!important;
+}
+
+/* ------------------ Disable Logo Link ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_header_disable_logo_link="true"] ytm-mobile-topbar-renderer#header-bar ytm-home-logo {
+    pointer-events: none!important;
+}
+
+/* ------------------ Hide Logo ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_header_hide_logo="true"] ytm-mobile-topbar-renderer#header-bar ytm-home-logo {
+    display:none!important;
+}
+
+/* ------------------ Hide Logo Wordmark ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_header_hide_logo_wordmark="true"] ytm-mobile-topbar-renderer#header-bar ytm-home-logo path:nth-child(3),
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_header_hide_logo_wordmark="true"] ytm-mobile-topbar-renderer#header-bar ytm-home-logo path:nth-child(4),
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_header_hide_logo_wordmark="true"] ytm-mobile-topbar-renderer#header-bar ytm-home-logo path:nth-child(5) {
+    display:none!important;
+}
+
+/* ------------------ Hide Button - Filter ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_header_hide_filter_button="true"] ytm-mobile-topbar-renderer .search-filter-icon:has(path[d*="17h6v1h"]),
+
+/* ------------------ Hide Button - Menu ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_header_hide_menu_button="true"] ytm-mobile-topbar-renderer ytm-menu,
+
+/* ------------------ Hide Avatar ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_header_hide_button_avatar="true"] ytm-mobile-topbar-renderer ytm-topbar-menu-button-renderer {
+    display: none!important;
+}
+
+/* ------------------ Grayscale Avatar ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_header_grayscale_button_avatar="true"] ytm-mobile-topbar-renderer#header-bar ytm-profile-icon img {
+    filter: grayscale(1)!important;
+}
+
+/* ------------------ Hide Voice Search Button ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_header_hide_voice_search_button="true"] .mobile-topbar-header-voice-search-button,
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_header_hide_voice_search_button="true"] .searchbox-voice-search-wrapper {
+    display:none!important;
+}

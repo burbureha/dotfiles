@@ -1,0 +1,62 @@
+00:00:00.000223 main     VirtualBox XPCOM Server 7.0.2 r154219 linux.amd64 (Oct 20 2022 18:27:26) release log
+00:00:00.000228 main     Log opened 2022-11-01T16:20:30.863175000Z
+00:00:00.000230 main     Build Type: release
+00:00:00.000232 main     OS Product: Linux
+00:00:00.000236 main     OS Release: 6.0.2-arch1-1
+00:00:00.000240 main     OS Version: #1 SMP PREEMPT_DYNAMIC Sat, 15 Oct 2022 14:00:49 +0000
+00:00:00.000270 main     DMI Product Name: HLY-WX9XX
+00:00:00.000278 main     DMI Product Version: M1010
+00:00:00.000285 main     Firmware type: UEFI
+00:00:00.000544 main     Secure Boot: Disabled
+00:00:00.000609 main     Host RAM: 6878MB (6.7GB) total, 1511MB available
+00:00:00.000615 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000617 main     Process ID: 1001453
+00:00:00.000620 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.001971 main     IPC socket path: /tmp/.vbox-anton-ipc/ipcd
+00:00:00.107594 nspr-2   VirtualBox: object creation starts
+00:00:00.107885 nspr-2   Home directory: '/home/anton/.config/VirtualBox'
+00:00:00.108101 nspr-2   Loading settings file "/home/anton/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.128020 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.129464 nspr-2   HostDnsMonitor: initializing
+00:00:00.129685 nspr-2   NAT: resolv.conf: nameserver 81.5.91.37
+00:00:00.129711 nspr-2   NAT: resolv.conf: nameserver 81.5.91.3
+00:00:00.129730 nspr-2   HostDnsMonitor: updating information
+00:00:00.129763 nspr-2   HostDnsMonitor: old information
+00:00:00.129774 nspr-2     no server entries
+00:00:00.129784 nspr-2     no domain set
+00:00:00.129793 nspr-2     no search string entries
+00:00:00.129802 nspr-2   HostDnsMonitor: new information
+00:00:00.129810 nspr-2     server 1: 81.5.91.37
+00:00:00.129821 nspr-2     server 2: 81.5.91.3
+00:00:00.129831 nspr-2     no domain set
+00:00:00.129840 nspr-2     no search string entries
+00:00:00.133467 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:00.133776 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.134294 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={aac6c7cb-a371-4c58-ab51-0616896b2f2c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.136040 nspr-2   Loading settings file "/home/anton/VirtualBox VMs/acm.mipt/acm.mipt.vbox" with version "1.19-linux"
+00:00:00.137962 nspr-2   VirtualBox: object created
+00:00:00.731308 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:00.732656 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=false aResultDetail=0
+00:00:00.788384 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:00.789898 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:00.941897 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:00.943084 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:01.346037 nspr-4   Saving settings file "/home/anton/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:01.356916 nspr-4   Finished saving settings file "/home/anton/.config/VirtualBox/VirtualBox.xml"
+00:00:06.183999 nspr-4   Launched VM: 3489718704 pid: 1001521 (0xf4831) frontend: GUI/Qt name: acm.mipt
+00:00:06.239859 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:06.241053 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:06.264810 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:06.266225 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:06.684575 Watcher  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The virtual machine 'acm.mipt' has terminated unexpectedly during startup with exit code 1 (0x1)}, preserve=false aResultDetail=0
+00:00:06.753159 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:06.754909 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:06.794534 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:06.795862 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:44.544110 nspr-2   Saving settings file "/home/anton/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:44.555131 nspr-2   Finished saving settings file "/home/anton/.config/VirtualBox/VirtualBox.xml"
+00:00:50.577371 main     VirtualBox: object deletion starts
+00:00:50.578190 main     HostDnsMonitor: shutting down ...
+00:00:50.578677 main     HostDnsMonitor: shut down
+00:00:50.589422 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:50.589553 main     VirtualBox: object deleted

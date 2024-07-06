@@ -1,0 +1,291 @@
+.lindy-overlay-elem {
+    display: block !important;
+    min-width: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+    color-scheme: auto !important;
+    width: auto !important;
+    max-width: none !important;
+    max-height: none !important;
+}
+
+.lindy-page-settings-toprght,
+.lindy-page-settings-pageadjacent {
+    --background-color: white !important;
+    --text-color: #292524 !important; /* text-stone-800 */
+    --color-muted: #9ca3af !important; /* text-gray-400 */
+    visibility: visible !important; /* show only once CSS applies */
+}
+
+.lindy-page-settings-toprght {
+    all: revert !important;
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    z-index: 3000 !important;
+    contain: layout style !important;
+}
+.lindy-page-settings-pageadjacent {
+    all: revert !important;
+    position: absolute !important;
+    top: 7px !important;
+    left: calc((100vw - var(--lindy-pagewidth)) / 2 + var(--lindy-pagewidth) - 5px) !important;
+    z-index: 2000 !important;
+    padding: 10px !important;
+    contain: layout style !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-end !important;
+    gap: 5px !important;
+
+    transition: left 0.2s ease-in-out !important;
+}
+.lindy-page-settings-toprght,
+.lindy-page-settings-pageadjacent {
+    animation: fadeInUi 0.2s cubic-bezier(0.33, 1, 0.68, 1) !important;
+    animation-fill-mode: both !important;
+}
+@keyframes fadeInUi {
+    from {
+        visibility: hidden;
+        opacity: 0;
+    }
+    to {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+.lindy-page-settings-toprght.lindy-ui-fadeout,
+.lindy-page-settings-pageadjacent.lindy-ui-fadeout {
+    animation: fadeOutUi 0.2s cubic-bezier(0.33, 1, 0.68, 1) !important;
+    animation-fill-mode: both !important;
+}
+@keyframes fadeOutUi {
+    from {
+        visibility: visible;
+        opacity: 1;
+    }
+    to {
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+
+#lindy-info-topleft {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    /* margin inside iframe to render shadow */
+    height: calc(100vh - 10px) !important;
+    user-select: none !important;
+    contain: strict !important;
+    z-index: 3000 !important;
+    will-change: transform !important;
+
+    width: 350px !important;
+    max-width: calc(
+        (100vw - var(--lindy-pagewidth)) / 2 - 7px
+    ) !important; /* also set via inline styles to prevent initial transition */
+
+    transition: max-width 0.2s cubic-bezier(0.33, 1, 0.68, 1) !important;
+    animation: fadeInOutline 0.2s cubic-bezier(0.33, 1, 0.68, 1) !important;
+    animation-fill-mode: both !important;
+}
+@keyframes fadeInOutline {
+    from {
+        visibility: hidden;
+        opacity: 0;
+        transform: translate3d(-200px, 0, 0);
+    }
+    to {
+        visibility: visible;
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+#lindy-info-topleft.lindy-ui-fadeout {
+    animation: fadeOutOutline 0.2s cubic-bezier(0.33, 1, 0.68, 1) !important;
+    animation-fill-mode: both !important;
+}
+@keyframes fadeOutOutline {
+    from {
+        visibility: visible;
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        visibility: hidden;
+        opacity: 0;
+        transform: translate3d(-200px, 0, 0);
+    }
+}
+
+.lindy-element-spotlght {
+    position: absolute !important;
+    z-index: 10000 !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+
+    background-color: red !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+
+    transition: opacity 0.1s ease-in-out, top 0.1s ease-in-out, left 0.1s ease-in-out,
+        height 0.1s ease-in-out !important;
+}
+.lindy-element-spotlght.lindy-is-shrinking {
+    height: 0 !important;
+    transition: height 0.3s ease-in-out !important;
+}
+.lindy-just-blocked-element:not(#fakeID#fakeID#fakeID#fakeID) {
+    display: block !important;
+    overflow: hidden !important;
+
+    height: 0px !important;
+    max-height: none !important;
+    min-height: auto !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+
+    opacity: 0 !important;
+
+    transition: all 0.3s ease-in-out !important;
+}
+
+#lindy-info-bottom {
+    all: initial !important;
+    position: absolute !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    margin: 0 !important;
+    --side-width: calc((100vw - var(--lindy-pagewidth)) / 2 - 12px) !important;
+    /* margin-left: var(--side-width) !important; */
+    /* width: calc(var(--lindy-pagewidth) + 10px) !important; */
+    width: 100% !important;
+    z-index: -1 !important; /* just behind body in case of overlaps */
+
+    user-select: none !important;
+    contain: strict !important;
+    will-change: transform !important;
+}
+
+#lindy-library-modal {
+    all: initial !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+}
+
+#lindy-annotations-bar {
+    position: absolute !important;
+    top: 8px !important;
+    left: calc((100vw - var(--lindy-pagewidth)) / 2 + var(--lindy-pagewidth) - 4px) !important;
+    width: calc((100vw - var(--lindy-pagewidth)) / 2 - 8px - 4px) !important;
+    height: calc(100% - 8px) !important;
+    user-select: none !important;
+    contain: strict !important;
+    z-index: 1000 !important;
+}
+
+#lindy-annotations-marginbar:not(#fakeID#fakeID#fakeID#fakeID#fakeID) {
+    position: absolute !important;
+    top: 0 !important;
+    height: 100% !important;
+    width: 8px !important;
+
+    left: unset !important;
+    right: 0 !important;
+}
+#lindy-annotations-marginbar > * {
+    position: absolute !important;
+    right: 15px !important;
+    /* top and height set via JS */
+
+    font-family: Poppins, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    opacity: 50% !important;
+}
+.lindy-marginbar-dot {
+    content: "" !important;
+    display: block !important;
+    width: 10px !important;
+    height: 10px !important;
+    /* border-radius: 5px !important; */
+    border-radius: 50% !important;
+    filter: drop-shadow(0 1px 1px rgb(0 0 0 / 0.05)) !important;
+    background-color: var(--darker-annotation-color) !important;
+
+    cursor: pointer !important;
+    animation: fadeInDot 0.15s linear !important;
+}
+
+.lindy-highlight:not(#fakeID#fakeID#fakeID#fakeID) {
+    cursor: pointer !important;
+    background-color: var(--annotation-color) !important;
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out !important;
+}
+/* .lindy-highlight.lindy-hover:not(#fakeID#fakeID#fakeID#fakeID) {
+    background-color: var(--darker-annotation-color) !important;
+} */
+/* .lindy-highlight {
+    -webkit-box-decoration-break: clone;
+    -ms-box-decoration-break: clone;
+    -o-box-decoration-break: clone;
+    box-decoration-break: clone;
+    padding: 0 0px !important;
+    border-radius: 0.125em !important;
+
+    box-shadow: 0.25em 0 0 var(--annotation-color), -0.25em 0 0 var(--annotation-color) !important;
+} */
+/* .lindy-highlight:not(#fakeID#fakeID#fakeID#fakeID):hover {
+    background-color: var(--darker-annotation-color) !important;
+    box-shadow: 0.25em 0 0 var(--darker-annotation-color),
+        -0.25em 0 0 var(--darker-annotation-color) !important;
+} */
+.lindy-smart-highlight:not(#fakeID#fakeID#fakeID#fakeID),
+.lindy-smart-highlight-scroll:not(#fakeID#fakeID#fakeID#fakeID) {
+    display: block !important;
+    background: var(--active-color) !important;
+}
+.lindy-smart-highlight-click:not(#fakeID#fakeID#fakeID#fakeID) {
+    display: block !important;
+}
+
+.lindy-crowd-highlight {
+    transition: background-color 0.15s linear, text-decoration 0.15s linear !important;
+
+    --annotation-color: transparent !important;
+    text-decoration: underline solid var(--annotation-color) 0.15em !important;
+    text-underline-offset: 0.05em !important;
+    text-decoration-skip-ink: none !important;
+    cursor: pointer !important;
+}
+.lindy-crowd-highlight.lindy-hover {
+    background-color: var(--annotation-color) !important;
+    text-decoration-color: transparent !important;
+}
+
+@media (max-width: 1200px) {
+    #lindy-info-topleft {
+        display: none !important;
+    }
+    #lindy-annotations-bar {
+        left: calc(var(--lindy-pagewidth) + 10px + 5px) !important;
+        width: calc(100vw - (var(--lindy-pagewidth) + 10px + 5px) - 15px) !important;
+    }
+    .lindy-page-settings-pageadjacent {
+        left: calc(var(--lindy-pagewidth) + 10px + 0px) !important;
+    }
+    #lindy-info-bottom {
+        margin-left: 0 !important;
+        max-width: calc(100%) !important;
+    }
+}

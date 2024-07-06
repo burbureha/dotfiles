@@ -4,7 +4,7 @@ function P(v)
 end
 
 
- function PROTECTED(func, module_name)
+function PROTECTED(func, module_name)
      local status_ok, name = pcall(func, module_name)
  
      if not status_ok then

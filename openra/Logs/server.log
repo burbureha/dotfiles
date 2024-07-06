@@ -1,0 +1,12 @@
+[2023-11-14T22:42:07] Failed to set socket option on 127.0.0.1:0: Protocol not available
+[2023-11-14T22:42:07] Initial mod: cnc
+[2023-11-14T22:42:07] Initial map: dbc903f08f308a7bd14659a105b2c49632d43168
+[2023-11-14T22:42:07] Client 0: Accepted connection from 127.0.0.1:46268.
+[2023-11-14T22:42:07] Commander (127.0.0.1:46268) has joined the game.
+[2023-11-14T22:42:07] Player @127.0.0.1:46268 is NotReady
+[2023-11-14T22:49:41] Failed to set socket option on 127.0.0.1:0: Protocol not available
+[2023-11-14T22:49:41] Initial mod: cnc
+[2023-11-14T22:49:41] Initial map: dbc903f08f308a7bd14659a105b2c49632d43168
+[2023-11-14T22:49:41] Client 0: Accepted connection from 127.0.0.1:39128.
+[2023-11-14T22:49:41] Commander (127.0.0.1:39128) has joined the game.
+[2023-11-14T22:49:41] Player @127.0.0.1:39128 is NotReady

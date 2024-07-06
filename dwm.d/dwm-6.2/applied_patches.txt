@@ -26,4 +26,10 @@ If you struggling with miniscule fonts I kind of solved it
 6) Recompile your build of dwm
         sudo make clean install
 
+
+
+add  , 
+
+
+
 Done :)

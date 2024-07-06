@@ -1,0 +1,111 @@
+html.pageview {
+    background: #f5f5f4 !important;
+    z-index: -1000 !important;
+}
+
+html.pageview.pageview > body {
+    /* animation properties are set inline */
+    position: relative !important;
+
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: var(--lindy-pagewidth) !important;
+    margin: 8px auto !important;
+    box-sizing: border-box !important; /* reduce inner width if there's padding */
+    opacity: 1 !important;
+    visibility: visible !important;
+    z-index: 0 !important;
+
+    border-radius: 10px !important;
+    /* margins are also set inline in body.js for higher specifity */
+    padding: 30px 50px !important;
+
+    cursor: auto !important;
+    left: 0 !important;
+    top: 0 !important;
+
+    transition: background 0.3s ease-in-out !important;
+}
+
+/* needs to override text container children selector */
+#lindy-body-background:not(#fakeID#fakeID#fakeID#fakeID#fakeID) {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    max-width: none !important;
+    z-index: -100 !important;
+    content: "" !important;
+    background: inherit !important;
+    transition: transform 0.4s cubic-bezier(0.33, 1, 0.68, 1),
+        background 0.4s cubic-bezier(0.33, 1, 0.68, 1) !important; /* easeOutCubic */
+    will-change: transform, background !important;
+
+    border-radius: 10px !important;
+}
+
+#lindy-article-badge {
+    all: initial !important;
+    position: fixed !important;
+    z-index: 9999999999 !important;
+    contain: layout style !important;
+
+    top: 0 !important;
+    /* right: 16px !important; */
+    right: 0 !important;
+}
+
+@media (max-width: 1200px) {
+    html.pageview > body {
+        margin-left: 10px !important; /* also set via inline styles */
+    }
+}
+@media print {
+    .lindy-overlay-elem,
+    #lindy-body-background:not(#fakeID#fakeID#fakeID#fakeID#fakeID#fakeID) {
+        display: none !important;
+    }
+
+    /* html.pageview {
+        --lindy-pagewidth: 100vw !important;
+    }
+    body:not(#fakeID#fakeID#fakeID#fakeID#fakeID#fakeID) {
+        margin: 0 !important;
+    } */
+}
+
+.lindy-smart-highlight,
+.lindy-smart-highlight-scroll {
+    --active-color: var(--annotation-color);
+
+    /* border-radius: 2px !important; */
+    animation: fadeInSmartHighlight 200ms cubic-bezier(0.34, 1.56, 0.64, 1) !important; /* easeOutBack */
+    animation-fill-mode: both !important;
+}
+.lindy-smart-highlight-click {
+    cursor: pointer !important;
+
+    background: transparent !important;
+    transition: background 200ms cubic-bezier(0.34, 1.56, 0.64, 1) !important; /* easeOutBack */
+}
+.lindy-smart-highlight-scroll {
+    position: fixed !important;
+    right: 0 !important;
+    width: 15px !important;
+    height: 4px !important;
+}
+@keyframes fadeInSmartHighlight {
+    from {
+        background: transparent;
+    }
+    to {
+        background: var(--active-color);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .lindy-smart-highlight,
+    .lindy-smart-highlight-scroll {
+        --active-color: var(--darker-annotation-color);
+    }
+}

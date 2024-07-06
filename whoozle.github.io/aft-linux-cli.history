@@ -1,0 +1,40 @@
+help
+ls
+cd DCIM/ 
+ls
+pwd
+cd ..
+cd ..
+cd Pictures/ 
+ls
+cd Telegram/ 
+ls
+ls
+help
+ls
+cd Movies/ 
+ls
+cd ..
+cd Audiobooks/ 
+ls
+ls -a
+cd ..
+ls
+cd Movies/ 
+mkdir vinland-saga
+ls
+cd vinland-saga/ 
+help
+put ~/media/video/shows/
+put ~/media/video/shows/vinlandSaga/[Anime Time] Vinland Saga Season 2 - 01
+put ~/media/video/shows/vinlandSaga/[Anime Time] Vinland Saga Season 2 - 02.mkv
+help
+storage
+cd Movies/
+ls
+cd vinland-saga/ 
+ls
+put ~/media/video/shows/vinlandSaga/S02E02.mkv 
+put ~/media/video/shows/vinlandSaga/S02E02.mkv ./
+put home/anton/media/video/shows/vinlandSaga/S02E02.mkv ./
+quit

@@ -1,0 +1,6 @@
+2024/05/21-16:49:05.426 94584 Reusing MANIFEST /home/anton/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/05/21-16:49:05.427 94584 Recovering log #1161
+2024/05/21-16:49:05.447 94584 Reusing old log /home/anton/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/001161.log 
+2024/05/21-16:50:17.284 94585 Level-0 table #1166: started
+2024/05/21-16:50:17.304 94585 Level-0 table #1166: 1723835 bytes OK
+2024/05/21-16:50:17.307 94585 Delete type=0 #1161

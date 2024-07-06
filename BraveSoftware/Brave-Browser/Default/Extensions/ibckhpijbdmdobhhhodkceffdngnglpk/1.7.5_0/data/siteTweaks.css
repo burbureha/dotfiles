@@ -1,0 +1,961 @@
+/* https://www.newyorker.com/news/our-columnists/the-evolution-of-alexey-navalnys-nationalism */
+[class*="VideoFigure"] {
+    display: none !important;
+}
+.BasePageWrapper-bQpzig {
+    padding-top: 0 !important;
+}
+/* https://www.wired.com/2016/01/phil-kennedy-mind-control-computer/ */
+.BasePageWrapper {
+    padding-top: 0 !important;
+}
+
+/* https://www.theatlantic.com/ideas/archive/2022/03/ben-rhodes-alexey-navalny-maria-stepanova/627049/ */
+[class*="SubOnlyPromo"],
+.ArticleWell_root__MEFqL,
+.ArticleLayoutComponent_articleUtilityBar__Vc8st,
+.ArticleBooksModule_inset__I4Kx2 {
+    display: none !important;
+}
+.ArticleLeadFigure_caption__qhLOF {
+    max-width: none !important;
+    margin-left: 24px !important;
+}
+
+/* https://www.theatlantic.com/magazine/archive/2022/05/social-media-democracy-trust-babel/629369/ */
+[class*="ArticleRelatedContentModule"] {
+    display: none !important;
+}
+
+/* https://www.worksinprogress.co/issue/the-housing-theory-of-everything/ */
+.site-content {
+    padding-top: 0 !important;
+}
+.spotImagWrap {
+    display: none !important;
+}
+.detail-start-wrap {
+    top: 0 !important;
+    padding-top: 0 !important;
+}
+.issueSumBlockWrap {
+    visibility: visible !important;
+    height: auto !important;
+}
+
+/* https://www.economist.com/business/2022/03/09/what-oil-bosses-are-saying-about-the-global-energy-crisis */
+.styled-masthead {
+    display: none !important;
+}
+.global-layout > div {
+    top: 40px !important;
+}
+
+/* https://www.reuters.com/business/britain-start-approval-process-rolls-royce-mini-nuclear-reactor-2022-03-07/ */
+[class*="regular-article-layout__header"] {
+    display: none !important;
+}
+[class*="regular-article-layout__body"] {
+    margin: 0 !important;
+}
+[class*="article-header__container"] {
+    padding: 30px !important;
+    grid-template-rows: repeat(1, max-content) !important;
+}
+[class*="article-body__element__"] {
+    margin: 1em !important;
+}
+.article-header__heading__15OpQ {
+    margin-bottom: 0 !important;
+}
+.article-body__side-rail__3jORK,
+.regular-article-layout__right-rail__3o6zT,
+.spacing-container__container__2g5QT {
+    display: none !important;
+}
+.article-header__author__3PcB3,
+.article-header__buttons__1NoIL,
+.article-header__share__3z79M,
+.article-header__button-right-side__ts-xJ,
+.article-header__read-time__1-q8x {
+    display: none !important;
+}
+.primary-gallery__carousel-container__2zDCt {
+    height: 400px !important;
+    padding-bottom: 0 !important;
+}
+.primary-gallery__carousel__2zjf4 {
+    height: 100% !important;
+}
+.article-body__element__OOj6H {
+    margin: 20px 0 !important;
+}
+
+/* https://www.quantamagazine.org/in-new-experiment-astronomers-see-no-sign-of-cosmic-dawn-20220228/ */
+.cookie-not-accepted {
+    margin-top: 0 !important;
+}
+.header-spacer {
+    display: none !important;
+}
+#postBody ~ * {
+    display: none !important;
+}
+aside.post__sidebar.post__sidebar {
+    display: none !important;
+}
+
+/* https://restofworld.org/2021/lost-in-translation-the-global-streaming-boom-is-creating-a-translator-shortage/ */
+main {
+    margin-top: 0 !important;
+}
+
+/* https://medium.com/swlh/working-on-dom-nodes-and-its-properties-in-javascript-af3ac77f803 */
+.pw-post-byline-header,
+.pw-more-medium-articles {
+    display: none !important;
+}
+span > article:not(.lindy-text-container) {
+    display: none !important;
+}
+
+/* https://www.gamesindustry.biz/articles/2022-02-24-studios-call-for-support-in-face-of-russian-invasion-of-ukraine */
+.coverage-promo,
+.article-coverage-promo,
+.newsletter-promo,
+.header-container {
+    display: none !important;
+}
+.document-container[data-article-id] {
+    display: none !important;
+}
+
+/* https://gizmodo.com/barbed-wire-fences-were-an-early-diy-telephone-network-1493157700 */
+.bxm4mm-6,
+.wdg44t-8,
+.js_ymal-below-post,
+.js_more-below-post {
+    display: none !important;
+}
+
+/* https://www.protocol.com/newsletters/entertainment/elden-ring?rebelltitem=1#rebelltitem1 */
+.last-added,
+.sidebar_post_layout,
+.scroll_of_posts {
+    display: none !important;
+}
+#s_Bulletins_Post_Page_0_0_11_0_0_0_1_0_1_2 .body {
+    margin-top: 0 !important;
+}
+
+/* https://slatestarcodex.com/2014/07/30/meditations-on-moloch/ */
+.left-sidebar {
+    display: none !important;
+}
+#pjgm-wrap {
+    margin: 0 !important;
+}
+#pjgm-header {
+    display: none !important;
+}
+#pjgm-main {
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+/* https://www.nytimes.com/2020/06/17/learning/bringing-ethics-to-your-plate.html */
+.css-tux0zj,
+.css-9om1bq {
+    display: none !important;
+}
+section[name="articleBody"] ~ div {
+    display: none !important;
+}
+
+/* https://sive.rs/itunes */
+body#article {
+    padding: 1px 20px;
+}
+
+/* https://www.nytimes.com/interactive/2022/03/18/upshot/ukraine-aid-details.html */
+#site-content {
+    position: relative !important;
+}
+.g-body {
+    max-width: 800px !important;
+}
+
+/* https://www.theguardian.com/global-development/2022/mar/09/ukraine-urged-to-take-humane-approach-as-men-try-to-flee-war */
+body > a[href="#maincontent"],
+body > a[href="#navigation"],
+div[data-gu-name="lines"],
+div[data-gu-name="border"] {
+    display: none !important;
+}
+gu-island,
+gu-island ~ section {
+    display: none !important;
+}
+
+/* https://www.theguardian.com/world/2022/mar/15/volunteer-hackers-fight-russia */
+div[data-gu-name="body"] > div:first-child {
+    width: 100% !important;
+}
+.dcr-ln5upl,
+.dcr-ffjusr {
+    display: none !important;
+}
+
+/* https://www.theguardian.com/music/2022/mar/23/lots-of-great-actors-are-not-exactly-oil-paintings-valerie-lemercier-on-her-horrifying-celine-dion-biopic */
+/* https://www.theguardian.com/lifeandstyle/2022/mar/23/im-proud-to-be-called-a-nerd-the-pop-and-rock-greats-who-love-model-railways */
+.article-body-commercial-selector > figure {
+    margin-left: 0 !important;
+}
+.article-body-commercial-selector > figure > figcaption {
+    position: relative !important;
+    width: auto !important;
+}
+
+/* https://www.polygon.com/22969625/sony-playstation-sexism-allegations-lawsuit */
+.outbrain-container,
+.outbrain-container ~ div {
+    display: none !important;
+}
+.p-fullbleed-block {
+    margin-left: 0 !important;
+}
+
+/* https://www.popularmechanics.com/adventure/outdoors/a19225/marooned-among-the-polar-bears/ */
+.transporter {
+    display: none !important;
+}
+
+/* https://en.wikipedia.org/wiki/Erotetics */
+.noprint,
+#p-logo,
+#right-navigation {
+    display: none !important;
+}
+#content {
+    border: none !important;
+}
+body.mediawiki {
+    background-color: white !important;
+}
+.mw-editsection,
+.infobox.vcard {
+    display: none !important;
+}
+#External_links#External_links {
+    display: block !important;
+}
+
+/* https://arstechnica.com/tech-policy/2022/03/google-hijacked-millions-of-customers-and-orders-from-restaurants-lawsuit-says/ */
+.ad.ad.ad.ad {
+    display: none !important;
+}
+.site-wrapper {
+    background-color: white !important;
+}
+.story-sidebar {
+    display: none !important;
+}
+.inline-playlist {
+    display: none !important;
+}
+[data-page]:not(#fakeId#fakeId#fakeId) {
+    display: block !important;
+}
+
+/* https://www.independent.co.uk/news/turkish-far-right-on-the-rise-1088461.html */
+#newsletter-component,
+.tbl-feed-container {
+    display: none !important;
+}
+#main.sc-WivXX > div {
+    display: none !important;
+}
+
+/* https://tomcritchlow.com/2022/03/08/architecture-blogging/ */
+.w-two-thirds-ns {
+    width: 100% !important;
+}
+
+/* https://www.npr.org/2022/03/17/1087133199/netflix-plans-to-start-charging-for-password-sharing-and-customers-arent-happy */
+#main-section {
+    margin: 0 !important;
+}
+#main-sidebar,
+#globalheader {
+    display: none !important;
+}
+.storytext > p {
+    max-width: none !important;
+}
+/* https://www.npr.org/2022/03/16/1086896823/vladimir-strzhalkovsky-superyacht-norway?t=1647533782416 */
+.contentheader,
+.internallink,
+.backstage-sponsor-language {
+    display: none !important;
+}
+
+/* https://www.cbsnews.com/news/ukraine-european-power-grid-russia/ */
+.embed--type-content_video {
+    display: none !important;
+}
+.site-header,
+.top-ad-container,
+.super-nav {
+    display: none !important;
+}
+#article-header {
+    margin-left: 0 !important;
+    min-height: 0 !important;
+}
+.content__header.content__header {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    background: revert !important;
+    color: revert !important;
+}
+.content__title {
+    padding-bottom: 0 !important;
+}
+.content__header {
+    padding-bottom: 0 !important;
+}
+article.content {
+    width: 100% !important;
+}
+.content__body {
+    width: 95% !important;
+    margin-top: 0 !important;
+}
+
+/* https://www.lbc.co.uk/world-news/60fd7d63153c4125ab21a32e7e6ac9eb/ */
+.row21 {
+    max-width: none !important;
+}
+.cadmus-article {
+    background-color: white !important;
+}
+.header--twin {
+    display: none !important;
+}
+.seemore,
+.seemore ~ * {
+    display: none !important;
+}
+
+/* https://www.extremetech.com/extreme/332818-nasa-completes-james-webb-space-telescope-alignment-instrument-performing-above-expectations */
+.wrapper {
+    margin-top: 0 !important;
+}
+.wrapper > .row {
+    border: none !important;
+}
+.affiliate-text,
+#share_container,
+#toprightrail,
+.hybrid-bar,
+.hide-for-small-only {
+    display: none !important;
+}
+html.flexbox.flexboxlegacy > body {
+    background-color: white !important;
+}
+
+/* https://www.nasa.gov/content/goddard/hubble-space-telescope-science-instruments */
+#main-content > .wrapper > #content {
+    margin-top: 0 !important;
+}
+
+/* https://www.nbcnews.com/news/us-news/kanye-west-banned-instagram-violating-hate-speech-bullying-policies-rcna20397 */
+.black-print,
+.article-dek {
+    color: black !important;
+}
+#cx_bottom_banner {
+    display: none !important;
+}
+
+/* https://www.bbc.com/news/60773595 */
+.ssrcss-hhhbpo-ContainerWithSidebarWrapper {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+.ssrcss-rgov1k-MainColumn ~ div,
+.ssrcss-11faxz6-TagShareWrapper,
+.ssrcss-msolhr-LinksWrapper {
+    display: none !important;
+}
+.ssrcss-181c4hk-SectionWrapper {
+    height: 100% !important;
+}
+.ssrcss-uf6wea-RichTextComponentWrapper {
+    max-width: none !important;
+}
+
+/* https://www.bbc.com/news */
+.gs-c-promo-heading,
+.gs-c-promo {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+.nw-c-leaderboard-ad {
+    display: none !important;
+}
+
+/* https://edition.cnn.com/2022/03/16/media/disney-walkout-florida-bill/index.html */
+.ticker-ribbon,
+.el__embedded,
+.zn-body-text ~ * {
+    display: none !important;
+}
+/* https://edition.cnn.com/2022/09/22/europe/russia-mobilization-logistics-analysis-intl-hnk-ml/index.html */
+[data-observe-resizes]:not(#fakeId) {
+    display: block !important;
+}
+
+/* https://www.independent.co.uk/news/world/europe/mcdonalds-russia-fast-food-trademark-b2037987.html */
+.sc-jcZdLI {
+    display: none !important;
+}
+
+/* https://developers.google.com/web/updates/2018/03/cssom */
+.devsite-wrapper.devsite-wrapper > devsite-book-nav[fixed] {
+    display: none !important;
+}
+
+/* https://webkit.org/blog/12445/new-webkit-features-in-safari-15-4/ */
+main#content {
+    overflow: visible !important;
+}
+.table-of-contents,
+#logo {
+    display: none !important;
+}
+
+/* https://web.dev/text-fragments/ */
+.wrapper,
+.prose {
+    width: 100% !important;
+    max-width: none !important;
+}
+
+/* https://www.engadget.com/steam-deck-review-small-hands-180026719.html */
+.drawer-swipeable > .wrapper {
+    position: static !important;
+}
+
+/* https://developer.chrome.com/docs/extensions/mv3/migrating_to_service_workers/ */
+.scaffold {
+    height: 100% !important;
+}
+
+/* https://www.businessinsider.com/zelenskyy-aide-biden-does-more-for-ukraine-than-his-predecessors-2022-3?international=true&r=US&IR=T */
+.with-rail-video-ad.with-rail-video-ad {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+section.post-content {
+    width: 100% !important;
+}
+.in-post-sticky,
+.inline-newsletter-signup,
+.live-updates-module-full-width,
+.markets-post-border {
+    display: none !important;
+}
+#infinite_scroll_content > .content-section ~ .content-section {
+    display: none !important;
+}
+
+/* https://www.wsj.com/articles/ivermectin-didnt-reduce-covid-19-hospitalizations-in-largest-trial-to-date-11647601200 */
+.sharedStyles__BelowTop-sc-1ext442-1,
+.MarketDataStrip__MdSector-sc-15rifxt-0,
+div[data-module-zone="ribbon"],
+div[data-module-zone="header"] {
+    display: none !important;
+}
+#cx-what-to-read-next {
+    display: none !important;
+}
+.sp-message-open {
+    display: block !important;
+    position: static !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* https://www.aljazeera.com/news/2022/3/18/personal-ties-that-bind-how-xi-putin-relationship-has-evolved */
+.header-is-sticky,
+.more-on,
+#article-newsletter-slot {
+    display: none !important;
+}
+
+/* https://techcrunch.com/2022/03/18/porsche-is-turning-its-mid-engine-718-roadster-into-an-ev-by-2025/ */
+.feature-island__posts ~ *,
+.newsletter-signup-block {
+    display: none !important;
+}
+article.article-container.article--post {
+    border: none !important;
+}
+.breakout {
+    display: none !important;
+}
+
+/* https://aeon.co/essays/against-han-or-why-koreans-are-not-defined-by-sadness */
+.NewsletterPopup__NewsletterPopupWrapper-sc-1giz7ld-1,
+.article__MaxWidthContainer-sc-br4ey4-0 ~ div,
+.styled__Container-sc-k4zh5d-1 {
+    display: none !important;
+}
+.article__Main-sc-br4ey4-5 {
+    grid-template-columns: none !important;
+}
+
+/* https://a16z.com/2022/03/15/investing-in-rutter/ */
+.bio-lp-newsletter {
+    display: none !important;
+}
+
+/* https://www.ycombinator.com/blog/2021-yc-year-in-review */
+.ycdc2.blog_page {
+    background-color: white !important;
+}
+
+/* https://www.msn.com/nl-nl/nieuws/buitenland/nog-geen-nieuwe-afspraken-humanitaire-corridors-veilige-evacuatie-marioepol-onmogelijk/ar-AAV6KLK?li=BBoPEwG */
+.filmstripouter,
+#maincontent ~ div,
+.sameoab_ad_container {
+    display: none !important;
+}
+
+/* https://www.washingtonpost.com/dc-md-va/2022/03/18/dc-covid-inequality-maryland-virginia/ */
+.hide-for-print {
+    display: none !important;
+}
+.bc-secondary {
+    display: none !important;
+}
+/* https://www.washingtonpost.com/local/route-29-batman-is-killed-after-his-car-breaks-down-along-a-maryland-highway/2015/08/17/13f0e9b2-44e3-11e5-8ab4-c73967a143d3_story.html */
+article[itemprop="articleBody"] > .grey-bg {
+    display: none !important;
+}
+
+/* https://www.forbes.com/sites/sergeiklebnikov/2022/03/17/buffett-buys-more-occidental-shares-heres-how-his-top-holdings-have-fared-in-this-years-brutal-market/?sh=4b23e9595fc9 */
+.right-rail,
+.vestpocket,
+.cnx-in-desktop {
+    display: none !important;
+}
+.main-content--desktop-article {
+    background-color: white !important;
+}
+
+/* https://increment.com/planning/reframing-tech-debt/ */
+.ArticlePage {
+    background-color: white !important;
+}
+.ContinueReading {
+    display: none !important;
+}
+
+/* https://www.theverge.com/2022/3/16/22981230/amazonians-united-warehouse-walkouts-3-raise-breaks */
+.l-header,
+.remixd-wrapper {
+    display: none !important;
+}
+
+/* https://www.fastcompany.com/90730789/cyber-partisans-hacking-belarus-putin-ukraine-invasion */
+.post__article-top-ad-wrapper,
+.finite-scroll-experience,
+.recirc__container {
+    display: none !important;
+}
+body.fastcompany {
+    padding-top: 20px !important;
+}
+.post__body > .post__container {
+    justify-content: flex-start !important;
+}
+.post__container > .post__content {
+    flex: 1 !important;
+    max-width: 100% !important;
+}
+
+/* https://www.bloomberg.com/news/articles/2022-02-28/why-russian-oligarchs-can-t-escape-the-twitter-teen-who-tracked-elon-musk-s-jet */
+.news-wallet__wrapper {
+    display: none !important;
+}
+.transporter-item ~ .transporter-item {
+    display: none !important;
+}
+
+/* https://finance.yahoo.com/news/goldman-sachs-ceo-demanded-employees-210608499.html */
+#module-article > .caas.caas-cc.enableAdSlotsOneSlot {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    background: white !important;
+}
+.xray-side-rail,
+#HeadlineSection {
+    display: none !important;
+}
+/* https://finance.yahoo.com/news/buy-fear-warren-buffett-3-230000136.html?guccounter=1 */
+.caas-readmore-collapse:not(#fakeID#fakeID#fakeID) ~ p {
+    display: block !important;
+}
+
+/* https://hackernoon.com/how-to-take-screenshots-in-the-browser-using-javascript-l92k3xq7 */
+.reactions,
+.Header__Layout-sc-le0go0-0,
+.StoryAudio__AudioContainer-sc-ijji4c-0 {
+    display: none !important;
+}
+
+/* http://www.paulgraham.com/goodtaste.html */
+body[link="000099"] {
+    padding-top: 20px !important;
+}
+
+/* https://tonsky.me/blog/disenchantment/ */
+.lindy-main-text-container > figure {
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* https://science.ubc.ca/news/new-nasal-spray-treats-delta-variant-infection-mice-indicating-broad-spectrum-results */
+header[role="banner"] {
+    display: none !important;
+}
+
+/* https://news.sky.com/story/south-korea-fires-multiple-missiles-in-response-to-north-koreas-rocket-launch-its-military-says-12573876 */
+div[role="banner"] {
+    display: none !important;
+}
+
+/* https://kotaku.com/guitar-hero-clone-schmooey-cheating-esports-speedrun-ac-1848470920 */
+.js_global-nav {
+    display: none !important;
+}
+
+/* https://theconversation.com/how-fast-can-we-stop-earth-from-warming-178295 */
+.content-sidebar,
+.page-addendum,
+.promo {
+    display: none !important;
+}
+
+/* https://notes.eatonphil.com/documentdb.html */
+code {
+    margin-left: 0 !important;
+    max-width: 100% !important;
+}
+
+/* https://aws.amazon.com/blogs/aws/aws-lambda-now-supports-up-to-10-gb-ephemeral-storage/ */
+.aws-blog-has-related-posts.aws-blog-has-related-posts {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+.blog-sidebar {
+    display: none !important;
+}
+
+/* https://www.medievalists.net/2021/09/everyday-magic-middle-ages/ */
+.contentwrap > #socialicons-sticky {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* https://www.thedailybeast.com/bruce-willis-is-stepping-away-from-acting-as-he-battles-aphasia-disorder-caused-by-brain-damage */
+.Cheat__body-and-footer.Cheat__body-and-footer {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* https://aeon.co/essays/corruption-has-shaped-history-why-do-we-still-ignore-it */
+.SupportBannerHeader__BannerWrapper-sc-9g9mv2-0 {
+    display: none !important;
+}
+
+/* https://knowablemagazine.org/article/health-disease/2021/how-noise-pollution-affects-heart-health */
+.share-icons-box,
+.deep-dive,
+.site-footer,
+.promo-article-dark {
+    display: none !important;
+}
+
+/* https://reason.com/2022/04/08/the-fbi-decided-not-to-knock-down-a-suspects-front-door-because-it-was-an-affluent-neighborhood/#latest */
+#most-read-container {
+    display: none !important;
+}
+
+/* https://nautil.us/the-power-of-narrative-15975/ */
+.article-similar-interest {
+    display: none !important;
+}
+
+/* https://kk.org/thetechnium/1000-true-fans/ */
+#categoriescol {
+    display: none !important;
+}
+
+/* https://www.tesla.com/blog/secret-tesla-motors-master-plan-just-between-you-and-me */
+#media_block,
+#second_header,
+.tds-site-header-wrapper {
+    display: none !important;
+}
+
+/* https://steveblank.com/2022/05/17/artificial-intelligence-and-machine-learning-explained/ */
+.obar,
+.widget_twitter_timeline,
+.sidebar > ul {
+    display: none !important;
+}
+
+/* https://dereksmart.com/2015/07/interstellar-citizens/ */
+#masthead,
+.parallax-window,
+.parallax-mirror {
+    display: none !important;
+}
+
+/* https://psyche.co/guides/how-to-have-a-life-full-of-wonder-and-learning-about-the-world */
+.styled__Container-sc-103nbgy-0.styled__Container-sc-103nbgy-0,
+.styled__HeaderWrapper-sc-d6b46r-0,
+.styled__Thumbnail-sc-1ojdm6l-6 {
+    display: none !important;
+}
+
+/* https://tratt.net/laurie/blog/2022/using_a_proper_camera_as_a_webcam.html */
+#article-other-blogs {
+    display: none !important;
+}
+
+/* https://nicheless.blog/post/theory */
+div.bubble-element.bubble-element {
+    width: auto !important;
+}
+div.bubble-element.CustomElement.bubble-r-container {
+    display: none !important;
+}
+
+/* https://www.theatlantic.com/ideas/archive/2022/03/putin-russian-political-deterioration/626966/ */
+.vwo-modal-wrapper,
+.vwo-modal__mask {
+    display: none !important;
+}
+
+/* https://www.nytimes.com/2022/05/19/us/princeton-professor-joshua-katz.html */
+.css-mcm29f.css-mcm29f {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+.css-gx5sib {
+    display: none !important;
+}
+
+/* https://www.space.com/nasa-boeing-hail-starliner-launch-success-despite-glitch */
+/* https://www.tomsguide.com/opinion/google-pixel-6a-might-be-the-most-exciting-phone-of-2022-heres-why */
+.block-image-ads.block-image-ads.block-image-ads.block-image-ads.block-image-ads.block-image-ads {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* https://9to5google.com/2022/05/24/xbox-cloud-gaming-players/ */
+.site-header-placeholder {
+    display: none !important;
+}
+
+/* https://www.archaeology.org/issues/468-2205/letter-from/10504-california-s-coastal-homelands */
+.joomla-header {
+    display: none !important;
+}
+
+/*  */
+
+/* https://deadline.com/2022/05/fbi-season-finale-pulled-cbs-1235031812/ */
+[class~="u-hidden@desktop-max"] {
+    display: none !important;
+}
+
+/* https://www.vice.com/en/article/bvnwg4/indonesia-lgbtq-rights-crackdown */
+.article__embed-component,
+.vice-card {
+    display: none !important;
+}
+.inbody-article {
+    display: none !important;
+}
+
+/* https://www.lesswrong.com/posts/tscc3e5eujrsEeFN4/well-kept-gardens-die-by-pacifism */
+.PostsPagePostHeader-headerVote,
+.PostsPagePostFooter-voteBottom {
+    display: none !important;
+}
+
+/* https://www.euronews.com/green/2022/05/25/brussels-grows-fruits-and-vegetables-on-top-of-a-supermarket */
+.swiper-wrapper--article {
+    left: 0 !important;
+}
+
+/* https://www.marketwatch.com/story/if-youre-ready-to-buy-china-tech-stocks-again-these-five-may-be-the-best-path-to-outperformance-11647881900?mod=home-page */
+.article__masthead.article__masthead.article__masthead {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    background: white !important;
+}
+
+/* https://lepiter.io/feenk/developers-spend-most-of-their-time-figuri-9q25taswlbzjc5rsufndeu0py/ */
+body > div:first-child:not(.lindy-text-container) {
+    /* be careful about false matches */
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* https://www.lremes.com/posts/goldman-sachs/ */
+.gatsby-image-wrapper [data-main-image] {
+    transform: none !important;
+    transition: none !important;
+    opacity: 1 !important;
+    will-change: unset !important;
+}
+
+/* https://www.theguardian.com/lifeandstyle/2014/jul/19/change-your-life-sit-down-and-think */
+.dcr-3jlghf,
+.dcr-chmysj {
+    font-size: calc(var(--lindy-active-font-size) * 0.94) !important;
+}
+.dcr-92oqeo {
+    display: none !important;
+}
+
+/* https://xkcd.com/ */
+#middleContainer {
+    left: 0 !important;
+    margin: 0 !important;
+    width: auto !important;
+}
+#topContainer,
+#bottom {
+    display: none !important;
+}
+img {
+    max-width: 100%;
+}
+
+/* http://lists.squeakfoundation.org/pipermail/squeak-dev/2022-June/220899.html */
+pre {
+    white-space: pre-wrap;
+}
+
+.img-share.img-share.img-share.img-share.img-share {
+    display: block !important;
+}
+
+/* https://theintercept.com/2022/06/14/amazon-ring-camera-police-privacy-ed-markey/ */
+.Post-image-block {
+    padding-bottom: 10px;
+}
+
+/* https://www.vox.com/recode/23170900/leaked-amazon-memo-warehouses-hiring-shortage */
+.c-wide-block {
+    width: 100% !important;
+    margin-left: 0 !important;
+}
+
+/* https://wizenguides.com/cold-email-outreach */
+.notion-spacer {
+    min-width: 0 !important;
+}
+.notion-frame {
+    height: 100% !important;
+}
+.notion-page-content {
+    padding: 0 !important;
+}
+.notion-topbar {
+    display: none !important;
+}
+.pseudoSelection[contenteditable] {
+    display: none !important;
+}
+
+/* https://www.coursera.org/learn/the-science-of-well-being/supplement/7ASYp/welcome-letter-from-professor-santos */
+section.ItemPageLayout.ItemPageLayout {
+    display: block !important;
+}
+
+/* https://www.sciencehistory.org/distillations/mouse-heaven-or-mouse-hell */
+iframe:not(.lindy-overlay-elem) {
+    max-width: 100% !important;
+}
+
+/* https://nautil.us/how-are-the-bees-20772/ */
+.lindy-image-container > figcaption {
+    display: block !important;
+}
+
+/* https://www.hope-rehab-center-thailand.com/blog/personal-development/how-selfishness-ruins-everything-but-kindness-heals/ */
+.elementor-widget-container::before,
+.elementor-widget-container::after {
+    display: none !important;
+}
+
+/* https://pureinsights.com/blog/2021/elasticsearch-vs-opensearch-user-point-of-view-part-1-of-3/ */
+.ob-is-breaking-bad.ob-is-breaking-bad,
+.ob-has-background-overlay.ob-has-background-overlay {
+    display: block !important;
+}
+
+/* https://www.visualcapitalist.com/10-cognitive-razors-to-help-simplify-decision-making/?ref=refind */
+#mvp-content-wrap#mvp-content-wrap {
+    display: block !important;
+}
+#mvp-post-add-box {
+    display: none !important;
+}
+
+/* https://web.hypothes.is/blog/say-hello-to-anno/ */
+hypothesis-highlight {
+    background: none !important;
+}
+
+/* https://theintercept.com/2022/07/29/bank-of-america-worker-conditions-worse/ */
+.Post-header.lindy-main-header-container {
+    padding-bottom: 0 !important;
+}
+
+/* https://www.farwestcorrosion.com/blog/expert-tip-10 */
+.desktop-block {
+    display: block !important;
+}
+
+/* https://news.ycombinator.com */
+#hnmain {
+    background-color: transparent !important;
+    color: var(--lindy-dark-theme-text-color) !important;
+}
+
+/* common invisible font element https://jamanetwork.com/journals/jamapsychiatry/article-abstract/481547 */
+body > [style*="height: 0px;"] {
+    display: none !important;
+}

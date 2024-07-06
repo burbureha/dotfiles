@@ -19,7 +19,7 @@ vim.opt.smarttab = true                                                         
 vim.opt.expandtab = true                                                                        -- Converts tabs to spaces
 vim.opt.laststatus = 0                                                                          -- Always display the status line
 vim.opt.clipboard = "unnamedplus"                                                               -- Copy paste between vim and everything else
--- vim.opt.backup = false                                                                          -- This is recommended by COC
+vim.opt.backup = false                                                                          -- This is recommended by COC
 vim.opt.writebackup = false
 vim.opt.showmode = true                                                                         -- We see things like -- INSERT --
 vim.cmd "set iskeyword+=-"                                                                      -- Treat dash separeted words ass a one word
@@ -28,6 +28,6 @@ vim.cmd "highlight CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE guibg=NONE gu
 vim.opt.hlsearch = true                                                                         -- Stop highlight after search
 vim.opt.termguicolors = true                                                                    -- Setting gui colors for termnal
 vim.opt.autochdir = true
-vim.g.noswapfile = 1                                                                          -- No swap files
+vim.g.noswapfile = true                                                                          -- No swap files
 
 -- OPTIONS END

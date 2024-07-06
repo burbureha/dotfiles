@@ -1,0 +1,14 @@
+2024/06/28-17:21:33.865 1cabf Reusing MANIFEST /home/anton/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_eiimnmioipafcokbfikbljfdeojpcgbh_0.indexeddb.leveldb/MANIFEST-000001
+2024/06/28-17:21:33.873 1cabf Recovering log #1875
+2024/06/28-17:21:33.880 1cabf Reusing old log /home/anton/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_eiimnmioipafcokbfikbljfdeojpcgbh_0.indexeddb.leveldb/001875.log 
+2024/06/28-17:21:33.881 1cabf Delete type=2 #1873
+2024/06/28-17:21:34.011 1cab3 Level-0 table #1880: started
+2024/06/28-17:21:34.029 1cab3 Level-0 table #1880: 4075 bytes OK
+2024/06/28-17:21:34.033 1cab3 Delete type=0 #1875
+2024/06/28-17:21:34.033 1cab3 Manual compaction at level-0 from ' ^\x02\x00\x00\x00' @ 72057594037927935 : 1 .. ' _\x02\x00\x00\x00' @ 0 : 0; will stop at ' ^\x02\x00\x00\x05' @ 34622 : 1
+2024/06/28-17:21:34.033 1cab3 Compacting 1@0 + 1@1 files
+2024/06/28-17:21:34.038 1cab3 Generated table #1881@0: 40 keys, 2591 bytes
+2024/06/28-17:21:34.038 1cab3 Compacted 1@0 + 1@1 files => 2591 bytes
+2024/06/28-17:21:34.040 1cab3 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/06/28-17:21:34.040 1cab3 Delete type=2 #1880
+2024/06/28-17:21:34.041 1cab3 Manual compaction at level-0 from ' ^\x02\x00\x00\x05' @ 34622 : 1 .. ' _\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,34 @@
+2024-04-23 02:32:57.328 [info] Log level: Info
+2024-04-23 02:32:57.330 [info] Validating found git in: "git"
+2024-04-23 02:32:57.433 [info] Using git "2.44.0" from "git"
+2024-04-23 02:34:18.926 [info] Log level: Info
+2024-04-23 02:34:18.926 [info] Validating found git in: "git"
+2024-04-23 02:34:18.926 [info] Using git "2.44.0" from "git"
+2024-04-23 02:34:18.926 [info] > git rev-parse --show-toplevel [17ms]
+2024-04-23 02:34:18.952 [info] > git rev-parse --git-dir --git-common-dir [10ms]
+2024-04-23 02:34:18.978 [info] Open repository: /home/anton/dev/web/alles
+2024-04-23 02:34:19.017 [info] > git rev-parse --show-toplevel [9ms]
+2024-04-23 02:34:19.019 [info] > git config --get commit.template [18ms]
+2024-04-23 02:34:19.046 [info] > git rev-parse --show-toplevel [16ms]
+2024-04-23 02:34:19.062 [info] > git rev-parse --show-toplevel [4ms]
+2024-04-23 02:34:19.063 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/feature/ALLES-86-main-page refs/remotes/feature/ALLES-86-main-page [19ms]
+2024-04-23 02:34:19.081 [info] > git status -z -uall [10ms]
+2024-04-23 02:34:19.170 [info] > git config --get commit.template [64ms]
+2024-04-23 02:34:19.212 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/feature/ALLES-86-main-page refs/remotes/feature/ALLES-86-main-page [35ms]
+2024-04-23 02:34:19.234 [info] > git status -z -uall [14ms]
+2024-04-23 02:34:19.573 [info] > git check-ignore -v -z --stdin [4ms]
+2024-04-23 02:34:22.477 [info] > git check-ignore -v -z --stdin [4ms]
+2024-04-23 02:34:24.154 [info] > git check-ignore -v -z --stdin [3ms]
+2024-04-23 02:34:27.976 [info] > git show --textconv :frontend/src/App.js [14ms]
+2024-04-23 02:34:27.976 [info] > git ls-files --stage -- /home/anton/dev/web/alles/frontend/src/App.js [2ms]
+2024-04-23 02:34:27.994 [info] > git cat-file -s 20ae6e035a90d2d6cbc730ef0761d8aded4f1c75 [7ms]
+2024-04-23 02:34:35.609 [info] > git show --textconv :frontend/src/index.css [9ms]
+2024-04-23 02:34:35.610 [info] > git ls-files --stage -- /home/anton/dev/web/alles/frontend/src/index.css [2ms]
+2024-04-23 02:34:35.619 [info] > git cat-file -s ec2585e8c0bb8188184ed1e0703c4c8f2a8419b0 [2ms]
+2024-04-23 02:34:39.155 [info] > git show --textconv :frontend/src/Theme.js [13ms]
+2024-04-23 02:34:39.157 [info] > git ls-files --stage -- /home/anton/dev/web/alles/frontend/src/Theme.js [4ms]
+2024-04-23 02:34:39.170 [info] > git cat-file -s bb3b9d8c1ea9766abd877c0d7b3db414270d120a [2ms]
+2024-04-23 02:34:48.210 [info] > git check-ignore -v -z --stdin [4ms]
+2024-04-23 02:34:51.522 [info] > git check-ignore -v -z --stdin [4ms]
+2024-04-23 02:34:52.326 [info] > git show --textconv :frontend/src/components/LandingPage/LandingPage.js [15ms]
+2024-04-23 02:34:52.326 [info] > git ls-files --stage -- /home/anton/dev/web/alles/frontend/src/components/LandingPage/LandingPage.js [3ms]

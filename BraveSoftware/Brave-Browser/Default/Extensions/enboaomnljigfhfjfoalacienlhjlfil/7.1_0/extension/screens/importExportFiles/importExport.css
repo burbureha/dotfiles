@@ -1,0 +1,52 @@
+#importExportScreen .instructionLabel {
+    text-align: left;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: var(--primary-color-on-primary-background);
+    padding-left: 15px;
+    margin-bottom: 2px;
+    font-weight: 500;
+}
+
+#importExportScreen .bolder {
+    font-weight: 800;
+}
+
+#importExportScreen .instructionSubLabel {
+    text-align: left;
+    font-size: 13px;
+    color: var(--secondary-color-on-primary-background);
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+#importExportScreen .buttonsWrapper #exportSettingsButton {
+    margin-bottom: 15px;
+}
+
+#importExportScreen .textField {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+    padding: 10px 15px;
+    background: var(--elements-underlay-background);
+    border: 1px solid var(--elements-underlay-background);
+    border-radius: 7px;
+    color: var(--primary-text-color)
+}
+
+#importExportScreen .modernFormBlockItemsWrapper {
+    background: var(--elements-underlay-background);
+    border-radius: 10px;
+
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+#importExportScreen .textField.error {
+    border-color: var(--destruct-button-background);
+}
+
+#importExportScreen #importSettingsButton {
+    margin-bottom: 15px;
+}

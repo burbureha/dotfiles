@@ -1,0 +1,9 @@
+2024/05/20-21:03:35.723 3c286 Reusing MANIFEST /home/anton/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/05/20-21:03:35.725 3c286 Recovering log #791
+2024/05/20-21:03:35.725 3c286 Reusing old log /home/anton/.config/discord/Local Storage/leveldb/000791.log 
+2024/05/20-21:07:34.804 3c287 Level-0 table #797: started
+2024/05/20-21:07:34.840 3c287 Level-0 table #797: 3088937 bytes OK
+2024/05/20-21:07:34.843 3c287 Delete type=0 #791
+2024/05/21-13:30:49.172 3c287 Level-0 table #799: started
+2024/05/21-13:30:49.192 3c287 Level-0 table #799: 2342472 bytes OK
+2024/05/21-13:30:49.195 3c287 Delete type=0 #796

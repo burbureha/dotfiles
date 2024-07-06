@@ -1,0 +1,23 @@
+2024/04/22-10:53:15.179 926 Reusing MANIFEST /home/anton/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_user.blocksite.co_0.indexeddb.leveldb/MANIFEST-000001
+2024/04/22-10:53:15.179 926 Recovering log #6
+2024/04/22-10:53:15.180 926 Reusing old log /home/anton/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_user.blocksite.co_0.indexeddb.leveldb/000006.log 
+2024/04/22-10:53:15.290 929 Level-0 table #11: started
+2024/04/22-10:53:15.292 929 Level-0 table #11: 6383 bytes OK
+2024/04/22-10:53:15.294 929 Delete type=0 #6
+2024/04/22-10:53:15.294 925 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/04/22-10:53:59.075 926 Compacting 1@1 + 1@2 files
+2024/04/22-10:53:59.086 926 Generated table #12@1: 36 keys, 3266 bytes
+2024/04/22-10:53:59.086 926 Compacted 1@1 + 1@2 files => 3266 bytes
+2024/04/22-10:53:59.088 926 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/04/22-10:53:59.088 926 Delete type=2 #11
+2024/04/22-10:53:59.088 926 Delete type=2 #8
+2024/04/22-11:34:56.938 929 Level-0 table #14: started
+2024/04/22-11:34:56.940 929 Level-0 table #14: 6523 bytes OK
+2024/04/22-11:34:56.942 929 Delete type=0 #10
+2024/04/22-11:34:56.942 929 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/04/22-11:35:17.075 926 Compacting 1@1 + 1@2 files
+2024/04/22-11:35:17.087 926 Generated table #15@1: 36 keys, 3270 bytes
+2024/04/22-11:35:17.087 926 Compacted 1@1 + 1@2 files => 3270 bytes
+2024/04/22-11:35:17.088 926 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/04/22-11:35:17.088 926 Delete type=2 #12
+2024/04/22-11:35:17.088 926 Delete type=2 #14

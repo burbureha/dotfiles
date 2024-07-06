@@ -1,0 +1,25 @@
+2024-04-23 02:32:55.260 [info] Started local extension host with pid 480340.
+2024-04-23 02:32:55.584 [info] Started initializing default profile extensions in extensions installation folder. file:///home/anton/.vscode-oss/extensions
+2024-04-23 02:32:56.184 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/anton/.vscode-oss/extensions
+2024-04-23 02:32:58.731 [info] [perf] Render performance baseline is 37ms
+2024-04-23 02:33:03.866 [error] Cancelled: Canceled
+    at _.B (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:785:28974)
+    at async _.z (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:785:25774)
+    at async Z (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:785:24704)
+    at async _.query (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:785:25002)
+    at async oe.queryGallery (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2909:13350)
+    at async Z.Hc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2845:23086)
+    at async Z.rc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2845:14713)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2845:13012
+2024-04-23 02:33:11.260 [error] Cancelled: Canceled
+    at _.B (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:785:28974)
+    at async _.z (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:785:25774)
+    at async _.z (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:785:26717)
+    at async Z (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:785:24704)
+    at async _.query (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:785:25002)
+    at async oe.queryGallery (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2909:13350)
+    at async Z.Hc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2845:23086)
+    at async Z.rc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2845:14713)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2845:13012
+2024-04-23 02:34:15.286 [info] Started local extension host with pid 481496.
+2024-04-23 02:34:18.726 [info] [perf] Render performance baseline is 39ms

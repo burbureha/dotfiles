@@ -1,0 +1,116 @@
+[3/12/2024, 12:43:44 AM]:[INFO] - [wm] already signed in?,false
+[3/12/2024, 12:43:52 AM]:[WARN] - [From web content: 2],[desktop] Unhandled message,setLocales
+undefined
+undefined
+[3/12/2024, 12:44:05 AM]:[ERROR] - uncaughtException: ,{"name":"TypeError","message":"Cannot read properties of undefined (reading 'focus')","stack":"TypeError: Cannot read properties of undefined (reading 'focus')\n    at registeredCancelCallbackMap.focusLastWindow (/opt/figma-linux/resources/app.asar/main/main.js:1:50973)\n    at App.emit (node:events:514:28)\n    at new menuManager (/opt/figma-linux/resources/app.asar/main/main.js:1:45168)\n    at Object.<anonymous> (/opt/figma-linux/resources/app.asar/main/main.js:1:44921)\n    at Module._compile (node:internal/modules/cjs/loader:1271:14)\n    at Object..js (node:internal/modules/cjs/loader:1326:10)\n    at Module.load (node:internal/modules/cjs/loader:1126:32)\n    at node:internal/modules/cjs/loader:967:12\n    at Function._load (node:electron/js2c/asar_bundle:2:13327)\n    at node:electron/js2c/browser_init:2:121783"}
+[3/12/2024, 12:44:14 AM]:[WARN] - [From web content: 2],[desktop] Unhandled message,setWorkspaceProperties
+[3/12/2024, 12:44:14 AM]:[WARN] - [From web content: 2],[desktop] Unhandled message,setWorkspaceProperties
+[3/12/2024, 12:44:14 AM]:[WARN] - [From web content: 2],[desktop] Unhandled message,setTheme
+[3/12/2024, 12:44:14 AM]:[WARN] - [From web content: 2],[desktop] Unhandled message,setLocales
+[3/12/2024, 12:44:15 AM]:[WARN] - [From web content: 2],[desktop] Unhandled message,getKeyboardLayout
+[3/12/2024, 12:44:19 AM]:[WARN] - [From web content: 2],[desktop] Unhandled message,setWorkspaceProperties
+[3/12/2024, 12:44:21 AM]:[WARN] - [From web content: 2],[desktop] Unhandled message,setWorkspaceProperties
+[3/12/2024, 12:44:21 AM]:[WARN] - [From web content: 2],[desktop] Unhandled message,setTheme
+[3/12/2024, 12:44:21 AM]:[WARN] - [From web content: 2],[desktop] Unhandled message,setLocales
+[3/12/2024, 12:44:21 AM]:[WARN] - [From web content: 2],[desktop] Unhandled message,getKeyboardLayout
+[3/12/2024, 12:44:21 AM]:[WARN] - [From web content: 2],[desktop] Unhandled message,getActiveNSScreens
+[3/12/2024, 12:44:21 AM]:[WARN] - [From web content: 2],[desktop] Unhandled message,setWorkspaceProperties
+[3/12/2024, 12:44:23 AM]:[WARN] - [From web content: 2],[desktop] Unhandled message,setWorkspaceProperties
+[3/12/2024, 12:44:23 AM]:[WARN] - [From web content: 2],[desktop] Unhandled message,setWorkspaceProperties
+[3/12/2024, 12:44:24 AM]:[WARN] - [From web content: 2],[desktop] Unhandled message,setWorkspaceProperties
+[3/12/2024, 12:44:43 AM]:[WARN] - [From web content: 2],[desktop] Unhandled message,setWorkspaceProperties
+[3/12/2024, 12:44:44 AM]:[WARN] - skip font: /usr/share/fonts/gsfonts/SalmaproMedium-0Wooo.otf, error: ,EACCES: permission denied, open '/usr/share/fonts/gsfonts/SalmaproMedium-0Wooo.otf'
+[3/12/2024, 12:44:44 AM]:[WARN] - skip font: /usr/share/fonts/gsfonts/SalmaproMediumnarrow-VG5v6.otf, error: ,EACCES: permission denied, open '/usr/share/fonts/gsfonts/SalmaproMediumnarrow-VG5v6.otf'
+[3/12/2024, 12:44:44 AM]:[WARN] - [From web content: 8],[desktop] Unhandled message,setTabPreviewData
+[3/12/2024, 12:44:45 AM]:[WARN] - The setWorkspaceName not implemented, workspaceName: ,
+[3/12/2024, 12:44:45 AM]:[WARN] - [From web content: 8],[desktop] Unhandled message,setTheme
+[3/12/2024, 12:44:45 AM]:[WARN] - [From web content: 8],[desktop] Unhandled message,setLocales
+[3/12/2024, 12:44:45 AM]:[WARN] - [From web content: 8],[desktop] Unhandled message,setEditorType
+[3/12/2024, 12:44:45 AM]:[WARN] - The setWorkspaceName not implemented, workspaceName: ,
+[3/12/2024, 12:44:45 AM]:[WARN] - The setWorkspaceName not implemented, workspaceName: ,
+[3/12/2024, 12:44:45 AM]:[WARN] - [From web content: 8],[desktop] Unhandled message,setTheme
+[3/12/2024, 12:44:45 AM]:[WARN] - [From web content: 8],[desktop] Unhandled message,getKeyboardLayout
+[3/12/2024, 12:44:45 AM]:[WARN] - [From web content: 8],[desktop] Unhandled message,spellingGetLanguages
+[3/12/2024, 12:44:45 AM]:[WARN] - [From web content: 8],[desktop] Unhandled message,setIsLibrary
+[3/12/2024, 12:44:45 AM]:[WARN] - [From web content: 8],[desktop] Unhandled message,setIsTeamTemplate
+[3/12/2024, 12:44:47 AM]:[WARN] - [From web content: 8],[desktop] Unhandled message,setRealtimeToken
+[3/12/2024, 12:44:47 AM]:[WARN] - [From web content: 8],[desktop] Unhandled message,setRealtimeToken
+[3/12/2024, 12:44:47 AM]:[WARN] - [From web content: 8],[desktop] Unhandled message,getActiveNSScreens
+[3/12/2024, 12:44:47 AM]:[WARN] - [From web content: 8],[desktop] Unhandled message,setRealtimeToken
+[3/12/2024, 12:44:48 AM]:[WARN] - [From web content: 8],[desktop] Unhandled message,getActiveNSScreens
+[3/12/2024, 12:44:48 AM]:[WARN] - [From web content: 8],[desktop] Unhandled message,getActiveNSScreens
+[3/12/2024, 12:44:48 AM]:[WARN] - [From web content: 8],[desktop] Unhandled message,getActiveNSScreens
+[3/12/2024, 12:44:48 AM]:[WARN] - [From web content: 8],[desktop] Unhandled message,getKeyboardLayout
+[3/12/2024, 12:45:07 AM]:[WARN] - The setWorkspaceName not implemented, workspaceName: ,
+[3/12/2024, 12:45:07 AM]:[WARN] - [From web content: 2],[desktop] Unhandled message,setWorkspaceProperties
+[3/12/2024, 12:45:08 AM]:[WARN] - [From web content: 9],[desktop] Unhandled message,setTabPreviewData
+[3/12/2024, 12:45:08 AM]:[WARN] - skip font: /usr/share/fonts/gsfonts/SalmaproMedium-0Wooo.otf, error: ,EACCES: permission denied, open '/usr/share/fonts/gsfonts/SalmaproMedium-0Wooo.otf'
+[3/12/2024, 12:45:08 AM]:[WARN] - skip font: /usr/share/fonts/gsfonts/SalmaproMediumnarrow-VG5v6.otf, error: ,EACCES: permission denied, open '/usr/share/fonts/gsfonts/SalmaproMediumnarrow-VG5v6.otf'
+[3/12/2024, 12:45:08 AM]:[WARN] - The setWorkspaceName not implemented, workspaceName: ,
+[3/12/2024, 12:45:08 AM]:[WARN] - [From web content: 9],[desktop] Unhandled message,setTheme
+[3/12/2024, 12:45:08 AM]:[WARN] - [From web content: 9],[desktop] Unhandled message,setLocales
+[3/12/2024, 12:45:08 AM]:[WARN] - [From web content: 9],[desktop] Unhandled message,setEditorType
+[3/12/2024, 12:45:08 AM]:[WARN] - The setWorkspaceName not implemented, workspaceName: ,
+[3/12/2024, 12:45:08 AM]:[WARN] - The setWorkspaceName not implemented, workspaceName: ,
+[3/12/2024, 12:45:08 AM]:[WARN] - [From web content: 9],[desktop] Unhandled message,setTheme
+[3/12/2024, 12:45:08 AM]:[WARN] - [From web content: 9],[desktop] Unhandled message,getKeyboardLayout
+[3/12/2024, 12:45:08 AM]:[WARN] - [From web content: 9],[desktop] Unhandled message,spellingGetLanguages
+[3/12/2024, 12:45:08 AM]:[WARN] - [From web content: 9],[desktop] Unhandled message,setIsLibrary
+[3/12/2024, 12:45:08 AM]:[WARN] - [From web content: 9],[desktop] Unhandled message,setIsTeamTemplate
+[3/12/2024, 12:45:09 AM]:[WARN] - The setWorkspaceName not implemented, workspaceName: ,
+[3/12/2024, 12:45:09 AM]:[WARN] - [From web content: 2],[desktop] Unhandled message,setWorkspaceProperties
+[3/12/2024, 12:45:10 AM]:[WARN] - [From web content: 10],[desktop] Unhandled message,setTabPreviewData
+[3/12/2024, 12:45:10 AM]:[WARN] - The setWorkspaceName not implemented, workspaceName: ,
+[3/12/2024, 12:45:10 AM]:[WARN] - [From web content: 2],[desktop] Unhandled message,setWorkspaceProperties
+[3/12/2024, 12:45:10 AM]:[WARN] - The setWorkspaceName not implemented, workspaceName: ,
+[3/12/2024, 12:45:10 AM]:[WARN] - [From web content: 10],[desktop] Unhandled message,setTheme
+[3/12/2024, 12:45:10 AM]:[WARN] - [From web content: 10],[desktop] Unhandled message,setLocales
+[3/12/2024, 12:45:10 AM]:[WARN] - [From web content: 10],[desktop] Unhandled message,setEditorType
+[3/12/2024, 12:45:10 AM]:[WARN] - The setWorkspaceName not implemented, workspaceName: ,
+[3/12/2024, 12:45:10 AM]:[WARN] - The setWorkspaceName not implemented, workspaceName: ,
+[3/12/2024, 12:45:10 AM]:[WARN] - [From web content: 10],[desktop] Unhandled message,setTheme
+[3/12/2024, 12:45:10 AM]:[WARN] - [From web content: 10],[desktop] Unhandled message,getKeyboardLayout
+[3/12/2024, 12:45:10 AM]:[WARN] - [From web content: 10],[desktop] Unhandled message,spellingGetLanguages
+[3/12/2024, 12:45:10 AM]:[WARN] - [From web content: 10],[desktop] Unhandled message,setIsLibrary
+[3/12/2024, 12:45:10 AM]:[WARN] - [From web content: 10],[desktop] Unhandled message,setIsTeamTemplate
+[3/12/2024, 12:45:11 AM]:[WARN] - skip font: /usr/share/fonts/gsfonts/SalmaproMedium-0Wooo.otf, error: ,EACCES: permission denied, open '/usr/share/fonts/gsfonts/SalmaproMedium-0Wooo.otf'
+[3/12/2024, 12:45:11 AM]:[WARN] - skip font: /usr/share/fonts/gsfonts/SalmaproMediumnarrow-VG5v6.otf, error: ,EACCES: permission denied, open '/usr/share/fonts/gsfonts/SalmaproMediumnarrow-VG5v6.otf'
+[3/12/2024, 12:45:11 AM]:[WARN] - [From web content: 11],[desktop] Unhandled message,setTabPreviewData
+[3/12/2024, 12:45:12 AM]:[WARN] - The setWorkspaceName not implemented, workspaceName: ,
+[3/12/2024, 12:45:12 AM]:[WARN] - [From web content: 11],[desktop] Unhandled message,setTheme
+[3/12/2024, 12:45:12 AM]:[WARN] - [From web content: 11],[desktop] Unhandled message,setLocales
+[3/12/2024, 12:45:12 AM]:[WARN] - [From web content: 11],[desktop] Unhandled message,setEditorType
+[3/12/2024, 12:45:12 AM]:[WARN] - The setWorkspaceName not implemented, workspaceName: ,
+[3/12/2024, 12:45:12 AM]:[WARN] - The setWorkspaceName not implemented, workspaceName: ,
+[3/12/2024, 12:45:12 AM]:[WARN] - [From web content: 11],[desktop] Unhandled message,setTheme
+[3/12/2024, 12:45:12 AM]:[WARN] - [From web content: 11],[desktop] Unhandled message,getKeyboardLayout
+[3/12/2024, 12:45:12 AM]:[WARN] - The setWorkspaceName not implemented, workspaceName: ,
+[3/12/2024, 12:45:12 AM]:[WARN] - [From web content: 11],[desktop] Unhandled message,spellingGetLanguages
+[3/12/2024, 12:45:12 AM]:[WARN] - [From web content: 11],[desktop] Unhandled message,setIsLibrary
+[3/12/2024, 12:45:12 AM]:[WARN] - [From web content: 11],[desktop] Unhandled message,setIsTeamTemplate
+[3/12/2024, 12:45:12 AM]:[WARN] - skip font: /usr/share/fonts/gsfonts/SalmaproMedium-0Wooo.otf, error: ,EACCES: permission denied, open '/usr/share/fonts/gsfonts/SalmaproMedium-0Wooo.otf'
+[3/12/2024, 12:45:12 AM]:[WARN] - skip font: /usr/share/fonts/gsfonts/SalmaproMediumnarrow-VG5v6.otf, error: ,EACCES: permission denied, open '/usr/share/fonts/gsfonts/SalmaproMediumnarrow-VG5v6.otf'
+[3/12/2024, 12:45:12 AM]:[WARN] - [From web content: 9],[desktop] Unhandled message,setRealtimeToken
+[3/12/2024, 12:45:12 AM]:[WARN] - [From web content: 11],[desktop] Unhandled message,setRealtimeToken
+[3/12/2024, 12:45:13 AM]:[WARN] - [From web content: 10],[desktop] Unhandled message,setRealtimeToken
+[3/12/2024, 12:45:14 AM]:[WARN] - [From web content: 9],[desktop] Unhandled message,setRealtimeToken
+[3/12/2024, 12:45:14 AM]:[WARN] - [From web content: 9],[desktop] Unhandled message,getActiveNSScreens
+[3/12/2024, 12:45:14 AM]:[WARN] - [From web content: 10],[desktop] Unhandled message,setRealtimeToken
+[3/12/2024, 12:45:14 AM]:[WARN] - [From web content: 9],[desktop] Unhandled message,getActiveNSScreens
+[3/12/2024, 12:45:14 AM]:[WARN] - [From web content: 9],[desktop] Unhandled message,getActiveNSScreens
+[3/12/2024, 12:45:14 AM]:[WARN] - [From web content: 9],[desktop] Unhandled message,getActiveNSScreens
+[3/12/2024, 12:45:14 AM]:[WARN] - [From web content: 9],[desktop] Unhandled message,getKeyboardLayout
+[3/12/2024, 12:45:14 AM]:[WARN] - [From web content: 10],[desktop] Unhandled message,getActiveNSScreens
+[3/12/2024, 12:45:14 AM]:[WARN] - The setWorkspaceName not implemented, workspaceName: ,
+[3/12/2024, 12:45:14 AM]:[WARN] - [From web content: 11],[desktop] Unhandled message,setRealtimeToken
+[3/12/2024, 12:45:14 AM]:[WARN] - [From web content: 11],[desktop] Unhandled message,getActiveNSScreens
+[3/12/2024, 12:45:15 AM]:[WARN] - The setWorkspaceName not implemented, workspaceName: ,
+[3/12/2024, 12:45:15 AM]:[WARN] - The setWorkspaceName not implemented, workspaceName: ,
+[3/12/2024, 12:45:16 AM]:[WARN] - [From web content: 10],[desktop] Unhandled message,getActiveNSScreens
+[3/12/2024, 12:45:16 AM]:[WARN] - [From web content: 10],[desktop] Unhandled message,getActiveNSScreens
+[3/12/2024, 12:45:16 AM]:[WARN] - [From web content: 10],[desktop] Unhandled message,getActiveNSScreens
+[3/12/2024, 12:45:16 AM]:[WARN] - [From web content: 10],[desktop] Unhandled message,getKeyboardLayout
+[3/12/2024, 12:45:16 AM]:[WARN] - [From web content: 11],[desktop] Unhandled message,getActiveNSScreens
+[3/12/2024, 12:45:16 AM]:[WARN] - [From web content: 11],[desktop] Unhandled message,getActiveNSScreens
+[3/12/2024, 12:45:16 AM]:[WARN] - [From web content: 11],[desktop] Unhandled message,getActiveNSScreens
+[3/12/2024, 12:45:16 AM]:[WARN] - [From web content: 11],[desktop] Unhandled message,getKeyboardLayout

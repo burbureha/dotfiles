@@ -1,0 +1,7 @@
+2024/04/23-16:37:35.430 bc8 Reusing MANIFEST /home/anton/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_codesandbox.io_0.indexeddb.leveldb/MANIFEST-000001
+2024/04/23-16:37:35.431 bc8 Recovering log #3
+2024/04/23-16:37:35.437 bc8 Reusing old log /home/anton/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_codesandbox.io_0.indexeddb.leveldb/000003.log 
+2024/04/23-17:44:53.604 bc9 Level-0 table #5: started
+2024/04/23-17:44:53.610 bc9 Level-0 table #5: 76609 bytes OK
+2024/04/23-17:44:53.612 bc9 Delete type=0 #3
+2024/04/23-17:44:53.613 bc9 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,66 @@
+2024/04/19-16:37:36.434 e3bc Reusing MANIFEST /home/anton/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.telegram.org_0.indexeddb.leveldb/MANIFEST-000001
+2024/04/19-16:37:36.436 e3bc Recovering log #4
+2024/04/19-16:37:37.011 e3bc Reusing old log /home/anton/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.telegram.org_0.indexeddb.leveldb/000004.log 
+2024/04/19-16:37:50.261 e3bc Level-0 table #8: started
+2024/04/19-16:37:50.518 e3bc Level-0 table #8: 1737807 bytes OK
+2024/04/19-16:37:50.529 e3bc Delete type=0 #4
+2024/04/19-16:45:46.500 e3b9 Compacting 1@1 + 1@2 files
+2024/04/19-16:45:46.525 e3b9 Generated table #9@1: 2164 keys, 812187 bytes
+2024/04/19-16:45:46.525 e3b9 Compacted 1@1 + 1@2 files => 812187 bytes
+2024/04/19-16:45:46.526 e3b9 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/04/19-16:45:46.526 e3b9 Delete type=2 #5
+2024/04/19-16:45:46.526 e3b9 Delete type=2 #8
+2024/04/19-17:04:40.505 e3ba Level-0 table #11: started
+2024/04/19-17:04:40.524 e3ba Level-0 table #11: 1785518 bytes OK
+2024/04/19-17:04:40.527 e3ba Delete type=0 #7
+2024/04/19-17:07:35.095 e3b9 Compacting 1@1 + 1@2 files
+2024/04/19-17:07:35.120 e3b9 Generated table #12@1: 2141 keys, 805895 bytes
+2024/04/19-17:07:35.120 e3b9 Compacted 1@1 + 1@2 files => 805895 bytes
+2024/04/19-17:07:35.122 e3b9 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/04/19-17:07:35.122 e3b9 Delete type=2 #9
+2024/04/19-17:07:35.123 e3b9 Delete type=2 #11
+2024/04/19-18:08:41.158 e3bc Level-0 table #14: started
+2024/04/19-18:08:41.218 e3bc Level-0 table #14: 1781558 bytes OK
+2024/04/19-18:08:41.221 e3bc Delete type=0 #10
+2024/04/19-18:10:15.511 e3b9 Compacting 1@1 + 1@2 files
+2024/04/19-18:10:15.538 e3b9 Generated table #15@1: 2112 keys, 779600 bytes
+2024/04/19-18:10:15.538 e3b9 Compacted 1@1 + 1@2 files => 779600 bytes
+2024/04/19-18:10:15.539 e3b9 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/04/19-18:10:15.539 e3b9 Delete type=2 #12
+2024/04/19-18:10:15.539 e3b9 Delete type=2 #14
+2024/04/19-19:14:49.379 e3ba Level-0 table #17: started
+2024/04/19-19:14:49.434 e3ba Level-0 table #17: 1726210 bytes OK
+2024/04/19-19:14:49.437 e3ba Delete type=0 #13
+2024/04/19-19:17:38.477 e3ba Compacting 1@1 + 1@2 files
+2024/04/19-19:17:38.527 e3ba Generated table #18@1: 2056 keys, 773857 bytes
+2024/04/19-19:17:38.527 e3ba Compacted 1@1 + 1@2 files => 773857 bytes
+2024/04/19-19:17:38.528 e3ba compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/04/19-19:17:38.529 e3ba Delete type=2 #17
+2024/04/19-19:17:38.529 e3ba Delete type=2 #15
+2024/04/19-20:19:07.926 e3ba Level-0 table #20: started
+2024/04/19-20:19:07.974 e3ba Level-0 table #20: 1739076 bytes OK
+2024/04/19-20:19:07.977 e3ba Delete type=0 #16
+2024/04/19-20:20:32.848 e3ba Compacting 1@1 + 1@2 files
+2024/04/19-20:20:32.903 e3ba Generated table #21@1: 2046 keys, 778170 bytes
+2024/04/19-20:20:32.903 e3ba Compacted 1@1 + 1@2 files => 778170 bytes
+2024/04/19-20:20:32.904 e3ba compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/04/19-20:20:32.904 e3ba Delete type=2 #20
+2024/04/19-20:20:32.904 e3ba Delete type=2 #18
+2024/04/19-21:25:45.736 e3ba Level-0 table #23: started
+2024/04/19-21:25:45.755 e3ba Level-0 table #23: 1691897 bytes OK
+2024/04/19-21:25:45.758 e3ba Delete type=0 #19
+2024/04/19-22:03:22.208 e3ba Compacting 1@1 + 1@2 files
+2024/04/19-22:03:22.233 e3ba Generated table #24@1: 2040 keys, 770876 bytes
+2024/04/19-22:03:22.233 e3ba Compacted 1@1 + 1@2 files => 770876 bytes
+2024/04/19-22:03:22.234 e3ba compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/04/19-22:03:22.234 e3ba Delete type=2 #21
+2024/04/19-22:03:22.234 e3ba Delete type=2 #23
+2024/04/19-23:11:17.091 e3ba Level-0 table #26: started
+2024/04/19-23:11:17.126 e3ba Level-0 table #26: 1650098 bytes OK
+2024/04/19-23:11:17.132 e3ba Delete type=0 #22
+2024/04/19-23:15:01.113 e3ba Compacting 1@1 + 1@2 files
+2024/04/19-23:15:01.139 e3ba Generated table #27@1: 2021 keys, 748217 bytes
+2024/04/19-23:15:01.139 e3ba Compacted 1@1 + 1@2 files => 748217 bytes
+2024/04/19-23:15:01.140 e3ba compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/04/19-23:15:01.140 e3ba Delete type=2 #24
+2024/04/19-23:15:01.140 e3ba Delete type=2 #26

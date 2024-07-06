@@ -1,0 +1,430 @@
+[2023-02-18 20:27:07.943] [info] Checking for update
+[2023-02-18 20:27:07.982] [info] Error reading /home/anton/.config/notion-app/cookies.json {
+  constructor: 'Error',
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/home/anton/.config/notion-app/cookies.json',
+  stack: "Error: /home/anton/.config/notion-app/cookies.json: ENOENT: no such file or directory, open '/home/anton/.config/notion-app/cookies.json'\n" +
+    '    at Object.openSync (fs.js:466:3)\n' +
+    '    at Object.func [as openSync] (electron/js2c/asar_bundle.js:5:1812)\n' +
+    '    at Object.readFileSync (fs.js:368:35)\n' +
+    '    at Object.e.readFileSync (electron/js2c/asar_bundle.js:5:8592)\n' +
+    '    at Object.readFileSync (/opt/Notion/resources/app.asar/node_modules/jsonfile/index.js:61:22)\n' +
+    '    at JsonStore.loadSync (/opt/Notion/resources/app.asar/main/JsonStore.js:38:44)\n' +
+    '    at new JsonStore (/opt/Notion/resources/app.asar/main/JsonStore.js:15:14)\n' +
+    '    at Object.<anonymous> (/opt/Notion/resources/app.asar/main/schemeHandler.js:37:25)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1152:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1173:10)'
+}
+[2023-02-18 20:27:08.317] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'latestVersionPath',
+  data: {
+    message: 'latestVersion.json path /home/anton/.config/notion-app/notionAssetCache-v2/latestVersion.json'
+  }
+}
+[2023-02-18 20:27:08.319] [error] Error: Error: ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'
+[2023-02-18 20:27:08.320] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: {
+    name: 'Error',
+    message: "ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'",
+    stack: "Error: ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'"
+  }
+}
+[2023-02-18 20:27:08.322] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'errorReadingPath',
+  error: {
+    name: 'Error',
+    message: "ENOENT: no such file or directory, open '/home/anton/.config/notion-app/notionAssetCache-v2/latestVersion.json'",
+    stack: "Error: ENOENT: no such file or directory, open '/home/anton/.config/notion-app/notionAssetCache-v2/latestVersion.json'"
+  },
+  data: {
+    message: 'Error reading /home/anton/.config/notion-app/notionAssetCache-v2/latestVersion.json'
+  }
+}
+[2023-02-18 20:27:08.322] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentVersionLoaded',
+  data: {}
+}
+[2023-02-18 20:27:08.323] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionEmptyLatestVersion'
+}
+[2023-02-18 20:27:08.323] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentSyncedAssetsJson',
+  data: {}
+}
+[2023-02-18 20:27:08.637] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'appUpdateAvailable',
+  data: { version: '23.12.0.9' }
+}
+[2023-02-18 20:27:13.153] [info] { level: 'info', from: 'AssetCache', type: 'checkingForAppUpdate2' }
+[2023-02-18 20:27:13.154] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'appUpdateDownloadComplete',
+  data: { version: '23.12.0.9' }
+}
+[2023-02-18 20:27:13.155] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'installingAppUpdate',
+  data: { version: '23.12.0.9' }
+}
+[2023-02-18 20:27:16.711] [info] Quitting...
+[2023-02-18 20:27:16.712] [info] Killing child process
+[2023-02-18 20:27:21.391] [info] Checking for update
+[2023-02-18 20:27:21.791] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'latestVersionPath',
+  data: {
+    message: 'latestVersion.json path /home/anton/.config/notion-app/notionAssetCache-v2/latestVersion.json'
+  }
+}
+[2023-02-18 20:27:21.793] [error] Error: Error: ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'
+[2023-02-18 20:27:21.794] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: {
+    name: 'Error',
+    message: "ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'",
+    stack: "Error: ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'"
+  }
+}
+[2023-02-18 20:27:21.800] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentVersionLoaded',
+  data: { version: '23.12.0.9', hash: '6cd162d023aa14e1ae8507b14c61a6db' }
+}
+[2023-02-18 20:27:21.801] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersions',
+  data: {
+    message: 'Sync versions: assets.json path /home/anton/.config/notion-app/notionAssetCache-v2/23.12.0.9/assets.json headers.json path /home/anton/.config/notion-app/notionAssetCache-v2/23.12.0.9/headers.json'
+  }
+}
+[2023-02-18 20:27:21.808] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentSyncedAssetsJson',
+  data: { version: '23.12.0.9' }
+}
+[2023-02-18 20:27:22.117] [info] { level: 'info', from: 'AssetCache', type: 'noAppUpdateAvailable2' }
+[2023-02-18 20:27:22.207] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2023-02-18 20:27:22.208] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /, abs path /home/anton/.config/notion-app/notionAssetCache-v2/23.12.0.9/assets/index-en-US-d9737c4d99e1334dde30.html'
+  }
+}
+[2023-02-18 20:27:22.294] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/anton/.config/notion-app/notionAssetCache-v2/23.12.0.9/assets/6425-a495c9389f5a5b87f134.js',
+    url: '/6425-a495c9389f5a5b87f134.js'
+  }
+}
+[2023-02-18 20:27:22.296] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/anton/.config/notion-app/notionAssetCache-v2/23.12.0.9/assets/app-be2896ce1105c788c0c1.js',
+    url: '/app-be2896ce1105c788c0c1.js'
+  }
+}
+[2023-02-18 20:27:22.298] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/anton/.config/notion-app/notionAssetCache-v2/23.12.0.9/assets/app-fcb10b9741733a2bfa46.css',
+    url: '/app-fcb10b9741733a2bfa46.css'
+  }
+}
+[2023-02-18 20:27:22.300] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/anton/.config/notion-app/notionAssetCache-v2/23.12.0.9/assets/print.5c792172.css',
+    url: '/print.5c792172.css'
+  }
+}
+[2023-02-18 20:27:23.384] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2023-02-18 20:27:23.385] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /f/refresh, abs path /home/anton/.config/notion-app/notionAssetCache-v2/23.12.0.9/assets/index-en-US-d9737c4d99e1334dde30.html'
+  }
+}
+[2023-02-18 20:27:23.707] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/anton/.config/notion-app/notionAssetCache-v2/23.12.0.9/assets/third-party-scripts-273d99e5f3343226fcf4.js',
+    url: '/third-party-scripts-273d99e5f3343226fcf4.js'
+  }
+}
+[2023-02-18 20:27:23.789] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/anton/.config/notion-app/notionAssetCache-v2/23.12.0.9/assets/analytics-amplitude-b62eee216945a6fd2fa3.js',
+    url: '/analytics-amplitude-b62eee216945a6fd2fa3.js'
+  }
+}
+[2023-02-18 20:27:41.705] [info] Checking for update
+[2023-02-18 20:27:42.124] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'latestVersionPath',
+  data: {
+    message: 'latestVersion.json path /home/anton/.config/notion-app/notionAssetCache-v2/latestVersion.json'
+  }
+}
+[2023-02-18 20:27:42.126] [error] Error: Error: ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'
+[2023-02-18 20:27:42.127] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: {
+    name: 'Error',
+    message: "ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'",
+    stack: "Error: ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'"
+  }
+}
+[2023-02-18 20:27:42.136] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentVersionLoaded',
+  data: { version: '23.12.0.9', hash: '6cd162d023aa14e1ae8507b14c61a6db' }
+}
+[2023-02-18 20:27:42.137] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersions',
+  data: {
+    message: 'Sync versions: assets.json path /home/anton/.config/notion-app/notionAssetCache-v2/23.12.0.9/assets.json headers.json path /home/anton/.config/notion-app/notionAssetCache-v2/23.12.0.9/headers.json'
+  }
+}
+[2023-02-18 20:27:42.737] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/anton/.config/notion-app/notionAssetCache-v2/23.12.0.9/assets/6425-a495c9389f5a5b87f134.js',
+    url: '/6425-a495c9389f5a5b87f134.js'
+  }
+}
+[2023-02-18 20:27:42.740] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/anton/.config/notion-app/notionAssetCache-v2/23.12.0.9/assets/app-be2896ce1105c788c0c1.js',
+    url: '/app-be2896ce1105c788c0c1.js'
+  }
+}
+[2023-02-18 20:27:42.742] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/anton/.config/notion-app/notionAssetCache-v2/23.12.0.9/assets/app-fcb10b9741733a2bfa46.css',
+    url: '/app-fcb10b9741733a2bfa46.css'
+  }
+}
+[2023-02-18 20:27:42.746] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/anton/.config/notion-app/notionAssetCache-v2/23.12.0.9/assets/print.5c792172.css',
+    url: '/print.5c792172.css'
+  }
+}
+[2023-02-18 20:27:43.843] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2023-02-18 20:27:43.844] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /f/refresh, abs path /home/anton/.config/notion-app/notionAssetCache-v2/23.12.0.9/assets/index-en-US-d9737c4d99e1334dde30.html'
+  }
+}
+[2023-02-18 20:27:43.860] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/anton/.config/notion-app/notionAssetCache-v2/23.12.0.9/assets/third-party-scripts-273d99e5f3343226fcf4.js',
+    url: '/third-party-scripts-273d99e5f3343226fcf4.js'
+  }
+}
+[2023-02-18 20:27:44.065] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/anton/.config/notion-app/notionAssetCache-v2/23.12.0.9/assets/analytics-amplitude-b62eee216945a6fd2fa3.js',
+    url: '/analytics-amplitude-b62eee216945a6fd2fa3.js'
+  }
+}
+[2023-02-18 20:27:44.588] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/anton/.config/notion-app/notionAssetCache-v2/23.12.0.9/assets/primusV8-33d8a42f79c7667a1ae9.js',
+    url: '/primusV8-33d8a42f79c7667a1ae9.js'
+  }
+}
+[2023-02-18 20:27:47.715] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/anton/.config/notion-app/notionAssetCache-v2/23.12.0.9/assets/7831-d45b34797e220b241f26.js',
+    url: '/7831-d45b34797e220b241f26.js'
+  }
+}
+[2023-02-18 20:27:47.717] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/anton/.config/notion-app/notionAssetCache-v2/23.12.0.9/assets/550-7ce8005f75b44e535d81.js',
+    url: '/550-7ce8005f75b44e535d81.js'
+  }
+}
+[2023-02-18 20:27:47.719] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/anton/.config/notion-app/notionAssetCache-v2/23.12.0.9/assets/2222-87b3d45a5f73ab68d425.js',
+    url: '/2222-87b3d45a5f73ab68d425.js'
+  }
+}
+[2023-02-18 20:27:47.721] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/anton/.config/notion-app/notionAssetCache-v2/23.12.0.9/assets/4827-6389a55fec266192665e.js',
+    url: '/4827-6389a55fec266192665e.js'
+  }
+}
+[2023-02-18 20:27:47.722] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/anton/.config/notion-app/notionAssetCache-v2/23.12.0.9/assets/postRender-640b5f1484de8f50d324.js',
+    url: '/postRender-640b5f1484de8f50d324.js'
+  }
+}
+[2023-02-18 20:27:48.467] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/anton/.config/notion-app/notionAssetCache-v2/23.12.0.9/assets/katex-48096137c83662890ef5.js',
+    url: '/katex-48096137c83662890ef5.js'
+  }
+}
+[2023-02-18 20:27:48.469] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/anton/.config/notion-app/notionAssetCache-v2/23.12.0.9/assets/katex/katex.88defe76.min.css',
+    url: '/katex/katex.88defe76.min.css'
+  }
+}
+[2023-02-18 20:27:48.607] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/anton/.config/notion-app/notionAssetCache-v2/23.12.0.9/assets/emoji-english-9a98ca2b66b4678c59c1.js',
+    url: '/emoji-english-9a98ca2b66b4678c59c1.js'
+  }
+}
+[2023-02-18 20:27:48.915] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/anton/.config/notion-app/notionAssetCache-v2/23.12.0.9/assets/markdown-linkify-it-40f534699cf5659b91ed.js',
+    url: '/markdown-linkify-it-40f534699cf5659b91ed.js'
+  }
+}
+[2023-02-18 20:27:48.919] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/anton/.config/notion-app/notionAssetCache-v2/23.12.0.9/assets/tinymce-word-paste-filter-ff147c0fa9e583346507.js',
+    url: '/tinymce-word-paste-filter-ff147c0fa9e583346507.js'
+  }
+}
+[2023-02-18 20:27:49.344] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/anton/.config/notion-app/notionAssetCache-v2/23.12.0.9/assets/katex/fonts/KaTeX_Main-Regular.6c094af9.woff2',
+    url: '/katex/fonts/KaTeX_Main-Regular.6c094af9.woff2'
+  }
+}
+[2023-02-18 20:27:49.345] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/anton/.config/notion-app/notionAssetCache-v2/23.12.0.9/assets/katex/fonts/KaTeX_Math-Italic.1aa96e4e.woff2',
+    url: '/katex/fonts/KaTeX_Math-Italic.1aa96e4e.woff2'
+  }
+}
+[2023-02-18 20:32:31.407] [info] Quitting...
+[2023-02-18 20:32:31.413] [info] Killing child process

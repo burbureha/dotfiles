@@ -47,7 +47,7 @@ return packer.startup(function(use)
     use "nvim-lua/popup.nvim"           -- An implementation of the Popup API from vim in Neovim
     use "nvim-lua/plenary.nvim"         -- Useful lua functions used in lots of plugins
     use ("nvim-treesitter/nvim-treesitter",
-    {run = ':TSUpdate'})                -- Treesitter, syntax parser
+    { run = ':TSUpdate' })              -- Treesitter, syntax parser
     use "nvim-treesitter/playground"    -- Useful for writing plugins TSPlaygroundToggle
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.2',
@@ -64,6 +64,7 @@ return packer.startup(function(use)
 
     use "kyazdani42/nvim-web-devicons"  -- Icons for nvim-tree
     use "kyazdani42/nvim-tree.lua"      -- nvim-tree
+    use "nvimtools/none-ls.nvim"        -- none-ls (replacement for null-ls)
 
     use {
         'VonHeikemen/lsp-zero.nvim',

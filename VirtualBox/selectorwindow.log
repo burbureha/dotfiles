@@ -1,0 +1,22 @@
+00:00:00.323487 VirtualBox GUI VM Selector Window 7.0.2 r154219 linux.amd64 (Oct 20 2022 18:27:26) release log
+00:00:00.323491 Log opened 2022-11-01T16:20:31.049706000Z
+00:00:00.323493 Build Type: release
+00:00:00.323498 OS Product: Linux
+00:00:00.323500 OS Release: 6.0.2-arch1-1
+00:00:00.323501 OS Version: #1 SMP PREEMPT_DYNAMIC Sat, 15 Oct 2022 14:00:49 +0000
+00:00:00.323525 DMI Product Name: HLY-WX9XX
+00:00:00.323532 DMI Product Version: M1010
+00:00:00.323537 Firmware type: UEFI
+00:00:00.323766 Secure Boot: Disabled
+00:00:00.323808 Host RAM: 6878MB (6.7GB) total, 1504MB available
+00:00:00.323813 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.323815 Process ID: 1001402
+00:00:00.323816 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.323863 Qt version: 5.15.6
+00:00:00.324667 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.333934 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.848019 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 10x27 x 466x1037
+00:00:00.866965 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:06.830395 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:00:44.716232 GUI: UICommon: Handling aboutToQuit request..
+00:00:45.732067 GUI: UICommon: aboutToQuit request handled!

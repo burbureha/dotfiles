@@ -32,6 +32,9 @@ keymap("n", "<C-j>", "<C-w>j", opts)
 keymap("n", "<C-k>", "<C-w>k", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
 
+-- Better tabs navigation
+keymap("n", "<S-l>", "gt", opts)
+keymap("n", "<S-h>", "gT", opts)
 -- keymap("n", "<leader>e", ":Lex 30<cr>", opts)
 
 -- Resize with arrows

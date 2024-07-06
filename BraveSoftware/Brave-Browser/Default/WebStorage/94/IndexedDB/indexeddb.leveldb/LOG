@@ -1,0 +1,6 @@
+2024/04/19-22:59:42.691 e3bc Creating DB /home/anton/.config/BraveSoftware/Brave-Browser/Default/WebStorage/94/IndexedDB/indexeddb.leveldb since it was missing.
+2024/04/19-22:59:42.694 e3bc Reusing MANIFEST /home/anton/.config/BraveSoftware/Brave-Browser/Default/WebStorage/94/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2024/04/19-23:26:20.015 e3ba Level-0 table #5: started
+2024/04/19-23:26:20.017 e3ba Level-0 table #5: 8392 bytes OK
+2024/04/19-23:26:20.019 e3ba Delete type=0 #3
+2024/04/19-23:26:20.019 e3ba Manual compaction at level-0 from (begin) .. (end); will stop at (end)

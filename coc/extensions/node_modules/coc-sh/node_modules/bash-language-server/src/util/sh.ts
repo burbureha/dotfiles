@@ -18,7 +18,7 @@ export function execShellScript(body: string, cmd = 'bash'): Promise<string> {
       }
     }
 
-    process.stdout.on('data', buffer => {
+    process.stdout.on('data', (buffer) => {
       output += buffer
     })
 
@@ -107,10 +107,11 @@ export function formatManOutput(manOutput: string): string {
 /**
  * Only works for one-parameter (serializable) functions.
  */
+/* eslint-disable @typescript-eslint/ban-types */
 export function memorize<T extends Function>(func: T): T {
   const cache = new Map()
 
-  const returnFunc = async function(arg: any) {
+  const returnFunc = async function (arg: any) {
     const cacheKey = JSON.stringify(arg)
 
     if (cache.has(cacheKey)) {
