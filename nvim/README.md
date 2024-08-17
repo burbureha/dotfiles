@@ -1,64 +1,50 @@
-------------------------------DONE----------------------------------------------------
-[x] When cmp finds result in LSP after hitting <CR> it doesn't complete what's inside the parenthesis.
+# 💤 LazyVim
 
-[x] Snippets are not expanding
+A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
+Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
 
-[x] Try to get rid of matching pair and run profiling again with ':help vim.cmd' 
-   https://vi.stackexchange.com/questions/276/how-to-find-what-slows-down-vim
 
-[x] LSP over BUFFER
+# NeoTree
+[X] NeoTree has to be changed, because hitting "/" doesn't search anything like I want
+[X] NeoTree should display hidden files by default, right now I have to press "H"
+[X] `v` should open window in vertical mode, right now it's `s`
+[X] When hitting enter on directory, should open said directory
+[X] When pressing "c" should `cd` into that directory, in other words make it root, right now it's "."
 
-[x] Terminal should stay in one directory
+# Autocompletion and lsp
+[X] SuperTab when completing
+[X] in clangd files `auto` keyword, and in functions there is shadows text, should turn it off (Virtual text), vim.diagnostics.config.virtual_text is set to false already, there is still virtual text.
+[X] `gl` should tell me diagnostics
+[X] Install clangd
+[X] When pressing `o` and jump to next line, there is no indentation
+[X] configure Treesitter
+[] clangd doesn't start to index if you open .h file ???
 
-[x] Nvim-tree on directories
 
-[x] resizing splits
+# Telescope
+[X] When pressing "ESC" should close everything
+[X] "CTRL + f" should open files finder [https://github.com/LazyVim/LazyVim/issues/1485], it's in cmp, and in noice, look at [http://www.lazyvim.org/plugins/coding]
+[X] "CTRL + g" should open grep
 
-[x] terminal should close on ZZ
+# Basic vim use
+[X] "s" doesn't changes text under the cursor
+[X] `ZZ` and `ZQ` should close all windows
+[] "," does something strange to text, possibly copies it.
+[] When deleting text, it copies to to yank buffer, fix it
 
-[x] if opening something like .config/nvim - nvim-tree doesn't open
+# Buffers and windows
+[X] Resizing windows left and right should be switched
+[X] make navigation between tabs intuitive
+[X] help windows should open vertically
+[] `CTRL + Shift` should move tabs
+[] `:q` should close buffer and switch to previous one
 
-[x] <C-t> should open terminal in nvim-tree
+# Plugins
+[X] stop which.nvim plugin
+[] Install colorful brackes
+[] I want to see dots instead of empty space where there is spaces
+[] Install colorschemes
 
-[x] telescope should parse diretctory opened in nvim-tree
-
-[x]complete LSP config
-
-[x] Snippets are bad with indenting in c++
-
-[x] It's LSP config, Error in non git file looks bad
-
-------------------------------TODO----------------------------------------------------
-[] Error while typing should be also dysplayed
-
-[] Hover over error and display it, LSP configuration
-
-[] I should hit <TAB> before it starts showing me completion, it shouldn't be like that
-
-[] comments
-
-[] telescope should not open in NvimTree-1, but in different buffer -- probably hard :(
-
-[] Rust analyzer takes too much time and space to setup, as a metric use noria repo
-    "rust-analyzer.cachePriming.numThreads"
-    "rust-analyzer.cachePriming.enable"
-    "rust-analyzer.lru.capacity"
-    "rust-analyzer.cargo.buildScripts.enable"
-
-[] When resizing nvim-tree new size should stay after switching buffers (not buffers, but when opening file inside nvim-tree)
-
-[] When going to defenitions of objects, nvim-tree should open directory of file where definition is
-
-[] When updating packer, if treesitter fails, TSUpdate <language> should be automatic
-
-[] Add shortcut to your nvim config
-
-[] lukas-reineke/indent-blankline.nvim something wrong with it "|" symbol sometimes just deletes text
-
-[] Prettier
-
-[] Install tool for merge conflicts
-
-------------------------------Plugins ideas--------------------------------------------
-[] Generate 'help' pages on the fly for libraries that you are using
-[] Make normal symbols viewer, like on github
+# Not sure that want to change
+[] When writing something shadow text appears, should decide whether I like it or not, definitely I should be able  to switch
+[] When completing I'm already on first completion, I want to press `TAB` to start completing, in other word hitting `TAB` once should get me to first completion item
