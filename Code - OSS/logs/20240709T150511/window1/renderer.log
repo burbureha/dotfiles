@@ -1,0 +1,10 @@
+2024-07-09 15:05:13.304 [info] Started local extension host with pid 182291.
+2024-07-09 15:05:17.485 [info] [perf] Render performance baseline is 44ms
+2024-07-09 15:05:39.793 [error] Unable to read file '/home/anton/dev/web/alles/frontend/src/components/LandingPage/LandingPage.js' (Error: File not modified since): Error: Unable to read file '/home/anton/dev/web/alles/frontend/src/components/LandingPage/LandingPage.js' (Error: File not modified since)
+    at r.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:662:19306)
+    at r.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:662:19194)
+    at async b.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2223:35352)
+    at async b.readStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2223:35109)
+    at async P.Db (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2212:11391)
+    at async P.resolve (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2212:9803)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2223:31151

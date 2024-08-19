@@ -1,0 +1,17 @@
+2024-08-02 01:51:43.232 [info] MainController: Starting nvim: /usr/bin/nvim -N --embed --cmd source /home/anton/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.18.2-universal/runtime/vscode-neovim.vim
+2024-08-02 01:51:43.301 [info] MainController: Nvim info: {
+  configFile: '/home/anton/.config/nvim/init.lua',
+  nvimVersion: {
+    patch: 1,
+    api_level: 12,
+    prerelease: false,
+    api_compatible: 0,
+    build: 'v0.10.1',
+    api_prerelease: false,
+    major: 0,
+    minor: 10
+  },
+  logFile: '/home/anton/.local/state/nvim/log',
+  configDir: '/home/anton/.config/nvim'
+}
+2024-08-02 01:51:44.376 [info] MessagesManager: [mason-lspconfig.nvim] installing neocmake

@@ -31,7 +31,7 @@ set splitbelow
 " Vertical splits will automatically be to the right
 set splitright
 
-" Insert 4 spaces for a tab
+" Insert 2 spaces for a tab
 set tabstop=4
 
 " Change the number of space characters inserted for indentation
@@ -65,7 +65,5 @@ colorscheme xresources
 set cursorline
 highlight CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE guibg=NONE guifg=NONE
 
-" Needed for :checkhealth telescope
-syn match markdownError "\w\@<=\w\@="
 " BASIC END
 

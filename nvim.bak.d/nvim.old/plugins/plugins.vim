@@ -28,9 +28,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
     Plug 'nvim-telescope/telescope-file-browser.nvim'
 
-    " VimTex
-    Plug 'lervag/vimtex'
-
 call plug#end()
 
 " PLUGINS END

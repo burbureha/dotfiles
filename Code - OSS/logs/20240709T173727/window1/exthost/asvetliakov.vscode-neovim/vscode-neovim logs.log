@@ -1,0 +1,16 @@
+2024-07-09 17:37:33.152 [info] MainController: Starting nvim: /usr/bin/nvim -N --embed --cmd source /home/anton/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.18.2-universal/runtime/vscode-neovim.vim
+2024-07-09 17:37:33.261 [info] MainController: Nvim info: {
+  configDir: '/home/anton/.config/nvim',
+  configFile: '/home/anton/.config/nvim/init.lua',
+  nvimVersion: {
+    prerelease: true,
+    minor: 10,
+    build: 'dirty',
+    patch: 0,
+    major: 0,
+    api_level: 12,
+    api_prerelease: null,
+    api_compatible: 0
+  },
+  logFile: '/home/anton/.local/state/nvim/log'
+}

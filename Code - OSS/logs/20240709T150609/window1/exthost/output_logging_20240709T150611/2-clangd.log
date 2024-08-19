@@ -1,0 +1,97 @@
+I[15:07:08.373] clangd version 17.0.6
+I[15:07:08.373] Features: linux
+I[15:07:08.373] PID: 184599
+I[15:07:08.373] Working directory: /home/anton/tmp
+I[15:07:08.373] argv[0]: /usr/bin/clangd
+I[15:07:08.374] Starting LSP over stdin/stdout
+I[15:07:08.376] <-- initialize(0)
+I[15:07:08.380] --> reply:initialize(0) 3 ms
+I[15:07:08.383] <-- initialized
+I[15:07:21.075] <-- $/setTrace
+I[15:07:21.075] unhandled notification $/setTrace
+I[15:07:21.125] <-- $/setTrace
+I[15:07:21.125] unhandled notification $/setTrace
+I[15:07:25.185] <-- textDocument/didOpen
+E[15:07:25.188] config error at /home/anton/.config/clangd/config.yaml:3:0: CompileFlags should be a dictionary
+I[15:07:25.188] config warning at /home/anton/.config/clangd/config.yaml:3:0: Unknown Config key 'Add'
+I[15:07:25.189] config warning at /home/anton/.config/clangd/config.yaml:4:0: Unknown Config key 'CompilationDatabasePath'
+I[15:07:25.190] --> textDocument/publishDiagnostics
+I[15:07:25.198] <-- textDocument/codeAction(1)
+I[15:07:25.200] <-- textDocument/documentSymbol(2)
+I[15:07:25.243] Loaded compilation database from /home/anton/tmp/build/compile_commands.json
+I[15:07:25.245] ASTWorker building file /home/anton/tmp/pass-test/runtime_core/static_core/libllvmbackend/transforms/passes/alloc_memory_optimizer.h version 1 with command inferred from /home/tmp/pass-test/runtime_core/static_core/libllvmbackend/transforms/passes/alloc_memory_optimizer.cpp
+[/home/tmp/build]
+/usr/bin/c++ --driver-mode=g++ "-DBUILD_FOLDER=\"/home/tmp/build\"" -DPANDA_BUILD_LLVM_BACKEND -DPANDA_COMPILER_DEBUG_INFO -DPANDA_COMPILER_ENABLE -DPANDA_COMPILER_TARGET_X86_64 -DPANDA_ENABLE_SLOW_DEBUG -DPANDA_LLVM_AOT -DPANDA_LLVM_BACKEND -DPANDA_LLVM_INTERPRETER -DPANDA_LLVM_IRTOC -DPANDA_TARGET_64 -DPANDA_TARGET_AMD64 -DPANDA_TARGET_LINUX -DPANDA_TARGET_LINUX_UBUNTU -DPANDA_TARGET_LINUX_UBUNTU_20_04 -DPANDA_TARGET_MOBILE_WITH_MANAGED_LIBS=0 -DPANDA_TARGET_UNIX -DPANDA_USE_32_BIT_POINTER -DPANDA_USE_CUSTOM_SIGNAL_STACK -DPANDA_USE_FUTEX -DPANDA_WITH_BYTECODE_OPTIMIZER -DPANDA_WITH_CODEGEN -DPANDA_WITH_COMPILER -DPANDA_WITH_ETS -DPANDA_WITH_IRTOC -DREQUIRED_LLVM_VERSION=15.0.4-ark16 -DZYDIS_DISABLE_AVX512 -DZYDIS_DISABLE_KNC -D_GLIBCXX_ASSERTIONS -Dllvmbackend_EXPORTS -I/home/tmp/pass-test/runtime_core/static_core/libllvmbackend/. -I/home/tmp/pass-test/runtime_core/static_core/compiler -Ilibllvmbackend/generated -I/home/tmp/pass-test/runtime_core/static_core -I/home/tmp/pass-test/runtime_core/static_core/runtime -I. -Iruntime/include -Icross_values -Icompiler/generated -Iplugins/ets/compiler/generated -I/home/tmp/pass-test/runtime_core/static_core/libpandabase/. -I/home/tmp/pass-test/runtime_core/static_core/libpandabase -Ilibpandabase/generated -Ilibpandabase/panda_gen_options/generated/.. -I/home/tmp/pass-test/runtime_core/static_core/libpandafile -Ilibpandafile/include -I/home/tmp/pass-test/runtime_core/static_core/libziparchive -I/home/tmp/pass-test/runtime_core/static_core/compiler/optimizer/code_generator/. -isystem /home/tmp/llvm-build/install/llvm-15.0.4-ark16-debug-x86_64/include -isystem /home/tmp/pass-test/runtime_core/static_core/third_party/utils_native/base/include -isystem /home/tmp/pass-test/runtime_core/static_core/third_party/zlib -isystem /home/tmp/pass-test/runtime_core/static_core/third_party/zlib/contrib/minizip -isystem /home/tmp/pass-test/runtime_core/static_core/third_party/asmjit/src -pedantic -Wall -Wextra -Werror -Wshadow -fno-rtti -fno-exceptions -g -fPIC -fno-omit-frame-pointer -Wno-unused-parameter -Wno-invalid-offsetof -Wno-return-type-c-linkage -DASMJIT_STATIC -pthread -c -x c++-header -std=c++17 -resource-dir=/usr/lib/clang/17 -- /home/anton/tmp/pass-test/runtime_core/static_core/libllvmbackend/transforms/passes/alloc_memory_optimizer.h
+E[15:07:25.246] VFS: failed to set CWD to /home/tmp/build: No such file or directory
+I[15:07:25.259] --> textDocument/clangd.fileStatus
+E[15:07:25.260] VFS: failed to set CWD to /home/tmp/build: No such file or directory
+I[15:07:25.619] <-- textDocument/semanticTokens/full(3)
+I[15:07:25.624] <-- textDocument/documentLink(4)
+I[15:07:25.624] <-- textDocument/inlayHint(5)
+I[15:07:25.637] <-- textDocument/foldingRange(6)
+I[15:07:25.638] --> reply:textDocument/foldingRange(6) 1 ms
+I[15:07:25.639] <-- textDocument/documentSymbol(7)
+I[15:07:27.376] Built preamble of size 16571228 for file /home/anton/tmp/pass-test/runtime_core/static_core/libllvmbackend/transforms/passes/alloc_memory_optimizer.h version 1 in 2.12 seconds
+I[15:07:27.376] --> workspace/semanticTokens/refresh(0)
+I[15:07:27.376] --> textDocument/clangd.fileStatus
+E[15:07:27.376] VFS: failed to set CWD to /home/tmp/build: No such file or directory
+I[15:07:27.377] Indexing c++17 standard library in the context of /home/anton/tmp/pass-test/runtime_core/static_core/libllvmbackend/transforms/passes/alloc_memory_optimizer.h
+I[15:07:27.453] <-- reply(0)
+E[15:07:27.535] IncludeCleaner: Failed to get an entry for resolved path : No such file or directory
+I[15:07:27.540] --> textDocument/publishDiagnostics
+I[15:07:27.544] --> textDocument/inactiveRegions
+I[15:07:27.545] --> reply:textDocument/codeAction(1) 2346 ms
+I[15:07:27.547] --> reply:textDocument/documentSymbol(2) 2347 ms
+I[15:07:27.552] --> reply:textDocument/semanticTokens/full(3) 1933 ms
+I[15:07:27.553] --> reply:textDocument/documentLink(4) 1928 ms
+I[15:07:27.553] --> reply:textDocument/inlayHint(5) 1928 ms
+I[15:07:27.554] --> reply:textDocument/documentSymbol(7) 1914 ms
+I[15:07:27.554] --> textDocument/clangd.fileStatus
+I[15:07:27.826] <-- textDocument/codeAction(8)
+I[15:07:27.826] --> reply:textDocument/codeAction(8) 0 ms
+I[15:07:27.826] --> textDocument/clangd.fileStatus
+I[15:07:28.531] <-- textDocument/hover(9)
+I[15:07:28.533] --> reply:textDocument/hover(9) 1 ms
+I[15:07:28.533] --> textDocument/clangd.fileStatus
+I[15:07:28.684] <-- textDocument/codeAction(10)
+I[15:07:28.684] --> reply:textDocument/codeAction(10) 0 ms
+I[15:07:28.684] --> textDocument/clangd.fileStatus
+I[15:07:28.781] <-- textDocument/documentHighlight(11)
+I[15:07:28.781] --> reply:textDocument/documentHighlight(11) 0 ms
+I[15:07:28.781] --> textDocument/clangd.fileStatus
+I[15:07:29.032] <-- textDocument/codeAction(12)
+I[15:07:29.032] --> reply:textDocument/codeAction(12) 0 ms
+I[15:07:29.032] --> textDocument/clangd.fileStatus
+I[15:07:29.562] <-- textDocument/semanticTokens/full/delta(13)
+I[15:07:29.563] --> reply:textDocument/semanticTokens/full/delta(13) 0 ms
+I[15:07:29.563] --> textDocument/clangd.fileStatus
+I[15:07:29.640] Indexed c++17 standard library (incomplete due to errors): 13997 symbols, 1918 filtered
+I[15:07:31.064] <-- textDocument/hover(14)
+E[15:07:31.067] IncludeCleaner: Failed to get an entry for resolved path : No such file or directory
+I[15:07:31.068] --> reply:textDocument/hover(14) 3 ms
+I[15:07:31.068] --> textDocument/clangd.fileStatus
+I[15:07:31.139] <-- textDocument/documentHighlight(15)
+I[15:07:31.139] --> reply:textDocument/documentHighlight(15) 0 ms
+I[15:07:31.139] --> textDocument/clangd.fileStatus
+I[15:07:31.407] <-- textDocument/codeAction(16)
+I[15:07:31.408] --> reply:textDocument/codeAction(16) 0 ms
+I[15:07:31.408] --> textDocument/clangd.fileStatus
+I[15:07:33.484] <-- textDocument/hover(17)
+I[15:07:33.486] --> reply:textDocument/hover(17) 2 ms
+I[15:07:33.486] --> textDocument/clangd.fileStatus
+I[15:07:33.636] <-- textDocument/codeAction(18)
+I[15:07:33.636] --> reply:textDocument/codeAction(18) 0 ms
+I[15:07:33.636] --> textDocument/clangd.fileStatus
+I[15:07:37.070] <-- textDocument/hover(19)
+E[15:07:37.072] IncludeCleaner: Failed to get an entry for resolved path : No such file or directory
+I[15:07:37.073] --> reply:textDocument/hover(19) 2 ms
+I[15:07:37.073] --> textDocument/clangd.fileStatus
+I[15:07:37.221] <-- textDocument/codeAction(20)
+I[15:07:37.221] --> reply:textDocument/codeAction(20) 0 ms
+I[15:07:37.221] --> textDocument/clangd.fileStatus
+I[15:07:38.872] <-- textDocument/hover(21)
+I[15:07:38.875] --> reply:textDocument/hover(21) 2 ms
+I[15:07:38.875] --> textDocument/clangd.fileStatus
+I[15:07:39.023] <-- textDocument/codeAction(22)
+I[15:07:39.023] --> reply:textDocument/codeAction(22) 0 ms
+I[15:07:39.023] --> textDocument/clangd.fileStatus

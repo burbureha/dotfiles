@@ -2,11 +2,10 @@
     "userDataProfilesMigration": true,
     "profileAssociations": {
         "workspaces": {
-            "file:///home/anton/dev/web/alles": "__default__profile__"
+            "file:///home/anton/dev/web/alles": "__default__profile__",
+            "file:///home/anton/tmp": "__default__profile__"
         },
-        "emptyWindows": {
-            "1713828773719": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "profileAssociationsMigration": true,
     "telemetry.sqmId": "",
@@ -15,25 +14,21 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/anton/dev/web/alles"
+                "folderUri": "file:///home/anton/tmp"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1713828773719"
-            }
-        ]
+        "emptyWindows": []
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/anton/dev/web/alles",
-            "backupPath": "/home/anton/.config/Code - OSS/Backups/d2e5446b8fa9efd5e6cef1f076533b9e",
+            "folder": "file:///home/anton/tmp",
+            "backupPath": "/home/anton/.config/Code - OSS/Backups/67c43fd5edd2eedb26c1a57a0630a311",
             "uiState": {
                 "mode": 1,
-                "x": 13,
+                "x": 871,
                 "y": 30,
-                "width": 1894,
-                "height": 1037
+                "width": 1698,
+                "height": 1397
             }
         },
         "openedWindows": []
@@ -81,6 +76,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/anton/tmp",
+                                        "path": "/home/anton/tmp",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/tmp"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -149,6 +155,13 @@
                         "submenu": {
                             "items": [
                                 {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
                                 },
@@ -173,7 +186,7 @@
                             "items": [
                                 {
                                     "id": "submenuitem.Profiles",
-                                    "label": "Profiles (Default)",
+                                    "label": "Profile (Default)",
                                     "submenu": {
                                         "items": [
                                             {
@@ -269,7 +282,8 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File"
+                        "label": "Re&&vert File",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
@@ -1733,5 +1747,6 @@
             "statusBarHeight": 22,
             "windowBorder": false
         }
-    }
+    },
+    "telemetry.devDeviceId": "c14c4773-b8ae-4550-9dc8-00564b5def7e"
 }

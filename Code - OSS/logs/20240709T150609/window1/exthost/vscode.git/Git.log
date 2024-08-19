@@ -1,0 +1,91 @@
+2024-07-09 15:06:18.388 [info] Log level: Info
+2024-07-09 15:06:18.388 [info] Validating found git in: "git"
+2024-07-09 15:06:18.388 [info] Using git "2.45.2" from "git"
+2024-07-09 15:06:18.388 [info] > git rev-parse --show-toplevel [31ms]
+2024-07-09 15:06:18.388 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-09 15:06:18.405 [info] > git rev-parse --show-toplevel [7ms]
+2024-07-09 15:06:18.405 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-09 15:06:18.414 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-09 15:06:18.414 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-09 15:06:18.425 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-09 15:06:18.432 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-07-09 15:06:18.441 [info] Open repository: /home/anton/tmp/llvm-project
+2024-07-09 15:06:18.459 [info] > git config --get commit.template [9ms]
+2024-07-09 15:06:18.461 [info] > git rev-parse --show-toplevel [4ms]
+2024-07-09 15:06:18.461 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-09 15:06:18.486 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [17ms]
+2024-07-09 15:06:18.505 [warning] ENOENT: no such file or directory, open '/home/anton/tmp/llvm-project/.git/refs/remotes/origin/master'
+2024-07-09 15:06:18.506 [info] > git rev-parse --show-toplevel [29ms]
+2024-07-09 15:06:18.506 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-09 15:06:18.521 [info] > git rev-parse refs/remotes/origin/master [16ms]
+2024-07-09 15:06:18.530 [info] > git rev-parse --show-toplevel [9ms]
+2024-07-09 15:06:18.530 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-09 15:06:19.016 [info] > git check-ignore -v -z --stdin [22ms]
+2024-07-09 15:06:19.991 [info] > git status -z -uall [1464ms]
+2024-07-09 15:06:20.017 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [17ms]
+2024-07-09 15:06:20.027 [info] > git config --get commit.template [11ms]
+2024-07-09 15:06:20.042 [info] > git config --local branch.master.vscode-merge-base [16ms]
+2024-07-09 15:06:20.042 [warning] git config failed: Failed to execute git
+2024-07-09 15:06:20.053 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [12ms]
+2024-07-09 15:06:20.063 [warning] ENOENT: no such file or directory, open '/home/anton/tmp/llvm-project/.git/refs/remotes/origin/master'
+2024-07-09 15:06:20.063 [info] > git reflog master --grep-reflog=branch: Created from *. [12ms]
+2024-07-09 15:06:20.072 [info] > git rev-parse refs/remotes/origin/master [10ms]
+2024-07-09 15:06:20.087 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [16ms]
+2024-07-09 15:06:20.098 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [2ms]
+2024-07-09 15:06:20.145 [info] > git config --local branch.master.vscode-merge-base origin/master [18ms]
+2024-07-09 15:06:20.154 [info] > git status -z -uall [75ms] (cancelled)
+2024-07-09 15:06:20.161 [info] > git config --get commit.template [8ms]
+2024-07-09 15:06:20.162 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-07-09 15:06:20.168 [warning] ENOENT: no such file or directory, open '/home/anton/tmp/llvm-project/.git/refs/remotes/origin/master'
+2024-07-09 15:06:20.169 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2024-07-09 15:06:20.831 [info] > git status -z -uall [656ms]
+2024-07-09 15:06:20.854 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [12ms]
+2024-07-09 15:06:20.866 [info] > git config --local branch.master.vscode-merge-base [2ms]
+2024-07-09 15:06:20.879 [info] > git merge-base refs/heads/master refs/remotes/origin/master [26ms]
+2024-07-09 15:06:20.892 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [14ms]
+2024-07-09 15:06:20.896 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [4ms]
+2024-07-09 15:06:20.910 [info] > git diff --name-status -z --diff-filter=ADMR d45b7eefe0bf0cb539b4f44ac24cd53aa06c1c92...refs/remotes/origin/master [5ms]
+2024-07-09 15:06:37.154 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-09 15:06:37.163 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-07-09 15:06:37.167 [info] Open repository: /home/anton/tmp/pass-test/runtime_core
+2024-07-09 15:06:37.184 [info] > git config --get commit.template [9ms]
+2024-07-09 15:06:37.193 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2024-07-09 15:06:37.253 [info] > git status -z -uall [52ms]
+2024-07-09 15:06:37.299 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [37ms]
+2024-07-09 15:06:37.316 [info] > git config --local branch.master.vscode-merge-base [5ms]
+2024-07-09 15:06:37.316 [warning] git config failed: Failed to execute git
+2024-07-09 15:06:37.328 [info] > git config --get commit.template [29ms]
+2024-07-09 15:06:37.333 [info] > git reflog master --grep-reflog=branch: Created from *. [5ms]
+2024-07-09 15:06:37.353 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [10ms]
+2024-07-09 15:06:37.367 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [15ms]
+2024-07-09 15:06:37.377 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [12ms]
+2024-07-09 15:06:37.395 [info] > git config --local branch.master.vscode-merge-base origin/master [3ms]
+2024-07-09 15:06:37.406 [info] > git status -z -uall [30ms] (cancelled)
+2024-07-09 15:06:37.416 [info] > git config --get commit.template [10ms]
+2024-07-09 15:06:37.420 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-07-09 15:06:37.653 [info] > git status -z -uall [226ms]
+2024-07-09 15:06:37.686 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [20ms]
+2024-07-09 15:06:37.705 [info] > git config --local branch.master.vscode-merge-base [3ms]
+2024-07-09 15:06:37.752 [info] > git merge-base refs/heads/master refs/remotes/origin/master [70ms]
+2024-07-09 15:06:37.777 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [9ms]
+2024-07-09 15:06:37.789 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [37ms]
+2024-07-09 15:06:37.792 [info] > git diff --name-status -z --diff-filter=ADMR cc501a12b29459ee9a63ae144f8794f99057a3b3...refs/remotes/origin/master [3ms]
+2024-07-09 15:06:37.886 [info] > git check-ignore -v -z --stdin [47ms]
+2024-07-09 15:06:38.366 [info] > git show --textconv :static_core/libllvmbackend/transforms/passes/alloc_memory_optimizer.cpp [13ms]
+2024-07-09 15:06:38.369 [info] > git ls-files --stage -- /home/anton/tmp/pass-test/runtime_core/static_core/libllvmbackend/transforms/passes/alloc_memory_optimizer.cpp [5ms]
+2024-07-09 15:06:38.381 [info] > git cat-file -s c5397e9ad5f7d35a0ed62c8af09eaa5ac63935ca [3ms]
+2024-07-09 15:07:08.024 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-09 15:07:08.024 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-09 15:07:13.401 [info] > git check-ignore -v -z --stdin [7ms]
+2024-07-09 15:07:20.989 [info] > git merge-base refs/heads/master refs/remotes/origin/master [14ms]
+2024-07-09 15:07:20.998 [info] > git merge-base refs/heads/master refs/remotes/origin/master [11ms]
+2024-07-09 15:07:21.008 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [10ms]
+2024-07-09 15:07:21.012 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [5ms]
+2024-07-09 15:07:21.079 [info] > git rev-parse --show-toplevel [5ms]
+2024-07-09 15:07:21.079 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-09 15:07:21.127 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-09 15:07:21.127 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-09 15:07:21.683 [info] > git check-ignore -v -z --stdin [9ms]
+2024-07-09 15:07:25.840 [info] > git show --textconv :static_core/libllvmbackend/transforms/passes/alloc_memory_optimizer.h [12ms]
+2024-07-09 15:07:25.845 [info] > git ls-files --stage -- /home/anton/tmp/pass-test/runtime_core/static_core/libllvmbackend/transforms/passes/alloc_memory_optimizer.h [6ms]
+2024-07-09 15:07:25.857 [info] > git cat-file -s d917eefde581c42220f0c2bb19cfafb3b1f1396c [3ms]

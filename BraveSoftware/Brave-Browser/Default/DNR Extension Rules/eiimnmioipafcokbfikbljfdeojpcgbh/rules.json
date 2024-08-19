@@ -1,1 +1,0 @@
-[{"action":{"redirect":{"extensionPath":"/public/blocked.html?site=twitch.tv&blockType=site"},"type":"redirect"},"condition":{"excludedRequestDomains":["blocksite.co"],"isUrlFilterCaseSensitive":true,"regexFilter":"https?:\\/\\/(www\\.)?twitch\\.tv","resourceTypes":["main_frame"]},"id":1,"priority":2}]

@@ -1,6 +1,0 @@
-2024/04/21-18:48:45.906 af2 Creating DB /home/anton/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_studio.youtube.com_0.indexeddb.leveldb since it was missing.
-2024/04/21-18:48:45.912 af2 Reusing MANIFEST /home/anton/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_studio.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/04/21-18:48:54.596 af3 Level-0 table #5: started
-2024/04/21-18:48:54.597 af3 Level-0 table #5: 2543 bytes OK
-2024/04/21-18:48:54.598 af3 Delete type=0 #3
-2024/04/21-18:48:54.599 af3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,961 @@
+I[01:51:41.959] clangd version 18.1.8
+I[01:51:41.959] Features: linux
+I[01:51:41.959] PID: 72853
+I[01:51:41.959] Working directory: /home/anton/tmp
+I[01:51:41.959] argv[0]: /usr/bin/clangd
+I[01:51:41.960] Starting LSP over stdin/stdout
+I[01:51:41.962] <-- initialize(0)
+I[01:51:41.968] --> reply:initialize(0) 5 ms
+I[01:51:41.972] <-- initialized
+I[01:51:41.990] <-- textDocument/didOpen
+I[01:51:42.031] Loaded compilation database from /home/anton/tmp/compile_commands.json
+I[01:51:42.033] ASTWorker building file /home/anton/tmp/pass-test/runtime_core/static_core/libllvmbackend/transforms/passes/alloc_memory_optimizer.h version 1 with command inferred from /home/anton/tmp/pass-test/runtime_core/static_core/libllvmbackend/transforms/passes/alloc_memory_optimizer.cpp
+[/home/anton/tmp/build]
+/usr/bin/c++ --driver-mode=g++ "-DBUILD_FOLDER=\"/home/anton/tmp/build\"" -DPANDA_BUILD_LLVM_BACKEND -DPANDA_COMPILER_DEBUG_INFO -DPANDA_COMPILER_ENABLE -DPANDA_COMPILER_TARGET_X86_64 -DPANDA_ENABLE_SLOW_DEBUG -DPANDA_LLVM_AOT -DPANDA_LLVM_BACKEND -DPANDA_LLVM_INTERPRETER -DPANDA_LLVM_IRTOC -DPANDA_TARGET_64 -DPANDA_TARGET_AMD64 -DPANDA_TARGET_LINUX -DPANDA_TARGET_LINUX_UBUNTU -DPANDA_TARGET_LINUX_UBUNTU_20_04 -DPANDA_TARGET_MOBILE_WITH_MANAGED_LIBS=0 -DPANDA_TARGET_UNIX -DPANDA_USE_32_BIT_POINTER -DPANDA_USE_CUSTOM_SIGNAL_STACK -DPANDA_USE_FUTEX -DPANDA_WITH_BYTECODE_OPTIMIZER -DPANDA_WITH_CODEGEN -DPANDA_WITH_COMPILER -DPANDA_WITH_ETS -DPANDA_WITH_IRTOC -DREQUIRED_LLVM_VERSION=15.0.4-ark16 -DZYDIS_DISABLE_AVX512 -DZYDIS_DISABLE_KNC -D_GLIBCXX_ASSERTIONS -Dllvmbackend_EXPORTS -I/home/anton/tmp/pass-test/runtime_core/static_core/libllvmbackend/. -I/home/anton/tmp/pass-test/runtime_core/static_core/compiler -Ilibllvmbackend/generated -I/home/anton/tmp/pass-test/runtime_core/static_core -I/home/anton/tmp/pass-test/runtime_core/static_core/runtime -I. -Iruntime/include -Icross_values -Icompiler/generated -Iplugins/ets/compiler/generated -I/home/anton/tmp/pass-test/runtime_core/static_core/libpandabase/. -I/home/anton/tmp/pass-test/runtime_core/static_core/libpandabase -Ilibpandabase/generated -Ilibpandabase/panda_gen_options/generated/.. -I/home/anton/tmp/pass-test/runtime_core/static_core/libpandafile -Ilibpandafile/include -I/home/anton/tmp/pass-test/runtime_core/static_core/libziparchive -I/home/anton/tmp/pass-test/runtime_core/static_core/compiler/optimizer/code_generator/. -isystem /home/anton/tmp/llvm-build/install/llvm-15.0.4-ark16-debug-x86_64/include -isystem /home/anton/tmp/pass-test/runtime_core/static_core/third_party/utils_native/base/include -isystem /home/anton/tmp/pass-test/runtime_core/static_core/third_party/zlib -isystem /home/anton/tmp/pass-test/runtime_core/static_core/third_party/zlib/contrib/minizip -isystem /home/anton/tmp/pass-test/runtime_core/static_core/third_party/asmjit/src -pedantic -Wall -Wextra -Werror -Wshadow -fno-rtti -fno-exceptions -g -fPIC -fno-omit-frame-pointer -Wno-unused-parameter -Wno-invalid-offsetof -Wno-return-type-c-linkage -DASMJIT_STATIC -pthread -c -x c++-header -std=c++17 -resource-dir=/usr/lib/clang/18 -- /home/anton/tmp/pass-test/runtime_core/static_core/libllvmbackend/transforms/passes/alloc_memory_optimizer.h
+I[01:51:42.048] --> textDocument/clangd.fileStatus
+I[01:51:42.154] Loaded compilation database from /home/anton/tmp/build/compile_commands.json
+I[01:51:42.170] --> window/workDoneProgress/create(0)
+I[01:51:42.171] Enqueueing 2795 commands for indexing
+I[01:51:42.177] <-- reply(0)
+I[01:51:42.177] --> $/progress
+I[01:51:42.177] --> $/progress
+I[01:51:42.560] <-- textDocument/documentLink(1)
+I[01:51:42.562] <-- textDocument/inlayHint(2)
+I[01:51:42.760] <-- textDocument/codeAction(3)
+I[01:51:42.760] <-- textDocument/foldingRange(4)
+I[01:51:42.762] --> reply:textDocument/foldingRange(4) 1 ms
+I[01:51:42.830] <-- $/cancelRequest
+I[01:51:42.831] <-- textDocument/codeAction(5)
+I[01:51:42.831] <-- $/cancelRequest
+I[01:51:42.831] <-- textDocument/codeAction(6)
+I[01:51:42.849] <-- $/setTrace
+I[01:51:42.849] unhandled notification $/setTrace
+I[01:51:42.873] <-- $/cancelRequest
+I[01:51:42.964] <-- $/cancelRequest
+I[01:51:42.964] <-- textDocument/codeAction(7)
+I[01:51:43.059] <-- textDocument/documentSymbol(8)
+I[01:51:43.059] <-- textDocument/documentLink(9)
+I[01:51:43.170] <-- textDocument/semanticTokens/full(10)
+I[01:51:44.885] <-- $/cancelRequest
+I[01:51:44.886] <-- textDocument/codeAction(11)
+I[01:51:45.336] <-- textDocument/codeAction(12)
+I[01:51:45.336] <-- $/cancelRequest
+I[01:51:45.467] <-- $/setTrace
+I[01:51:45.467] unhandled notification $/setTrace
+I[01:51:45.564] <-- textDocument/documentHighlight(13)
+I[01:51:45.588] <-- textDocument/documentSymbol(14)
+I[01:51:45.817] <-- textDocument/codeAction(15)
+I[01:51:45.817] <-- $/cancelRequest
+I[01:51:45.880] Built preamble of size 19160864 for file /home/anton/tmp/pass-test/runtime_core/static_core/libllvmbackend/transforms/passes/alloc_memory_optimizer.h version 1 in 3.83 seconds
+I[01:51:45.881] --> workspace/semanticTokens/refresh(1)
+I[01:51:45.881] --> textDocument/clangd.fileStatus
+I[01:51:45.881] Indexing c++17 standard library in the context of /home/anton/tmp/pass-test/runtime_core/static_core/libllvmbackend/transforms/passes/alloc_memory_optimizer.h
+I[01:51:45.883] <-- reply(1)
+E[01:51:45.893] tidy-config error at /home/anton/tmp/pass-test/runtime_core/static_core/.clang-tidy:16:0: unknown key 'AnalyzeTemporaryDtors'
+E[01:51:45.893] Error parsing clang-tidy configuration in /home/anton/tmp/pass-test/runtime_core/static_core/.clang-tidy: Invalid argument
+E[01:51:45.894] tidy-config error at /home/anton/tmp/pass-test/runtime_core/.clang-tidy:17:0: unknown key 'AnalyzeTemporaryDtors'
+E[01:51:45.894] Error parsing clang-tidy configuration in /home/anton/tmp/pass-test/runtime_core/.clang-tidy: Invalid argument
+I[01:51:46.035] --> textDocument/publishDiagnostics
+I[01:51:46.035] --> textDocument/inactiveRegions
+I[01:51:46.036] --> reply:textDocument/documentLink(1) 3475 ms, error: Task was cancelled.
+I[01:51:46.036] --> reply:textDocument/inlayHint(2) 3474 ms
+I[01:51:46.036] --> reply:textDocument/codeAction(3) 3276 ms, error: Task was cancelled.
+I[01:51:46.036] --> reply:textDocument/codeAction(5) 3205 ms, error: Task was cancelled.
+I[01:51:46.036] --> reply:textDocument/codeAction(6) 3205 ms, error: Task was cancelled.
+I[01:51:46.036] --> reply:textDocument/codeAction(7) 3072 ms, error: Task was cancelled.
+I[01:51:46.039] --> reply:textDocument/documentSymbol(8) 2979 ms
+I[01:51:46.040] --> reply:textDocument/documentLink(9) 2980 ms
+I[01:51:46.040] --> reply:textDocument/semanticTokens/full(10) 2870 ms
+I[01:51:46.041] --> reply:textDocument/codeAction(11) 1154 ms, error: Task was cancelled.
+I[01:51:46.041] --> reply:textDocument/codeAction(12) 704 ms, error: Task was cancelled.
+I[01:51:46.041] --> reply:textDocument/documentHighlight(13) 477 ms
+I[01:51:46.042] --> reply:textDocument/documentSymbol(14) 453 ms
+I[01:51:46.043] --> reply:textDocument/codeAction(15) 225 ms
+I[01:51:46.043] --> textDocument/clangd.fileStatus
+[Error - 1:51:46 AM] Request textDocument/documentLink failed.
+[object Object]
+[Error - 1:51:46 AM] Request textDocument/codeAction failed.
+[object Object]
+[Error - 1:51:46 AM] Request textDocument/codeAction failed.
+[object Object]
+[Error - 1:51:46 AM] Request textDocument/codeAction failed.
+[object Object]
+[Error - 1:51:46 AM] Request textDocument/codeAction failed.
+[object Object]
+[Error - 1:51:46 AM] Request textDocument/codeAction failed.
+[object Object]
+[Error - 1:51:46 AM] Request textDocument/codeAction failed.
+[object Object]
+I[01:51:48.223] <-- textDocument/semanticTokens/full/delta(16)
+I[01:51:48.224] --> reply:textDocument/semanticTokens/full/delta(16) 0 ms
+I[01:51:48.224] --> textDocument/clangd.fileStatus
+I[01:51:49.058] Indexed c++17 standard library (incomplete due to errors): 14150 symbols, 1810 filtered
+I[01:51:50.014] --> $/progress
+I[01:51:50.014] --> $/progress
+I[01:51:50.014] --> $/progress
+I[01:51:50.014] --> $/progress
+I[01:51:50.014] --> $/progress
+I[01:51:50.014] --> $/progress
+I[01:51:50.110] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/third_party/openssl/providers/common/der/der_dsa_sig.c (168 symbols, 8663 refs, 115 files)
+E[01:51:50.112] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/providers/common/include/prov/der_dsa.h: '/home/anton/tmp/build/.cache/clangd/index/der_dsa.h.AD699D0BF23D0EA5.idx': Not a directory
+E[01:51:50.112] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/include/openssl/configuration.h: '/home/anton/tmp/build/.cache/clangd/index/configuration.h.9586442D9056AAAE.idx': Not a directory
+E[01:51:50.114] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/include/openssl/crypto.h: '/home/anton/tmp/build/.cache/clangd/index/crypto.h.9FCE390E4B64C4F3.idx': Not a directory
+E[01:51:50.114] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/include/openssl/opensslv.h: '/home/anton/tmp/build/.cache/clangd/index/opensslv.h.D946C33F75C8AC92.idx': Not a directory
+E[01:51:50.116] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/include/openssl/safestack.h: '/home/anton/tmp/build/.cache/clangd/index/safestack.h.86A6695B13648D0F.idx': Not a directory
+I[01:51:50.117] --> $/progress
+I[01:51:50.117] --> $/progress
+I[01:51:50.208] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/third_party/openssl/providers/implementations/signature/ecdsa_sig.c (945 symbols, 13989 refs, 155 files)
+E[01:51:50.212] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/include/openssl/lhash.h: '/home/anton/tmp/build/.cache/clangd/index/lhash.h.7CF3A716B9E540DF.idx': Not a directory
+E[01:51:50.212] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/include/openssl/crypto.h: '/home/anton/tmp/build/.cache/clangd/index/crypto.h.9FCE390E4B64C4F3.idx': Not a directory
+E[01:51:50.214] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/include/openssl/safestack.h: '/home/anton/tmp/build/.cache/clangd/index/safestack.h.86A6695B13648D0F.idx': Not a directory
+E[01:51:50.215] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/include/openssl/err.h: '/home/anton/tmp/build/.cache/clangd/index/err.h.E374E1E49C2ECA1E.idx': Not a directory
+E[01:51:50.217] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/include/openssl/asn1.h: '/home/anton/tmp/build/.cache/clangd/index/asn1.h.BF818C238BEEA68F.idx': Not a directory
+E[01:51:50.217] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/include/openssl/configuration.h: '/home/anton/tmp/build/.cache/clangd/index/configuration.h.9586442D9056AAAE.idx': Not a directory
+E[01:51:50.218] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/include/openssl/opensslv.h: '/home/anton/tmp/build/.cache/clangd/index/opensslv.h.D946C33F75C8AC92.idx': Not a directory
+E[01:51:50.219] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/include/openssl/bio.h: '/home/anton/tmp/build/.cache/clangd/index/bio.h.49CC6B010334FB75.idx': Not a directory
+E[01:51:50.220] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/providers/common/include/prov/der_ec.h: '/home/anton/tmp/build/.cache/clangd/index/der_ec.h.3CCE3449E305CD2B.idx': Not a directory
+I[01:51:50.221] --> $/progress
+I[01:51:50.221] --> $/progress
+I[01:51:51.927] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/plugins/ets/arkts_header/header_writer.cpp (53 symbols, 16756 refs, 447 files)
+E[01:51:51.933] Failed to write background-index shard for file /home/anton/tmp/build/libpandafile/include/source_lang_enum.h: '/home/anton/tmp/build/.cache/clangd/index/source_lang_enum.h.E0995FBD4BB711EE.idx': Not a directory
+E[01:51:51.933] Failed to write background-index shard for file /home/anton/tmp/build/libpandafile/include/type.h: '/home/anton/tmp/build/.cache/clangd/index/type.h.CD1B073D284B6A14.idx': Not a directory
+E[01:51:51.933] Failed to write background-index shard for file /home/anton/tmp/build/libpandabase/generated/logger_enum_gen.h: '/home/anton/tmp/build/.cache/clangd/index/logger_enum_gen.h.2605FD40FDB445F8.idx': Not a directory
+E[01:51:51.934] Failed to write background-index shard for file /home/anton/tmp/build/libpandabase/generated/source_language.h: '/home/anton/tmp/build/.cache/clangd/index/source_language.h.8C98CD4917384ABB.idx': Not a directory
+E[01:51:51.934] Failed to write background-index shard for file /home/anton/tmp/build/libpandafile/include/file_format_version.h: '/home/anton/tmp/build/.cache/clangd/index/file_format_version.h.F34E53DAFFAE7C5A.idx': Not a directory
+I[01:51:51.937] --> $/progress
+I[01:51:51.937] --> $/progress
+I[01:51:52.943] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/assembler/assembly-parser.cpp (62 symbols, 37624 refs, 475 files)
+E[01:51:52.957] Failed to write background-index shard for file /home/anton/tmp/build/assembler/operand_types_print.h: '/home/anton/tmp/build/.cache/clangd/index/operand_types_print.h.05B835987C25A64A.idx': Not a directory
+E[01:51:52.967] Failed to write background-index shard for file /home/anton/tmp/build/assembler/opcode_parsing.h: '/home/anton/tmp/build/.cache/clangd/index/opcode_parsing.h.EF26E5660C922C5D.idx': Not a directory
+E[01:51:52.967] Failed to write background-index shard for file /home/anton/tmp/build/libpandafile/include/bytecode_emitter_def_gen.h: '/home/anton/tmp/build/.cache/clangd/index/bytecode_emitter_def_gen.h.047F358F3411303A.idx': Not a directory
+E[01:51:52.967] Failed to write background-index shard for file /home/anton/tmp/build/libpandabase/generated/source_language.h: '/home/anton/tmp/build/.cache/clangd/index/source_language.h.8C98CD4917384ABB.idx': Not a directory
+E[01:51:52.968] Failed to write background-index shard for file /home/anton/tmp/build/libpandafile/include/source_lang_enum.h: '/home/anton/tmp/build/.cache/clangd/index/source_lang_enum.h.E0995FBD4BB711EE.idx': Not a directory
+E[01:51:52.968] Failed to write background-index shard for file /home/anton/tmp/build/libpandafile/include/bytecode_instruction_enum_gen.h: '/home/anton/tmp/build/.cache/clangd/index/bytecode_instruction_enum_gen.h.D5B69E831C6B2931.idx': Not a directory
+E[01:51:52.969] Failed to write background-index shard for file /home/anton/tmp/build/libpandafile/include/type.h: '/home/anton/tmp/build/.cache/clangd/index/type.h.CD1B073D284B6A14.idx': Not a directory
+E[01:51:52.971] Failed to write background-index shard for file /home/anton/tmp/build/libpandabase/generated/logger_enum_gen.h: '/home/anton/tmp/build/.cache/clangd/index/logger_enum_gen.h.2605FD40FDB445F8.idx': Not a directory
+E[01:51:52.972] Failed to write background-index shard for file /home/anton/tmp/build/assembler/ins_emit.h: '/home/anton/tmp/build/.cache/clangd/index/ins_emit.h.04E015015E43D2C8.idx': Not a directory
+E[01:51:52.973] Failed to write background-index shard for file /home/anton/tmp/build/libpandafile/include/file_format_version.h: '/home/anton/tmp/build/.cache/clangd/index/file_format_version.h.F34E53DAFFAE7C5A.idx': Not a directory
+E[01:51:52.974] Failed to write background-index shard for file /home/anton/tmp/build/assembler/isa.h: '/home/anton/tmp/build/.cache/clangd/index/isa.h.C58FC60F55E5F2B9.idx': Not a directory
+I[01:51:52.982] --> $/progress
+I[01:51:52.982] --> $/progress
+I[01:51:55.033] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/verification/plugins.cpp (503 symbols, 20264 refs, 627 files)
+I[01:51:55.037] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/runtime/arch/asm_support.cpp (2162 symbols, 29782 refs, 702 files)
+E[01:51:55.038] Failed to write background-index shard for file /home/anton/tmp/build/libpandafile/include/bytecode_instruction_enum_gen.h: '/home/anton/tmp/build/.cache/clangd/index/bytecode_instruction_enum_gen.h.D5B69E831C6B2931.idx': Not a directory
+E[01:51:55.038] Failed to write background-index shard for file /home/anton/tmp/build/libpandabase/generated/plugins_regmasks.inl: '/home/anton/tmp/build/.cache/clangd/index/plugins_regmasks.inl.EEFB8EB952CE5900.idx': Not a directory
+E[01:51:55.039] Failed to write background-index shard for file /home/anton/tmp/build/runtime/include/language_config_gen.inc: '/home/anton/tmp/build/.cache/clangd/index/language_config_gen.inc.917B998F3DC3F4D4.idx': Not a directory
+E[01:51:55.039] Failed to write background-index shard for file /home/anton/tmp/build/verification/gen/include/plugins_gen.inc: '/home/anton/tmp/build/.cache/clangd/index/plugins_gen.inc.4FDD2F56CEE0292D.idx': Not a directory
+E[01:51:55.039] Failed to write background-index shard for file /home/anton/tmp/build/libpandabase/generated/coherency_line_size.h: '/home/anton/tmp/build/.cache/clangd/index/coherency_line_size.h.03B0884D09F69580.idx': Not a directory
+E[01:51:55.039] Failed to write background-index shard for file /home/anton/tmp/build/libpandafile/include/bytecode_instruction-inl_gen.h: '/home/anton/tmp/build/.cache/clangd/index/bytecode_instruction-inl_gen.h.24B0EDBAB5412756.idx': Not a directory
+E[01:51:55.039] Failed to write background-index shard for file /home/anton/tmp/build/runtime/include/intrinsics_enum.h: '/home/anton/tmp/build/.cache/clangd/index/intrinsics_enum.h.B0B57FB3D98CDF0D.idx': Not a directory
+E[01:51:55.040] Failed to write background-index shard for file /home/anton/tmp/build/verification/gen/include/abs_int_inl_compat_checks.h: '/home/anton/tmp/build/.cache/clangd/index/abs_int_inl_compat_checks.h.ECDAD88FF38C1194.idx': Not a directory
+E[01:51:55.045] Failed to write background-index shard for file /home/anton/tmp/build/runtime/include/intrinsics_enum.h: '/home/anton/tmp/build/.cache/clangd/index/intrinsics_enum.h.B0B57FB3D98CDF0D.idx': Not a directory
+E[01:51:55.045] Failed to write background-index shard for file /home/anton/tmp/build/libpandabase/generated/coherency_line_size.h: '/home/anton/tmp/build/.cache/clangd/index/coherency_line_size.h.03B0884D09F69580.idx': Not a directory
+I[01:51:55.046] --> $/progress
+I[01:51:55.046] --> $/progress
+E[01:51:55.047] Failed to write background-index shard for file /home/anton/tmp/build/libpandabase/generated/events_gen.h: '/home/anton/tmp/build/.cache/clangd/index/events_gen.h.7E4BCC531961B6DF.idx': Not a directory
+E[01:51:55.051] Failed to write background-index shard for file /home/anton/tmp/build/runtime/include/entrypoints_gen.h: '/home/anton/tmp/build/.cache/clangd/index/entrypoints_gen.h.052E2AB0EBF3F1A7.idx': Not a directory
+E[01:51:55.051] Failed to write background-index shard for file /home/anton/tmp/build/libpandabase/generated/source_language.h: '/home/anton/tmp/build/.cache/clangd/index/source_language.h.8C98CD4917384ABB.idx': Not a directory
+E[01:51:55.051] Failed to write background-index shard for file /home/anton/tmp/build/libpandafile/include/bytecode_instruction_enum_gen.h: '/home/anton/tmp/build/.cache/clangd/index/bytecode_instruction_enum_gen.h.D5B69E831C6B2931.idx': Not a directory
+E[01:51:55.052] Failed to write background-index shard for file /home/anton/tmp/build/libpandafile/include/source_lang_enum.h: '/home/anton/tmp/build/.cache/clangd/index/source_lang_enum.h.E0995FBD4BB711EE.idx': Not a directory
+E[01:51:55.052] Failed to write background-index shard for file /home/anton/tmp/build/libpandafile/include/type.h: '/home/anton/tmp/build/.cache/clangd/index/type.h.CD1B073D284B6A14.idx': Not a directory
+E[01:51:55.053] Failed to write background-index shard for file /home/anton/tmp/build/runtime/include/asm_defines.h: '/home/anton/tmp/build/.cache/clangd/index/asm_defines.h.926AAA935C653CFE.idx': Not a directory
+E[01:51:55.054] Failed to write background-index shard for file /home/anton/tmp/build/libpandabase/generated/logger_enum_gen.h: '/home/anton/tmp/build/.cache/clangd/index/logger_enum_gen.h.2605FD40FDB445F8.idx': Not a directory
+E[01:51:55.061] Failed to write background-index shard for file /home/anton/tmp/build/panda_gen_options/generated/runtime_options_gen.h: '/home/anton/tmp/build/.cache/clangd/index/runtime_options_gen.h.A6659D074B426056.idx': Not a directory
+E[01:51:55.061] Failed to write background-index shard for file /home/anton/tmp/build/runtime/asm_defines/plugins_defines.h: '/home/anton/tmp/build/.cache/clangd/index/plugins_defines.h.EBE0CB2DF101BCBC.idx': Not a directory
+E[01:51:55.061] Failed to write background-index shard for file /home/anton/tmp/build/runtime/asm_defines/plugins_asm_defines.def: '/home/anton/tmp/build/.cache/clangd/index/plugins_asm_defines.def.E364E0114EF1EBBE.idx': Not a directory
+E[01:51:55.062] Failed to write background-index shard for file /home/anton/tmp/build/libpandafile/include/file_format_version.h: '/home/anton/tmp/build/.cache/clangd/index/file_format_version.h.F34E53DAFFAE7C5A.idx': Not a directory
+E[01:51:55.063] Failed to write background-index shard for file /home/anton/tmp/build/runtime/include/shorty_values.h: '/home/anton/tmp/build/.cache/clangd/index/shorty_values.h.F4F130D10AF060D0.idx': Not a directory
+E[01:51:55.063] Failed to write background-index shard for file /home/anton/tmp/build/runtime/include/language_config_gen.inc: '/home/anton/tmp/build/.cache/clangd/index/language_config_gen.inc.917B998F3DC3F4D4.idx': Not a directory
+E[01:51:55.063] Failed to write background-index shard for file /home/anton/tmp/build/libpandabase/generated/plugins_regmasks.inl: '/home/anton/tmp/build/.cache/clangd/index/plugins_regmasks.inl.EEFB8EB952CE5900.idx': Not a directory
+E[01:51:55.063] Failed to write background-index shard for file /home/anton/tmp/build/runtime/include/plugins_entrypoints_gen.h: '/home/anton/tmp/build/.cache/clangd/index/plugins_entrypoints_gen.h.739919000BB2356F.idx': Not a directory
+E[01:51:55.064] Failed to write background-index shard for file /home/anton/tmp/build/libpandafile/include/bytecode_instruction-inl_gen.h: '/home/anton/tmp/build/.cache/clangd/index/bytecode_instruction-inl_gen.h.24B0EDBAB5412756.idx': Not a directory
+I[01:51:55.070] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/verification/verifier_messages_data.cpp (114 symbols, 19025 refs, 488 files)
+I[01:51:55.073] --> $/progress
+I[01:51:55.073] --> $/progress
+E[01:51:55.077] Failed to write background-index shard for file /home/anton/tmp/build/verification/gen/include/verifier_messages.h: '/home/anton/tmp/build/.cache/clangd/index/verifier_messages.h.B270EDED87B6B407.idx': Not a directory
+E[01:51:55.077] Failed to write background-index shard for file /home/anton/tmp/build/libpandabase/generated/plugins_regmasks.inl: '/home/anton/tmp/build/.cache/clangd/index/plugins_regmasks.inl.EEFB8EB952CE5900.idx': Not a directory
+E[01:51:55.078] Failed to write background-index shard for file /home/anton/tmp/build/verification/verifier_messages_data_gen.cpp: '/home/anton/tmp/build/.cache/clangd/index/verifier_messages_data_gen.cpp.5F01DB2FACAA3E75.idx': Not a directory
+I[01:51:55.084] --> $/progress
+I[01:51:55.084] --> $/progress
+I[01:51:55.363] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/third_party/openssl/crypto/asn1/asn1_item_list.c (2719 symbols, 20463 refs, 162 files)
+E[01:51:55.371] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/include/openssl/x509.h: '/home/anton/tmp/build/.cache/clangd/index/x509.h.13C5C1C320CC57DC.idx': Not a directory
+E[01:51:55.373] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/include/openssl/x509_vfy.h: '/home/anton/tmp/build/.cache/clangd/index/x509_vfy.h.A10A5D9484CC5E86.idx': Not a directory
+E[01:51:55.374] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/include/openssl/ocsp.h: '/home/anton/tmp/build/.cache/clangd/index/ocsp.h.0036E453A4D11476.idx': Not a directory
+I[01:51:55.374] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/third_party/openssl/crypto/evp/evp_cnf.c (2121 symbols, 18200 refs, 160 files)
+E[01:51:55.375] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/include/openssl/cms.h: '/home/anton/tmp/build/.cache/clangd/index/cms.h.3CFF0D6152F949A8.idx': Not a directory
+E[01:51:55.376] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/include/openssl/asn1t.h: '/home/anton/tmp/build/.cache/clangd/index/asn1t.h.E5691EA8A1135422.idx': Not a directory
+E[01:51:55.378] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/include/openssl/x509v3.h: '/home/anton/tmp/build/.cache/clangd/index/x509v3.h.267CE06158148922.idx': Not a directory
+E[01:51:55.379] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/include/openssl/pkcs7.h: '/home/anton/tmp/build/.cache/clangd/index/pkcs7.h.AB641A4CD54609B6.idx': Not a directory
+E[01:51:55.379] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/include/openssl/conf.h: '/home/anton/tmp/build/.cache/clangd/index/conf.h.A565EAB7EFD7C943.idx': Not a directory
+E[01:51:55.380] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/include/openssl/pkcs12.h: '/home/anton/tmp/build/.cache/clangd/index/pkcs12.h.C92E8FBAD8066D50.idx': Not a directory
+E[01:51:55.381] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/include/openssl/x509.h: '/home/anton/tmp/build/.cache/clangd/index/x509.h.13C5C1C320CC57DC.idx': Not a directory
+I[01:51:55.384] --> $/progress
+E[01:51:55.384] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/include/openssl/x509_vfy.h: '/home/anton/tmp/build/.cache/clangd/index/x509_vfy.h.A10A5D9484CC5E86.idx': Not a directory
+I[01:51:55.384] --> $/progress
+E[01:51:55.389] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/include/openssl/x509v3.h: '/home/anton/tmp/build/.cache/clangd/index/x509v3.h.267CE06158148922.idx': Not a directory
+E[01:51:55.391] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/include/openssl/pkcs7.h: '/home/anton/tmp/build/.cache/clangd/index/pkcs7.h.AB641A4CD54609B6.idx': Not a directory
+E[01:51:55.392] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/include/openssl/conf.h: '/home/anton/tmp/build/.cache/clangd/index/conf.h.A565EAB7EFD7C943.idx': Not a directory
+I[01:51:55.394] --> $/progress
+I[01:51:55.394] --> $/progress
+I[01:51:55.613] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/third_party/openssl/crypto/x509/v3_purp.c (0 symbols, 13847 refs, 162 files)
+I[01:51:55.617] --> $/progress
+I[01:51:55.617] --> $/progress
+I[01:51:55.744] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/compiler/optimizer/optimizations/inline_intrinsics.cpp (2302 symbols, 33307 refs, 703 files)
+E[01:51:55.753] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/can_encode_builtin.inl: '/home/anton/tmp/build/.cache/clangd/index/can_encode_builtin.inl.B6C774D2AFBEEE73.idx': Not a directory
+E[01:51:55.753] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/source_languages.h: '/home/anton/tmp/build/.cache/clangd/index/source_languages.h.71C3802564061E6B.idx': Not a directory
+E[01:51:55.755] Failed to write background-index shard for file /home/anton/tmp/build/cross_values/cross_values.h: '/home/anton/tmp/build/.cache/clangd/index/cross_values.h.375C52E79B84AEA2.idx': Not a directory
+E[01:51:55.755] Failed to write background-index shard for file /home/anton/tmp/build/runtime/include/intrinsics_enum.h: '/home/anton/tmp/build/.cache/clangd/index/intrinsics_enum.h.B0B57FB3D98CDF0D.idx': Not a directory
+E[01:51:55.756] Failed to write background-index shard for file /home/anton/tmp/build/libpandabase/generated/coherency_line_size.h: '/home/anton/tmp/build/.cache/clangd/index/coherency_line_size.h.03B0884D09F69580.idx': Not a directory
+E[01:51:55.757] Failed to write background-index shard for file /home/anton/tmp/build/runtime/include/entrypoints_gen.h: '/home/anton/tmp/build/.cache/clangd/index/entrypoints_gen.h.052E2AB0EBF3F1A7.idx': Not a directory
+E[01:51:55.757] Failed to write background-index shard for file /home/anton/tmp/build/libpandabase/generated/source_language.h: '/home/anton/tmp/build/.cache/clangd/index/source_language.h.8C98CD4917384ABB.idx': Not a directory
+E[01:51:55.757] Failed to write background-index shard for file /home/anton/tmp/build/libpandafile/include/source_lang_enum.h: '/home/anton/tmp/build/.cache/clangd/index/source_lang_enum.h.E0995FBD4BB711EE.idx': Not a directory
+E[01:51:55.757] Failed to write background-index shard for file /home/anton/tmp/build/libpandafile/include/type.h: '/home/anton/tmp/build/.cache/clangd/index/type.h.CD1B073D284B6A14.idx': Not a directory
+E[01:51:55.758] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/compiler_logger_components.inc: '/home/anton/tmp/build/.cache/clangd/index/compiler_logger_components.inc.6D551319DF2EA787.idx': Not a directory
+E[01:51:55.759] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/compiler_events_gen.h: '/home/anton/tmp/build/.cache/clangd/index/compiler_events_gen.h.FB428FB60DB49BA3.idx': Not a directory
+E[01:51:55.759] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/intrinsics_inline_native_method.inl: '/home/anton/tmp/build/.cache/clangd/index/intrinsics_inline_native_method.inl.C461C8394B8FD8D3.idx': Not a directory
+E[01:51:55.759] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/intrinsics_extensions.inl.h: '/home/anton/tmp/build/.cache/clangd/index/intrinsics_extensions.inl.h.C01526B228F3DD31.idx': Not a directory
+E[01:51:55.759] Failed to write background-index shard for file /home/anton/tmp/build/libpandabase/generated/logger_enum_gen.h: '/home/anton/tmp/build/.cache/clangd/index/logger_enum_gen.h.2605FD40FDB445F8.idx': Not a directory
+E[01:51:55.759] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/get_intrinsics_names.inl: '/home/anton/tmp/build/.cache/clangd/index/get_intrinsics_names.inl.42C82F2E57C00D29.idx': Not a directory
+E[01:51:55.760] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/cpu_features.inc: '/home/anton/tmp/build/.cache/clangd/index/cpu_features.inc.45D9B9958F0238F6.idx': Not a directory
+E[01:51:55.760] Failed to write background-index shard for file /home/anton/tmp/build/runtime/include/language_config_gen.inc: '/home/anton/tmp/build/.cache/clangd/index/language_config_gen.inc.917B998F3DC3F4D4.idx': Not a directory
+E[01:51:55.760] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/ir-dyn-base-types.h: '/home/anton/tmp/build/.cache/clangd/index/ir-dyn-base-types.h.EB1BA5757D76810A.idx': Not a directory
+E[01:51:55.760] Failed to write background-index shard for file /home/anton/tmp/build/runtime/include/entrypoints_compiler_checksum.inl: '/home/anton/tmp/build/.cache/clangd/index/entrypoints_compiler_checksum.inl.3AE0BCBC3D5FE62A.idx': Not a directory
+E[01:51:55.760] Failed to write background-index shard for file /home/anton/tmp/build/libpandafile/include/bytecode_instruction-inl_gen.h: '/home/anton/tmp/build/.cache/clangd/index/bytecode_instruction-inl_gen.h.24B0EDBAB5412756.idx': Not a directory
+E[01:51:55.760] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/arch_info_gen.h: '/home/anton/tmp/build/.cache/clangd/index/arch_info_gen.h.0AC010DED0D4468E.idx': Not a directory
+E[01:51:55.760] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/irtoc_ir_inline.h: '/home/anton/tmp/build/.cache/clangd/index/irtoc_ir_inline.h.8FF7CB5CDDD7A2CD.idx': Not a directory
+E[01:51:55.761] Failed to write background-index shard for file /home/anton/tmp/build/libpandabase/generated/events_gen.h: '/home/anton/tmp/build/.cache/clangd/index/events_gen.h.7E4BCC531961B6DF.idx': Not a directory
+E[01:51:55.762] Failed to write background-index shard for file /home/anton/tmp/build/libpandafile/include/bytecode_instruction_enum_gen.h: '/home/anton/tmp/build/.cache/clangd/index/bytecode_instruction_enum_gen.h.D5B69E831C6B2931.idx': Not a directory
+E[01:51:55.763] Failed to write background-index shard for file /home/anton/tmp/build/cross_values/generated_values/X86_64_values_gen.h: '/home/anton/tmp/build/.cache/clangd/index/X86_64_values_gen.h.B7EDDDCED10E13EF.idx': Not a directory
+E[01:51:55.763] Failed to write background-index shard for file /home/anton/tmp/build/runtime/include/asm_defines.h: '/home/anton/tmp/build/.cache/clangd/index/asm_defines.h.926AAA935C653CFE.idx': Not a directory
+E[01:51:55.763] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/intrinsics_inline.inl.h: '/home/anton/tmp/build/.cache/clangd/index/intrinsics_inline.inl.h.7CDB2E86716E5626.idx': Not a directory
+E[01:51:55.763] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/intrinsics_can_encode.inl: '/home/anton/tmp/build/.cache/clangd/index/intrinsics_can_encode.inl.43F559025A9B3B61.idx': Not a directory
+E[01:51:55.765] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/intrinsics_inline.inl: '/home/anton/tmp/build/.cache/clangd/index/intrinsics_inline.inl.96F6931D6B2DFD1F.idx': Not a directory
+E[01:51:55.765] Failed to write background-index shard for file /home/anton/tmp/build/libpandafile/include/file_format_version.h: '/home/anton/tmp/build/.cache/clangd/index/file_format_version.h.F34E53DAFFAE7C5A.idx': Not a directory
+E[01:51:55.765] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/intrinsics_flags.inl: '/home/anton/tmp/build/.cache/clangd/index/intrinsics_flags.inl.A3AC00B02CB739F7.idx': Not a directory
+E[01:51:55.766] Failed to write background-index shard for file /home/anton/tmp/build/runtime/include/profiling_gen.h: '/home/anton/tmp/build/.cache/clangd/index/profiling_gen.h.FCE860D1BA6D3CE3.idx': Not a directory
+E[01:51:55.768] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/compiler_options_gen.h: '/home/anton/tmp/build/.cache/clangd/index/compiler_options_gen.h.3E52EE2AA34A4AA6.idx': Not a directory
+E[01:51:55.768] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/compiler_interface_extensions.inl.h: '/home/anton/tmp/build/.cache/clangd/index/compiler_interface_extensions.inl.h.07BCD3940E7A99A7.idx': Not a directory
+E[01:51:55.768] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/opcodes.h: '/home/anton/tmp/build/.cache/clangd/index/opcodes.h.D82D969F9EC9D8AF.idx': Not a directory
+E[01:51:55.768] Failed to write background-index shard for file /home/anton/tmp/build/runtime/include/plugins_entrypoints_gen.h: '/home/anton/tmp/build/.cache/clangd/index/plugins_entrypoints_gen.h.739919000BB2356F.idx': Not a directory
+E[01:51:55.769] Failed to write background-index shard for file /home/anton/tmp/build/libpandabase/generated/plugins_regmasks.inl: '/home/anton/tmp/build/.cache/clangd/index/plugins_regmasks.inl.EEFB8EB952CE5900.idx': Not a directory
+E[01:51:55.769] Failed to write background-index shard for file /home/anton/tmp/build/runtime/include/entrypoints_compiler.inl: '/home/anton/tmp/build/.cache/clangd/index/entrypoints_compiler.inl.81FEFEDFDC2C8C27.idx': Not a directory
+E[01:51:55.770] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/intrinsics_enum.inl: '/home/anton/tmp/build/.cache/clangd/index/intrinsics_enum.inl.B53012D8E811EBED.idx': Not a directory
+I[01:51:55.777] --> $/progress
+I[01:51:55.778] --> $/progress
+I[01:51:55.828] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/third_party/openssl/providers/implementations/signature/eddsa_sig.c (8 symbols, 11544 refs, 149 files)
+E[01:51:55.831] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/providers/common/include/prov/der_ecx.h: '/home/anton/tmp/build/.cache/clangd/index/der_ecx.h.5E1E1D29DEF4ED68.idx': Not a directory
+I[01:51:55.832] --> $/progress
+I[01:51:55.833] --> $/progress
+I[01:51:55.869] <-- textDocument/didOpen
+I[01:51:55.871] Loaded compilation database from /home/anton/tmp/my-llvm-pass/build/compile_commands.json
+I[01:51:55.871] ASTWorker building file /home/anton/tmp/my-llvm-pass/src/heap_alloc_sink.cpp version 1 with command 
+[/home/anton/dev/cpp/my-llvm-pass/build]
+/usr/bin/c++ --driver-mode=g++ -DMemOpt_EXPORTS -isystem //include -g -g -std=gnu++17 -fPIC -fdiagnostics-color=always -o CMakeFiles/MemOpt.dir/src/heap_alloc_sink.cpp.o -c -resource-dir=/usr/lib/clang/18 -- /home/anton/tmp/my-llvm-pass/src/heap_alloc_sink.cpp
+I[01:51:55.874] --> textDocument/clangd.fileStatus
+I[01:51:55.875] Loaded compilation database from /home/anton/dev/cpp/my-llvm-pass/build/compile_commands.json
+I[01:51:55.881] <-- textDocument/documentHighlight(17)
+I[01:51:55.881] --> reply:textDocument/documentHighlight(17) 0 ms
+I[01:51:55.881] --> textDocument/clangd.fileStatus
+I[01:51:55.890] <-- textDocument/codeAction(18)
+I[01:51:55.890] <-- textDocument/documentSymbol(19)
+I[01:51:56.118] <-- textDocument/semanticTokens/full(20)
+I[01:51:56.118] <-- textDocument/documentLink(21)
+I[01:51:56.118] <-- textDocument/inlayHint(22)
+I[01:51:56.259] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/libpandafile/file_writer.cpp (0 symbols, 14621 refs, 383 files)
+I[01:51:56.267] --> $/progress
+I[01:51:56.267] --> $/progress
+I[01:51:56.360] <-- textDocument/foldingRange(23)
+I[01:51:56.360] <-- textDocument/documentSymbol(24)
+I[01:51:56.362] --> reply:textDocument/foldingRange(23) 2 ms
+I[01:51:56.523] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/third_party/openssl/crypto/bn/bn_srp.c (83 symbols, 5904 refs, 133 files)
+E[01:51:56.528] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/include/openssl/srp.h: '/home/anton/tmp/build/.cache/clangd/index/srp.h.F616357E85DB0C1F.idx': Not a directory
+E[01:51:56.528] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/include/crypto/bn_conf.h: '/home/anton/tmp/build/.cache/clangd/index/bn_conf.h.D7D89EF38677B334.idx': Not a directory
+I[01:51:56.530] --> $/progress
+I[01:51:56.530] --> $/progress
+I[01:52:01.996] <-- textDocument/documentHighlight(25)
+I[01:52:02.156] Built preamble of size 28891124 for file /home/anton/tmp/my-llvm-pass/src/heap_alloc_sink.cpp version 1 in 6.28 seconds
+I[01:52:02.157] --> workspace/semanticTokens/refresh(2)
+I[01:52:02.162] <-- reply(2)
+I[01:52:02.275] <-- textDocument/codeAction(26)
+I[01:52:02.302] <-- $/cancelRequest
+I[01:52:02.433] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/assembler/pandasm.cpp (7 symbols, 20722 refs, 713 files)
+E[01:52:02.442] Failed to write background-index shard for file /home/anton/tmp/build/libpandabase/generated/ark_version.h: '/home/anton/tmp/build/.cache/clangd/index/ark_version.h.CDA2A21CF16825BE.idx': Not a directory
+I[01:52:02.456] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/verification/cflow/cflow_info.cpp (0 symbols, 19937 refs, 736 files)
+I[01:52:02.457] --> $/progress
+I[01:52:02.461] --> $/progress
+E[01:52:02.473] Failed to write background-index shard for file /home/anton/tmp/build/verification/gen/include/cflow_iterate_inl_gen.h: '/home/anton/tmp/build/.cache/clangd/index/cflow_iterate_inl_gen.h.F6D4DF730542A124.idx': Not a directory
+I[01:52:02.499] --> textDocument/publishDiagnostics
+I[01:52:02.499] --> textDocument/inactiveRegions
+I[01:52:02.502] --> reply:textDocument/codeAction(18) 6612 ms, error: Task was cancelled.
+I[01:52:02.503] --> reply:textDocument/documentSymbol(19) 6612 ms
+[Error - 1:52:02 AM] Request textDocument/codeAction failed.
+[object Object]
+I[01:52:02.505] --> reply:textDocument/semanticTokens/full(20) 6386 ms
+I[01:52:02.506] --> reply:textDocument/documentLink(21) 6387 ms
+I[01:52:02.507] --> reply:textDocument/inlayHint(22) 6388 ms
+I[01:52:02.508] --> reply:textDocument/documentSymbol(24) 6147 ms
+I[01:52:02.515] --> reply:textDocument/documentHighlight(25) 518 ms
+I[01:52:02.515] --> reply:textDocument/codeAction(26) 240 ms
+I[01:52:02.515] --> textDocument/clangd.fileStatus
+I[01:52:02.559] --> $/progress
+I[01:52:02.559] --> $/progress
+I[01:52:02.661] <-- textDocument/hover(27)
+I[01:52:02.662] --> reply:textDocument/hover(27) 0 ms
+I[01:52:02.662] --> textDocument/clangd.fileStatus
+I[01:52:02.758] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/third_party/openssl/crypto/asn1/tasn_fre.c (0 symbols, 9098 refs, 118 files)
+I[01:52:02.761] --> $/progress
+I[01:52:02.761] --> $/progress
+I[01:52:03.498] <-- textDocument/inlayHint(28)
+I[01:52:03.499] --> reply:textDocument/inlayHint(28) 0 ms
+I[01:52:03.499] --> textDocument/clangd.fileStatus
+I[01:52:03.682] <-- textDocument/documentHighlight(29)
+I[01:52:03.682] --> reply:textDocument/documentHighlight(29) 0 ms
+I[01:52:03.683] --> textDocument/clangd.fileStatus
+I[01:52:03.701] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/runtime/init_icu.cpp (2 symbols, 9147 refs, 198 files)
+E[01:52:03.709] Failed to write background-index shard for file /home/anton/tmp/build/runtime/include/init_icu_gen.cpp: '/home/anton/tmp/build/.cache/clangd/index/init_icu_gen.cpp.3A36F19A1A31BB69.idx': Not a directory
+I[01:52:03.713] --> $/progress
+I[01:52:03.714] --> $/progress
+I[01:52:04.178] <-- textDocument/codeAction(30)
+I[01:52:04.178] --> reply:textDocument/codeAction(30) 0 ms
+I[01:52:04.179] --> textDocument/clangd.fileStatus
+I[01:52:04.530] <-- textDocument/semanticTokens/full/delta(31)
+I[01:52:04.532] --> reply:textDocument/semanticTokens/full/delta(31) 1 ms
+I[01:52:04.532] --> textDocument/clangd.fileStatus
+I[01:52:04.707] <-- textDocument/codeAction(32)
+I[01:52:04.710] --> reply:textDocument/codeAction(32) 2 ms
+I[01:52:04.710] --> textDocument/clangd.fileStatus
+I[01:52:05.219] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/compiler/tests/cse_test.cpp (0 symbols, 22917 refs, 816 files)
+E[01:52:05.231] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/intrinsics_ir_build.inl.h: '/home/anton/tmp/build/.cache/clangd/index/intrinsics_ir_build.inl.h.A1A0B6317F15EBA6.idx': Not a directory
+E[01:52:05.232] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/inst_builder_extensions.inl.h: '/home/anton/tmp/build/.cache/clangd/index/inst_builder_extensions.inl.h.9AC6AB6085ADD02F.idx': Not a directory
+I[01:52:05.240] --> $/progress
+I[01:52:05.241] --> $/progress
+I[01:52:05.555] <-- textDocument/codeAction(33)
+I[01:52:05.555] --> reply:textDocument/codeAction(33) 0 ms
+I[01:52:05.555] --> textDocument/clangd.fileStatus
+I[01:52:05.935] <-- textDocument/codeAction(34)
+I[01:52:05.935] --> reply:textDocument/codeAction(34) 0 ms
+I[01:52:05.935] --> textDocument/clangd.fileStatus
+I[01:52:06.398] <-- textDocument/didChange
+I[01:52:06.398] --> textDocument/clangd.fileStatus
+I[01:52:06.478] <-- textDocument/didChange
+I[01:52:06.478] --> textDocument/clangd.fileStatus
+I[01:52:06.724] <-- textDocument/foldingRange(35)
+I[01:52:06.728] --> reply:textDocument/foldingRange(35) 4 ms
+I[01:52:06.817] ASTWorker building file /home/anton/tmp/my-llvm-pass/src/heap_alloc_sink.cpp version 3 with command 
+[/home/anton/dev/cpp/my-llvm-pass/build]
+/usr/bin/c++ --driver-mode=g++ -DMemOpt_EXPORTS -isystem //include -g -g -std=gnu++17 -fPIC -fdiagnostics-color=always -o CMakeFiles/MemOpt.dir/src/heap_alloc_sink.cpp.o -c -resource-dir=/usr/lib/clang/18 -- /home/anton/tmp/my-llvm-pass/src/heap_alloc_sink.cpp
+I[01:52:06.821] --> textDocument/clangd.fileStatus
+I[01:52:06.849] <-- textDocument/documentSymbol(36)
+I[01:52:06.971] <-- textDocument/didChange
+I[01:52:07.019] <-- textDocument/didChange
+I[01:52:07.094] <-- textDocument/didChange
+I[01:52:07.157] <-- textDocument/didChange
+I[01:52:07.207] <-- textDocument/completion(37)
+I[01:52:07.238] Code complete: sema context Statement, query scopes [,llvm::] (AnyScope=true), expected type <none>
+I[01:52:07.239] Code complete: 0 results from Sema, 1 from Index, 0 matched, 0 from identifiers, 1 returned.
+I[01:52:07.240] --> reply:textDocument/completion(37) 32 ms
+I[01:52:07.270] <-- textDocument/didChange
+I[01:52:07.343] <-- $/cancelRequest
+I[01:52:07.353] --> textDocument/publishDiagnostics
+I[01:52:07.353] --> textDocument/inactiveRegions
+I[01:52:07.355] <-- textDocument/didChange
+I[01:52:07.357] --> reply:textDocument/documentSymbol(36) 508 ms, error: Task was cancelled.
+I[01:52:07.357] --> textDocument/clangd.fileStatus
+[Error - 1:52:07 AM] Request textDocument/documentSymbol failed.
+[object Object]
+I[01:52:07.414] <-- textDocument/didChange
+I[01:52:07.414] --> textDocument/clangd.fileStatus
+I[01:52:07.428] <-- textDocument/completion(38)
+I[01:52:07.452] Code complete: sema context Statement, query scopes [,llvm::] (AnyScope=true), expected type <none>
+I[01:52:07.454] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[01:52:07.455] --> reply:textDocument/completion(38) 27 ms
+I[01:52:07.614] <-- textDocument/foldingRange(39)
+I[01:52:07.615] --> reply:textDocument/foldingRange(39) 1 ms
+I[01:52:07.677] <-- textDocument/codeAction(40)
+I[01:52:07.686] ASTWorker building file /home/anton/tmp/my-llvm-pass/src/heap_alloc_sink.cpp version 10 with command 
+[/home/anton/dev/cpp/my-llvm-pass/build]
+/usr/bin/c++ --driver-mode=g++ -DMemOpt_EXPORTS -isystem //include -g -g -std=gnu++17 -fPIC -fdiagnostics-color=always -o CMakeFiles/MemOpt.dir/src/heap_alloc_sink.cpp.o -c -resource-dir=/usr/lib/clang/18 -- /home/anton/tmp/my-llvm-pass/src/heap_alloc_sink.cpp
+I[01:52:07.695] --> textDocument/clangd.fileStatus
+I[01:52:07.765] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/runtime/intrinsics.cpp (2136 symbols, 65544 refs, 782 files)
+I[01:52:07.795] <-- textDocument/documentSymbol(41)
+E[01:52:07.828] Failed to write background-index shard for file /home/anton/tmp/build/runtime/include/intrinsics_gen.h: '/home/anton/tmp/build/.cache/clangd/index/intrinsics_gen.h.9129286D679A1A8C.idx': Not a directory
+E[01:52:07.830] Failed to write background-index shard for file /home/anton/tmp/build/runtime/include/intrinsics.h: '/home/anton/tmp/build/.cache/clangd/index/intrinsics.h.0C7067C3C8032EBF.idx': Not a directory
+E[01:52:07.831] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/source_languages.h: '/home/anton/tmp/build/.cache/clangd/index/source_languages.h.71C3802564061E6B.idx': Not a directory
+E[01:52:07.831] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/arch_info_gen.h: '/home/anton/tmp/build/.cache/clangd/index/arch_info_gen.h.0AC010DED0D4468E.idx': Not a directory
+E[01:52:07.831] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/intrinsics_extensions.inl.h: '/home/anton/tmp/build/.cache/clangd/index/intrinsics_extensions.inl.h.C01526B228F3DD31.idx': Not a directory
+E[01:52:07.833] Failed to write background-index shard for file /home/anton/tmp/build/cross_values/cross_values.h: '/home/anton/tmp/build/.cache/clangd/index/cross_values.h.375C52E79B84AEA2.idx': Not a directory
+E[01:52:07.834] Failed to write background-index shard for file /home/anton/tmp/build/runtime/include/intrinsics.inl.h: '/home/anton/tmp/build/.cache/clangd/index/intrinsics.inl.h.03EB1EECAAC5B238.idx': Not a directory
+E[01:52:07.835] Failed to write background-index shard for file /home/anton/tmp/build/runtime/include/profiling_gen.h: '/home/anton/tmp/build/.cache/clangd/index/profiling_gen.h.FCE860D1BA6D3CE3.idx': Not a directory
+E[01:52:07.835] Failed to write background-index shard for file /home/anton/tmp/build/cross_values/generated_values/X86_64_values_gen.h: '/home/anton/tmp/build/.cache/clangd/index/X86_64_values_gen.h.B7EDDDCED10E13EF.idx': Not a directory
+E[01:52:07.836] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/cpu_features.inc: '/home/anton/tmp/build/.cache/clangd/index/cpu_features.inc.45D9B9958F0238F6.idx': Not a directory
+E[01:52:07.838] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/compiler_options_gen.h: '/home/anton/tmp/build/.cache/clangd/index/compiler_options_gen.h.3E52EE2AA34A4AA6.idx': Not a directory
+E[01:52:07.838] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/compiler_interface_extensions.inl.h: '/home/anton/tmp/build/.cache/clangd/index/compiler_interface_extensions.inl.h.07BCD3940E7A99A7.idx': Not a directory
+E[01:52:07.838] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/ir-dyn-base-types.h: '/home/anton/tmp/build/.cache/clangd/index/ir-dyn-base-types.h.EB1BA5757D76810A.idx': Not a directory
+E[01:52:07.838] Failed to write background-index shard for file /home/anton/tmp/build/runtime/include/entrypoints_compiler_checksum.inl: '/home/anton/tmp/build/.cache/clangd/index/entrypoints_compiler_checksum.inl.3AE0BCBC3D5FE62A.idx': Not a directory
+E[01:52:07.838] Failed to write background-index shard for file /home/anton/tmp/build/runtime/include/entrypoints_compiler.inl: '/home/anton/tmp/build/.cache/clangd/index/entrypoints_compiler.inl.81FEFEDFDC2C8C27.idx': Not a directory
+E[01:52:07.839] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/intrinsics_enum.inl: '/home/anton/tmp/build/.cache/clangd/index/intrinsics_enum.inl.B53012D8E811EBED.idx': Not a directory
+I[01:52:07.856] --> $/progress
+I[01:52:07.856] --> $/progress
+I[01:52:08.158] --> textDocument/publishDiagnostics
+I[01:52:08.159] --> textDocument/inactiveRegions
+I[01:52:08.161] --> reply:textDocument/codeAction(40) 484 ms
+I[01:52:08.161] --> reply:textDocument/documentSymbol(41) 366 ms
+I[01:52:08.162] --> textDocument/clangd.fileStatus
+I[01:52:08.391] <-- textDocument/semanticTokens/full/delta(42)
+I[01:52:08.394] --> reply:textDocument/semanticTokens/full/delta(42) 2 ms
+I[01:52:08.394] --> textDocument/clangd.fileStatus
+I[01:52:08.440] <-- textDocument/codeAction(43)
+I[01:52:08.442] --> reply:textDocument/codeAction(43) 1 ms
+I[01:52:08.442] --> textDocument/clangd.fileStatus
+I[01:52:08.559] <-- textDocument/didChange
+I[01:52:08.559] --> textDocument/clangd.fileStatus
+I[01:52:08.596] <-- textDocument/completion(44)
+I[01:52:08.633] Code complete: sema context Statement, query scopes [,llvm::] (AnyScope=true), expected type <none>
+I[01:52:08.635] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[01:52:08.636] --> reply:textDocument/completion(44) 39 ms
+I[01:52:08.730] <-- textDocument/didChange
+I[01:52:08.730] --> textDocument/clangd.fileStatus
+I[01:52:08.768] <-- textDocument/completion(45)
+I[01:52:08.787] Code complete: sema context Statement, query scopes [,llvm::] (AnyScope=true), expected type <none>
+I[01:52:08.789] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[01:52:08.789] --> reply:textDocument/completion(45) 20 ms
+I[01:52:08.934] <-- textDocument/foldingRange(46)
+I[01:52:08.935] --> reply:textDocument/foldingRange(46) 1 ms
+I[01:52:08.986] <-- textDocument/codeAction(47)
+I[01:52:08.992] ASTWorker building file /home/anton/tmp/my-llvm-pass/src/heap_alloc_sink.cpp version 12 with command 
+[/home/anton/dev/cpp/my-llvm-pass/build]
+/usr/bin/c++ --driver-mode=g++ -DMemOpt_EXPORTS -isystem //include -g -g -std=gnu++17 -fPIC -fdiagnostics-color=always -o CMakeFiles/MemOpt.dir/src/heap_alloc_sink.cpp.o -c -resource-dir=/usr/lib/clang/18 -- /home/anton/tmp/my-llvm-pass/src/heap_alloc_sink.cpp
+I[01:52:08.995] --> textDocument/clangd.fileStatus
+I[01:52:09.011] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/runtime/deoptimization.cpp (0 symbols, 19420 refs, 687 files)
+E[01:52:09.021] Failed to write background-index shard for file /home/anton/tmp/build/runtime/profiling/generated/clear_profile.h: '/home/anton/tmp/build/.cache/clangd/index/clear_profile.h.2314E5E61278DEFB.idx': Not a directory
+E[01:52:09.021] Failed to write background-index shard for file /home/anton/tmp/build/runtime/profiling/generated/profiling_includes.h: '/home/anton/tmp/build/.cache/clangd/index/profiling_includes.h.3B6929EB029BE1CF.idx': Not a directory
+I[01:52:09.031] --> $/progress
+I[01:52:09.031] --> $/progress
+I[01:52:09.088] <-- textDocument/documentSymbol(48)
+I[01:52:09.276] --> textDocument/publishDiagnostics
+I[01:52:09.276] --> textDocument/inactiveRegions
+I[01:52:09.278] --> reply:textDocument/codeAction(47) 292 ms
+I[01:52:09.278] --> reply:textDocument/documentSymbol(48) 190 ms
+I[01:52:09.278] --> textDocument/clangd.fileStatus
+I[01:52:09.531] <-- textDocument/codeAction(49)
+I[01:52:09.531] --> reply:textDocument/codeAction(49) 0 ms
+I[01:52:09.531] --> textDocument/clangd.fileStatus
+I[01:52:09.829] <-- textDocument/documentHighlight(50)
+I[01:52:09.830] --> reply:textDocument/documentHighlight(50) 0 ms
+I[01:52:09.830] --> textDocument/clangd.fileStatus
+I[01:52:09.982] <-- textDocument/inlayHint(51)
+I[01:52:09.984] --> reply:textDocument/inlayHint(51) 1 ms
+I[01:52:09.984] --> textDocument/clangd.fileStatus
+I[01:52:10.076] <-- textDocument/codeAction(52)
+I[01:52:10.076] --> reply:textDocument/codeAction(52) 0 ms
+I[01:52:10.076] --> textDocument/clangd.fileStatus
+I[01:52:10.357] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/compiler/tests/bounds_analysis_test.cpp (0 symbols, 22945 refs, 817 files)
+E[01:52:10.371] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/intrinsics_ir_build.inl.h: '/home/anton/tmp/build/.cache/clangd/index/intrinsics_ir_build.inl.h.A1A0B6317F15EBA6.idx': Not a directory
+E[01:52:10.371] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/inst_builder_extensions.inl.h: '/home/anton/tmp/build/.cache/clangd/index/inst_builder_extensions.inl.h.9AC6AB6085ADD02F.idx': Not a directory
+E[01:52:10.372] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/intrinsics_peephole.inl.h: '/home/anton/tmp/build/.cache/clangd/index/intrinsics_peephole.inl.h.9DB5A0FEF0456654.idx': Not a directory
+I[01:52:10.383] --> $/progress
+I[01:52:10.383] --> $/progress
+I[01:52:10.426] <-- textDocument/didChange
+I[01:52:10.428] --> textDocument/clangd.fileStatus
+I[01:52:10.586] <-- textDocument/semanticTokens/full/delta(53)
+I[01:52:10.596] ASTWorker building file /home/anton/tmp/my-llvm-pass/src/heap_alloc_sink.cpp version 13 with command 
+[/home/anton/dev/cpp/my-llvm-pass/build]
+/usr/bin/c++ --driver-mode=g++ -DMemOpt_EXPORTS -isystem //include -g -g -std=gnu++17 -fPIC -fdiagnostics-color=always -o CMakeFiles/MemOpt.dir/src/heap_alloc_sink.cpp.o -c -resource-dir=/usr/lib/clang/18 -- /home/anton/tmp/my-llvm-pass/src/heap_alloc_sink.cpp
+I[01:52:10.599] --> textDocument/clangd.fileStatus
+I[01:52:10.633] <-- textDocument/foldingRange(54)
+I[01:52:10.635] --> reply:textDocument/foldingRange(54) 1 ms
+I[01:52:10.663] <-- textDocument/documentHighlight(55)
+I[01:52:10.773] <-- textDocument/codeAction(56)
+I[01:52:10.824] <-- textDocument/documentSymbol(57)
+I[01:52:11.095] --> textDocument/publishDiagnostics
+I[01:52:11.095] --> textDocument/inactiveRegions
+I[01:52:11.101] --> reply:textDocument/semanticTokens/full/delta(53) 514 ms
+I[01:52:11.102] --> reply:textDocument/documentHighlight(55) 439 ms
+I[01:52:11.102] --> reply:textDocument/codeAction(56) 329 ms
+I[01:52:11.103] --> reply:textDocument/documentSymbol(57) 279 ms
+I[01:52:11.103] --> textDocument/clangd.fileStatus
+I[01:52:11.351] <-- textDocument/codeAction(58)
+I[01:52:11.351] --> reply:textDocument/codeAction(58) 0 ms
+I[01:52:11.352] --> textDocument/clangd.fileStatus
+I[01:52:11.682] <-- textDocument/documentHighlight(59)
+I[01:52:11.684] --> reply:textDocument/documentHighlight(59) 1 ms
+I[01:52:11.684] --> textDocument/clangd.fileStatus
+I[01:52:11.687] <-- textDocument/inlayHint(60)
+I[01:52:11.690] --> reply:textDocument/inlayHint(60) 2 ms
+I[01:52:11.690] --> textDocument/clangd.fileStatus
+I[01:52:11.791] <-- textDocument/didChange
+I[01:52:11.795] --> textDocument/clangd.fileStatus
+I[01:52:11.993] <-- textDocument/codeAction(61)
+I[01:52:12.001] <-- textDocument/foldingRange(62)
+I[01:52:12.003] --> reply:textDocument/foldingRange(62) 1 ms
+I[01:52:12.009] ASTWorker building file /home/anton/tmp/my-llvm-pass/src/heap_alloc_sink.cpp version 14 with command 
+[/home/anton/dev/cpp/my-llvm-pass/build]
+/usr/bin/c++ --driver-mode=g++ -DMemOpt_EXPORTS -isystem //include -g -g -std=gnu++17 -fPIC -fdiagnostics-color=always -o CMakeFiles/MemOpt.dir/src/heap_alloc_sink.cpp.o -c -resource-dir=/usr/lib/clang/18 -- /home/anton/tmp/my-llvm-pass/src/heap_alloc_sink.cpp
+I[01:52:12.011] --> textDocument/clangd.fileStatus
+I[01:52:12.153] <-- textDocument/documentSymbol(63)
+I[01:52:12.243] <-- textDocument/codeAction(64)
+I[01:52:12.245] <-- $/cancelRequest
+I[01:52:12.315] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/bytecode_optimizer/codegen.cpp (285 symbols, 24222 refs, 722 files)
+E[01:52:12.321] Failed to write background-index shard for file /home/anton/tmp/build/plugins/ets/bytecode_optimizer/generated/ets_codegen_intrinsics_gen.inc: '/home/anton/tmp/build/.cache/clangd/index/ets_codegen_intrinsics_gen.inc.81653263D7F0CE2B.idx': Not a directory
+I[01:52:12.327] --> textDocument/publishDiagnostics
+I[01:52:12.327] --> textDocument/inactiveRegions
+I[01:52:12.330] --> reply:textDocument/codeAction(61) 337 ms, error: Task was cancelled.
+[Error - 1:52:12 AM] Request textDocument/codeAction failed.
+[object Object]
+I[01:52:12.331] --> reply:textDocument/documentSymbol(63) 178 ms
+I[01:52:12.331] --> reply:textDocument/codeAction(64) 87 ms
+I[01:52:12.331] --> textDocument/clangd.fileStatus
+E[01:52:12.332] Failed to write background-index shard for file /home/anton/tmp/build/bytecode_optimizer/generated/codegen_call_intrinsics.inc: '/home/anton/tmp/build/.cache/clangd/index/codegen_call_intrinsics.inc.D58054C2D25F20CA.idx': Not a directory
+E[01:52:12.333] Failed to write background-index shard for file /home/anton/tmp/build/bytecode_optimizer/generated/codegen_visitors.inc: '/home/anton/tmp/build/.cache/clangd/index/codegen_visitors.inc.84208B5ECB4EF409.idx': Not a directory
+E[01:52:12.333] Failed to write background-index shard for file /home/anton/tmp/build/bytecode_optimizer/generated/codegen_intrinsics.cpp: '/home/anton/tmp/build/.cache/clangd/index/codegen_intrinsics.cpp.3F88B53016A6B45B.idx': Not a directory
+E[01:52:12.335] Failed to write background-index shard for file /home/anton/tmp/build/assembler/ins_create_api.h: '/home/anton/tmp/build/.cache/clangd/index/ins_create_api.h.2D34389B1598F027.idx': Not a directory
+E[01:52:12.335] Failed to write background-index shard for file /home/anton/tmp/build/bytecode_optimizer/generated/insn_selection.h: '/home/anton/tmp/build/.cache/clangd/index/insn_selection.h.104E7ABFF20B0B4B.idx': Not a directory
+E[01:52:12.335] Failed to write background-index shard for file /home/anton/tmp/build/bytecode_optimizer/generated/insn_selection.cpp: '/home/anton/tmp/build/.cache/clangd/index/insn_selection.cpp.8DCE7D1346C5C629.idx': Not a directory
+I[01:52:12.344] --> $/progress
+I[01:52:12.344] --> $/progress
+I[01:52:13.043] <-- textDocument/inlayHint(65)
+I[01:52:13.044] --> reply:textDocument/inlayHint(65) 0 ms
+I[01:52:13.044] --> textDocument/clangd.fileStatus
+I[01:52:13.536] <-- textDocument/semanticTokens/full/delta(66)
+I[01:52:13.538] --> reply:textDocument/semanticTokens/full/delta(66) 1 ms
+I[01:52:13.540] --> textDocument/clangd.fileStatus
+I[01:52:13.878] <-- textDocument/didChange
+I[01:52:13.878] <-- textDocument/didChange
+I[01:52:13.881] --> textDocument/clangd.fileStatus
+I[01:52:14.082] <-- textDocument/foldingRange(67)
+I[01:52:14.086] --> reply:textDocument/foldingRange(67) 3 ms
+I[01:52:14.219] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/runtime/compiler.cpp (0 symbols, 21670 refs, 790 files)
+E[01:52:14.233] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/get_intrinsics.inl: '/home/anton/tmp/build/.cache/clangd/index/get_intrinsics.inl.9E1A125C8DCC56C7.idx': Not a directory
+I[01:52:14.249] --> $/progress
+I[01:52:14.249] --> $/progress
+I[01:52:14.291] <-- textDocument/documentSymbol(68)
+I[01:52:14.297] ASTWorker building file /home/anton/tmp/my-llvm-pass/src/heap_alloc_sink.cpp version 16 with command 
+[/home/anton/dev/cpp/my-llvm-pass/build]
+/usr/bin/c++ --driver-mode=g++ -DMemOpt_EXPORTS -isystem //include -g -g -std=gnu++17 -fPIC -fdiagnostics-color=always -o CMakeFiles/MemOpt.dir/src/heap_alloc_sink.cpp.o -c -resource-dir=/usr/lib/clang/18 -- /home/anton/tmp/my-llvm-pass/src/heap_alloc_sink.cpp
+I[01:52:14.303] --> textDocument/clangd.fileStatus
+I[01:52:14.515] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/third_party/openssl/providers/implementations/kdfs/x942kdf.c (4 symbols, 12223 refs, 153 files)
+E[01:52:14.518] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/providers/common/include/prov/der_wrap.h: '/home/anton/tmp/build/.cache/clangd/index/der_wrap.h.17B46DF3CC9D2680.idx': Not a directory
+I[01:52:14.523] --> $/progress
+I[01:52:14.523] --> $/progress
+I[01:52:14.579] --> textDocument/publishDiagnostics
+I[01:52:14.579] --> textDocument/inactiveRegions
+I[01:52:14.581] --> reply:textDocument/documentSymbol(68) 289 ms
+I[01:52:14.581] --> textDocument/clangd.fileStatus
+I[01:52:14.640] <-- textDocument/codeAction(69)
+I[01:52:14.640] --> reply:textDocument/codeAction(69) 0 ms
+I[01:52:14.641] --> textDocument/clangd.fileStatus
+I[01:52:14.978] <-- textDocument/didChange
+I[01:52:14.978] --> textDocument/clangd.fileStatus
+I[01:52:14.996] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/compiler/tools/aotdump/aotdump.cpp (28 symbols, 21255 refs, 555 files)
+E[01:52:15.010] Failed to write background-index shard for file /home/anton/tmp/build/compiler/aotdump/generated/aotdump_options.h: '/home/anton/tmp/build/.cache/clangd/index/aotdump_options.h.2E75A6C3D5EF28B5.idx': Not a directory
+I[01:52:15.017] --> $/progress
+I[01:52:15.017] --> $/progress
+I[01:52:15.179] <-- textDocument/foldingRange(70)
+I[01:52:15.182] --> reply:textDocument/foldingRange(70) 3 ms
+I[01:52:15.268] <-- textDocument/semanticTokens/full/delta(71)
+I[01:52:15.273] ASTWorker building file /home/anton/tmp/my-llvm-pass/src/heap_alloc_sink.cpp version 17 with command 
+[/home/anton/dev/cpp/my-llvm-pass/build]
+/usr/bin/c++ --driver-mode=g++ -DMemOpt_EXPORTS -isystem //include -g -g -std=gnu++17 -fPIC -fdiagnostics-color=always -o CMakeFiles/MemOpt.dir/src/heap_alloc_sink.cpp.o -c -resource-dir=/usr/lib/clang/18 -- /home/anton/tmp/my-llvm-pass/src/heap_alloc_sink.cpp
+I[01:52:15.275] --> textDocument/clangd.fileStatus
+I[01:52:15.344] <-- textDocument/documentSymbol(72)
+I[01:52:15.363] <-- textDocument/codeAction(73)
+I[01:52:15.539] --> textDocument/publishDiagnostics
+I[01:52:15.539] --> textDocument/inactiveRegions
+I[01:52:15.543] --> reply:textDocument/semanticTokens/full/delta(71) 275 ms
+I[01:52:15.543] --> reply:textDocument/documentSymbol(72) 199 ms
+I[01:52:15.544] --> reply:textDocument/codeAction(73) 180 ms
+I[01:52:15.544] --> textDocument/clangd.fileStatus
+I[01:52:15.635] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/compiler/optimizer/pipeline.cpp (105 symbols, 21464 refs, 770 files)
+E[01:52:15.650] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/codegen_language_extensions.h: '/home/anton/tmp/build/.cache/clangd/index/codegen_language_extensions.h.F41D7C8B59BDFFEC.idx': Not a directory
+E[01:52:15.650] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/intrinsics_codegen.inl.h: '/home/anton/tmp/build/.cache/clangd/index/intrinsics_codegen.inl.h.ECAE590F61ED3F5F.idx': Not a directory
+E[01:52:15.650] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/deoptimize_elimination_call_visitors.inl: '/home/anton/tmp/build/.cache/clangd/index/deoptimize_elimination_call_visitors.inl.CA1C2A51B0DDE1BC.idx': Not a directory
+E[01:52:15.650] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/create_pipeline.inl: '/home/anton/tmp/build/.cache/clangd/index/create_pipeline.inl.DEDD2255697EBE5C.idx': Not a directory
+E[01:52:15.651] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/intrinsics_codegen_ext.inl.h: '/home/anton/tmp/build/.cache/clangd/index/intrinsics_codegen_ext.inl.h.15945C0AB0BB227C.idx': Not a directory
+E[01:52:15.651] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/intrinsics_peephole.inl.h: '/home/anton/tmp/build/.cache/clangd/index/intrinsics_peephole.inl.h.9DB5A0FEF0456654.idx': Not a directory
+E[01:52:15.652] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/pipeline_includes.h: '/home/anton/tmp/build/.cache/clangd/index/pipeline_includes.h.CF747E085DFA6FEC.idx': Not a directory
+I[01:52:15.661] --> $/progress
+I[01:52:15.661] --> $/progress
+I[01:52:15.938] <-- textDocument/didChange
+I[01:52:15.938] --> textDocument/clangd.fileStatus
+I[01:52:15.969] <-- textDocument/didChange
+I[01:52:15.970] --> textDocument/clangd.fileStatus
+I[01:52:16.171] <-- textDocument/foldingRange(74)
+I[01:52:16.172] --> reply:textDocument/foldingRange(74) 1 ms
+I[01:52:16.288] ASTWorker building file /home/anton/tmp/my-llvm-pass/src/heap_alloc_sink.cpp version 19 with command 
+[/home/anton/dev/cpp/my-llvm-pass/build]
+/usr/bin/c++ --driver-mode=g++ -DMemOpt_EXPORTS -isystem //include -g -g -std=gnu++17 -fPIC -fdiagnostics-color=always -o CMakeFiles/MemOpt.dir/src/heap_alloc_sink.cpp.o -c -resource-dir=/usr/lib/clang/18 -- /home/anton/tmp/my-llvm-pass/src/heap_alloc_sink.cpp
+I[01:52:16.289] --> textDocument/clangd.fileStatus
+I[01:52:16.360] <-- textDocument/documentSymbol(75)
+I[01:52:16.542] --> textDocument/publishDiagnostics
+I[01:52:16.542] --> textDocument/inactiveRegions
+I[01:52:16.545] --> reply:textDocument/documentSymbol(75) 184 ms
+I[01:52:16.545] --> textDocument/clangd.fileStatus
+I[01:52:16.604] <-- textDocument/codeAction(76)
+I[01:52:16.604] --> reply:textDocument/codeAction(76) 0 ms
+I[01:52:16.604] --> textDocument/clangd.fileStatus
+I[01:52:16.631] <-- textDocument/didChange
+I[01:52:16.631] --> textDocument/clangd.fileStatus
+I[01:52:16.830] <-- textDocument/foldingRange(77)
+I[01:52:16.832] --> reply:textDocument/foldingRange(77) 1 ms
+I[01:52:16.917] ASTWorker building file /home/anton/tmp/my-llvm-pass/src/heap_alloc_sink.cpp version 20 with command 
+[/home/anton/dev/cpp/my-llvm-pass/build]
+/usr/bin/c++ --driver-mode=g++ -DMemOpt_EXPORTS -isystem //include -g -g -std=gnu++17 -fPIC -fdiagnostics-color=always -o CMakeFiles/MemOpt.dir/src/heap_alloc_sink.cpp.o -c -resource-dir=/usr/lib/clang/18 -- /home/anton/tmp/my-llvm-pass/src/heap_alloc_sink.cpp
+I[01:52:16.919] --> textDocument/clangd.fileStatus
+I[01:52:16.985] <-- textDocument/documentSymbol(78)
+I[01:52:17.021] <-- textDocument/codeAction(79)
+I[01:52:17.146] <-- textDocument/semanticTokens/full/delta(80)
+I[01:52:17.202] --> textDocument/publishDiagnostics
+I[01:52:17.202] --> textDocument/inactiveRegions
+I[01:52:17.205] --> reply:textDocument/documentSymbol(78) 219 ms
+I[01:52:17.205] --> reply:textDocument/codeAction(79) 183 ms
+I[01:52:17.206] --> reply:textDocument/semanticTokens/full/delta(80) 60 ms
+I[01:52:17.206] --> textDocument/clangd.fileStatus
+I[01:52:17.880] <-- textDocument/inlayHint(81)
+I[01:52:17.882] --> reply:textDocument/inlayHint(81) 1 ms
+I[01:52:17.882] --> textDocument/clangd.fileStatus
+I[01:52:18.055] <-- textDocument/documentHighlight(82)
+I[01:52:18.055] --> reply:textDocument/documentHighlight(82) 0 ms
+I[01:52:18.055] --> textDocument/clangd.fileStatus
+I[01:52:18.216] <-- textDocument/didChange
+I[01:52:18.216] --> textDocument/clangd.fileStatus
+I[01:52:18.421] <-- textDocument/foldingRange(83)
+I[01:52:18.423] --> reply:textDocument/foldingRange(83) 1 ms
+I[01:52:18.427] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/libpandafile/tests/bytecode_emitter_tests.cpp (2926 symbols, 76618 refs, 447 files)
+I[01:52:18.501] ASTWorker building file /home/anton/tmp/my-llvm-pass/src/heap_alloc_sink.cpp version 21 with command 
+[/home/anton/dev/cpp/my-llvm-pass/build]
+/usr/bin/c++ --driver-mode=g++ -DMemOpt_EXPORTS -isystem //include -g -g -std=gnu++17 -fPIC -fdiagnostics-color=always -o CMakeFiles/MemOpt.dir/src/heap_alloc_sink.cpp.o -c -resource-dir=/usr/lib/clang/18 -- /home/anton/tmp/my-llvm-pass/src/heap_alloc_sink.cpp
+I[01:52:18.502] --> textDocument/clangd.fileStatus
+I[01:52:18.516] <-- textDocument/semanticTokens/full/delta(84)
+I[01:52:18.542] <-- textDocument/codeAction(85)
+E[01:52:18.552] Failed to write background-index shard for file /home/anton/tmp/build/libpandafile/include/tests/bytecode_emitter_tests_gen.h: '/home/anton/tmp/build/.cache/clangd/index/bytecode_emitter_tests_gen.h.2A0F787D9F8E2BCC.idx': Not a directory
+I[01:52:18.564] --> $/progress
+I[01:52:18.565] --> $/progress
+I[01:52:18.602] <-- textDocument/documentSymbol(86)
+I[01:52:18.734] --> textDocument/publishDiagnostics
+I[01:52:18.734] --> textDocument/inactiveRegions
+I[01:52:18.738] --> reply:textDocument/semanticTokens/full/delta(84) 221 ms
+I[01:52:18.738] --> reply:textDocument/codeAction(85) 195 ms
+I[01:52:18.739] --> reply:textDocument/documentSymbol(86) 137 ms
+I[01:52:18.739] --> textDocument/clangd.fileStatus
+I[01:52:18.851] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/third_party/openssl/crypto/cms/cms_dd.c (0 symbols, 14081 refs, 160 files)
+I[01:52:18.855] --> $/progress
+I[01:52:18.855] --> $/progress
+I[01:52:19.408] <-- textDocument/didChange
+I[01:52:19.411] --> textDocument/clangd.fileStatus
+I[01:52:19.415] <-- textDocument/didChange
+I[01:52:19.415] --> textDocument/clangd.fileStatus
+I[01:52:19.482] <-- textDocument/codeAction(87)
+I[01:52:19.489] ASTWorker building file /home/anton/tmp/my-llvm-pass/src/heap_alloc_sink.cpp version 23 with command 
+[/home/anton/dev/cpp/my-llvm-pass/build]
+/usr/bin/c++ --driver-mode=g++ -DMemOpt_EXPORTS -isystem //include -g -g -std=gnu++17 -fPIC -fdiagnostics-color=always -o CMakeFiles/MemOpt.dir/src/heap_alloc_sink.cpp.o -c -resource-dir=/usr/lib/clang/18 -- /home/anton/tmp/my-llvm-pass/src/heap_alloc_sink.cpp
+I[01:52:19.495] --> textDocument/clangd.fileStatus
+I[01:52:19.620] <-- textDocument/foldingRange(88)
+I[01:52:19.625] --> reply:textDocument/foldingRange(88) 5 ms
+I[01:52:19.709] <-- textDocument/semanticTokens/full/delta(89)
+I[01:52:19.744] <-- textDocument/codeAction(90)
+I[01:52:19.745] <-- $/cancelRequest
+I[01:52:19.784] <-- textDocument/documentSymbol(91)
+I[01:52:19.807] --> textDocument/publishDiagnostics
+I[01:52:19.807] --> textDocument/inactiveRegions
+I[01:52:19.810] --> reply:textDocument/codeAction(87) 327 ms, error: Task was cancelled.
+[Error - 1:52:19 AM] Request textDocument/codeAction failed.
+[object Object]
+I[01:52:19.811] --> reply:textDocument/semanticTokens/full/delta(89) 102 ms
+I[01:52:19.811] --> reply:textDocument/codeAction(90) 67 ms
+I[01:52:19.812] --> reply:textDocument/documentSymbol(91) 27 ms
+I[01:52:19.812] --> textDocument/clangd.fileStatus
+I[01:52:20.192] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/irtoc/backend/compiler/codegen_fastpath.cpp (0 symbols, 20768 refs, 709 files)
+E[01:52:20.201] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/codegen_language_extensions.h: '/home/anton/tmp/build/.cache/clangd/index/codegen_language_extensions.h.F41D7C8B59BDFFEC.idx': Not a directory
+E[01:52:20.201] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/intrinsics_codegen.inl.h: '/home/anton/tmp/build/.cache/clangd/index/intrinsics_codegen.inl.h.ECAE590F61ED3F5F.idx': Not a directory
+E[01:52:20.201] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/intrinsics_codegen_ext.inl.h: '/home/anton/tmp/build/.cache/clangd/index/intrinsics_codegen_ext.inl.h.15945C0AB0BB227C.idx': Not a directory
+I[01:52:20.210] --> $/progress
+I[01:52:20.210] --> $/progress
+I[01:52:20.470] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/verification/jobs/job.cpp (3 symbols, 20955 refs, 752 files)
+E[01:52:20.479] Failed to write background-index shard for file /home/anton/tmp/build/verification/gen/include/job_fill_gen.h: '/home/anton/tmp/build/.cache/clangd/index/job_fill_gen.h.E9CBD2C3A4D7ED92.idx': Not a directory
+I[01:52:20.487] --> $/progress
+I[01:52:20.487] --> $/progress
+I[01:52:20.670] <-- textDocument/inlayHint(92)
+I[01:52:20.671] --> reply:textDocument/inlayHint(92) 1 ms
+I[01:52:20.671] --> textDocument/clangd.fileStatus
+I[01:52:20.685] <-- textDocument/didChange
+I[01:52:20.685] --> textDocument/clangd.fileStatus
+I[01:52:20.692] <-- textDocument/didChange
+I[01:52:20.692] --> textDocument/clangd.fileStatus
+I[01:52:20.892] <-- textDocument/foldingRange(93)
+I[01:52:20.893] --> reply:textDocument/foldingRange(93) 1 ms
+I[01:52:20.946] <-- textDocument/codeAction(94)
+I[01:52:20.952] ASTWorker building file /home/anton/tmp/my-llvm-pass/src/heap_alloc_sink.cpp version 25 with command 
+[/home/anton/dev/cpp/my-llvm-pass/build]
+/usr/bin/c++ --driver-mode=g++ -DMemOpt_EXPORTS -isystem //include -g -g -std=gnu++17 -fPIC -fdiagnostics-color=always -o CMakeFiles/MemOpt.dir/src/heap_alloc_sink.cpp.o -c -resource-dir=/usr/lib/clang/18 -- /home/anton/tmp/my-llvm-pass/src/heap_alloc_sink.cpp
+I[01:52:20.953] --> textDocument/clangd.fileStatus
+I[01:52:20.981] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/bytecode_optimizer/reg_encoder.cpp (0 symbols, 20695 refs, 693 files)
+I[01:52:20.986] <-- textDocument/semanticTokens/full/delta(95)
+E[01:52:20.989] Failed to write background-index shard for file /home/anton/tmp/build/bytecode_optimizer/generated/check_width.cpp: '/home/anton/tmp/build/.cache/clangd/index/check_width.cpp.D1A809465F3EFF69.idx': Not a directory
+E[01:52:20.990] Failed to write background-index shard for file /home/anton/tmp/build/bytecode_optimizer/generated/check_width.h: '/home/anton/tmp/build/.cache/clangd/index/check_width.h.FFC98D70CAECA419.idx': Not a directory
+E[01:52:20.990] Failed to write background-index shard for file /home/anton/tmp/build/bytecode_optimizer/generated/reg_encoder_visitors.inc: '/home/anton/tmp/build/.cache/clangd/index/reg_encoder_visitors.inc.64DC8C07D762DA18.idx': Not a directory
+I[01:52:21.001] --> $/progress
+I[01:52:21.001] --> $/progress
+I[01:52:21.053] <-- textDocument/documentSymbol(96)
+I[01:52:21.238] --> textDocument/publishDiagnostics
+I[01:52:21.238] --> textDocument/inactiveRegions
+I[01:52:21.240] --> reply:textDocument/codeAction(94) 293 ms
+I[01:52:21.241] --> reply:textDocument/semanticTokens/full/delta(95) 255 ms
+I[01:52:21.242] --> reply:textDocument/documentSymbol(96) 189 ms
+I[01:52:21.242] --> textDocument/clangd.fileStatus
+I[01:52:21.882] <-- textDocument/codeAction(97)
+I[01:52:21.882] --> reply:textDocument/codeAction(97) 0 ms
+I[01:52:21.882] --> textDocument/clangd.fileStatus
+I[01:52:21.943] <-- textDocument/inlayHint(98)
+I[01:52:21.944] --> reply:textDocument/inlayHint(98) 0 ms
+I[01:52:21.944] --> textDocument/clangd.fileStatus
+I[01:52:22.562] <-- textDocument/codeAction(99)
+I[01:52:22.562] --> reply:textDocument/codeAction(99) 0 ms
+I[01:52:22.562] --> textDocument/clangd.fileStatus
+I[01:52:22.777] <-- textDocument/documentHighlight(100)
+I[01:52:22.778] --> reply:textDocument/documentHighlight(100) 1 ms
+I[01:52:22.778] --> textDocument/clangd.fileStatus
+I[01:52:22.782] <-- textDocument/documentHighlight(101)
+I[01:52:22.784] --> reply:textDocument/documentHighlight(101) 1 ms
+I[01:52:22.784] --> textDocument/clangd.fileStatus
+I[01:52:22.861] <-- textDocument/documentHighlight(102)
+I[01:52:22.862] --> reply:textDocument/documentHighlight(102) 1 ms
+I[01:52:22.862] --> textDocument/clangd.fileStatus
+I[01:52:22.888] <-- textDocument/documentHighlight(103)
+I[01:52:22.889] --> reply:textDocument/documentHighlight(103) 1 ms
+I[01:52:22.889] --> textDocument/clangd.fileStatus
+I[01:52:22.916] <-- textDocument/documentHighlight(104)
+I[01:52:22.918] --> reply:textDocument/documentHighlight(104) 1 ms
+I[01:52:22.918] --> textDocument/clangd.fileStatus
+I[01:52:22.922] <-- textDocument/documentHighlight(105)
+I[01:52:22.922] --> reply:textDocument/documentHighlight(105) 0 ms
+I[01:52:22.922] --> textDocument/clangd.fileStatus
+I[01:52:22.946] <-- textDocument/documentHighlight(106)
+I[01:52:22.946] --> reply:textDocument/documentHighlight(106) 0 ms
+I[01:52:22.946] --> textDocument/clangd.fileStatus
+I[01:52:22.957] <-- textDocument/documentHighlight(107)
+I[01:52:22.958] --> reply:textDocument/documentHighlight(107) 1 ms
+I[01:52:22.959] --> textDocument/clangd.fileStatus
+I[01:52:23.203] <-- textDocument/codeAction(108)
+I[01:52:23.203] --> reply:textDocument/codeAction(108) 0 ms
+I[01:52:23.203] --> textDocument/clangd.fileStatus
+I[01:52:23.508] <-- textDocument/hover(109)
+I[01:52:23.513] --> reply:textDocument/hover(109) 4 ms
+I[01:52:23.513] --> textDocument/clangd.fileStatus
+I[01:52:23.980] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/tools/es2panda/varbinder/ETSBinder.cpp (453 symbols, 19829 refs, 574 files)
+I[01:52:23.980] Failed to compile /home/anton/tmp/pass-test/runtime_core/static_core/tools/es2panda/varbinder/ETSBinder.cpp, index may be incomplete
+E[01:52:23.987] Failed to write background-index shard for file /home/anton/tmp/build/tools/es2panda/generated/signatures.h: '/home/anton/tmp/build/.cache/clangd/index/signatures.h.1F194077E7F52828.idx': Not a directory
+I[01:52:23.997] --> $/progress
+I[01:52:23.997] --> $/progress
+I[01:52:24.222] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/compiler/optimizer/code_generator/codegen.cpp (0 symbols, 21039 refs, 717 files)
+E[01:52:24.228] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/intrinsics_codegen.inl: '/home/anton/tmp/build/.cache/clangd/index/intrinsics_codegen.inl.83267636766EA251.idx': Not a directory
+I[01:52:24.237] --> $/progress
+I[01:52:24.237] --> $/progress
+I[01:52:24.259] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/third_party/openssl/crypto/store/store_result.c (80 symbols, 14877 refs, 191 files)
+E[01:52:24.263] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/include/openssl/ui.h: '/home/anton/tmp/build/.cache/clangd/index/ui.h.24282C7CEA74FACC.idx': Not a directory
+I[01:52:24.267] --> $/progress
+I[01:52:24.267] --> $/progress
+I[01:52:24.478] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/third_party/openssl/crypto/cmp/cmp_protect.c (294 symbols, 15089 refs, 166 files)
+E[01:52:24.481] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/include/openssl/crmf.h: '/home/anton/tmp/build/.cache/clangd/index/crmf.h.1DD0323DA9666FA6.idx': Not a directory
+E[01:52:24.482] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/include/openssl/cmp.h: '/home/anton/tmp/build/.cache/clangd/index/cmp.h.D9C7F9B36E82D640.idx': Not a directory
+I[01:52:24.483] --> $/progress
+I[01:52:24.483] --> $/progress
+I[01:52:24.497] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/runtime/bridge/arch/amd64/compiled_code_to_runtime_bridge_amd64.S (0 symbols, 347 refs, 7 files)
+I[01:52:24.497] Failed to compile /home/anton/tmp/pass-test/runtime_core/static_core/runtime/bridge/arch/amd64/compiled_code_to_runtime_bridge_amd64.S, index may be incomplete
+E[01:52:24.498] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/entrypoints_bridge_asm_macro.inl: '/home/anton/tmp/build/.cache/clangd/index/entrypoints_bridge_asm_macro.inl.CB66A21F483A3B57.idx': Not a directory
+E[01:52:24.498] Failed to write background-index shard for file /home/anton/tmp/build/runtime/include/entrypoints_gen.S: '/home/anton/tmp/build/.cache/clangd/index/entrypoints_gen.S.FA762113E1F789A2.idx': Not a directory
+I[01:52:24.499] --> $/progress
+I[01:52:24.499] --> $/progress
+I[01:52:24.696] <-- textDocument/documentLink(110)
+I[01:52:24.697] --> reply:textDocument/documentLink(110) 0 ms
+I[01:52:24.697] --> textDocument/clangd.fileStatus
+I[01:52:25.651] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/tools/es2panda/ir/base/templateElement.cpp (3365 symbols, 41213 refs, 770 files)
+E[01:52:25.681] Failed to write background-index shard for file /home/anton/tmp/build/tools/es2panda/generated/signatures.h: '/home/anton/tmp/build/.cache/clangd/index/signatures.h.1F194077E7F52828.idx': Not a directory
+E[01:52:25.687] Failed to write background-index shard for file /home/anton/tmp/build/tools/es2panda/generated/formats.h: '/home/anton/tmp/build/.cache/clangd/index/formats.h.7CD631E20C21FAF0.idx': Not a directory
+E[01:52:25.713] Failed to write background-index shard for file /home/anton/tmp/build/tools/es2panda/generated/isa.h: '/home/anton/tmp/build/.cache/clangd/index/isa.h.01EA26276454052F.idx': Not a directory
+I[01:52:25.722] --> $/progress
+I[01:52:25.722] --> $/progress
+I[01:52:26.295] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/tools/es2panda/lexer/ETSLexer.cpp (1350 symbols, 37023 refs, 441 files)
+E[01:52:26.326] Failed to write background-index shard for file /home/anton/tmp/build/tools/es2panda/generated/keywords.h: '/home/anton/tmp/build/.cache/clangd/index/keywords.h.9457B7B8582A7E8A.idx': Not a directory
+I[01:52:26.335] --> $/progress
+I[01:52:26.336] --> $/progress
+I[01:52:26.524] <-- textDocument/documentHighlight(111)
+I[01:52:26.525] --> reply:textDocument/documentHighlight(111) 1 ms
+I[01:52:26.525] --> textDocument/clangd.fileStatus
+I[01:52:26.745] <-- textDocument/documentHighlight(112)
+I[01:52:26.747] --> reply:textDocument/documentHighlight(112) 1 ms
+I[01:52:26.747] --> textDocument/clangd.fileStatus
+I[01:52:26.995] <-- textDocument/codeAction(113)
+I[01:52:26.996] --> reply:textDocument/codeAction(113) 0 ms
+I[01:52:26.996] --> textDocument/clangd.fileStatus
+I[01:52:27.202] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/libpandabase/utils/logger.cpp (52 symbols, 14412 refs, 360 files)
+E[01:52:27.205] Failed to write background-index shard for file /home/anton/tmp/build/libpandabase/panda_gen_options/generated/base_options.h: '/home/anton/tmp/build/.cache/clangd/index/base_options.h.91B838D710C36923.idx': Not a directory
+E[01:52:27.205] Failed to write background-index shard for file /home/anton/tmp/build/libpandabase/generated/logger_impl_gen.inc: '/home/anton/tmp/build/.cache/clangd/index/logger_impl_gen.inc.CD1DFD31646B5539.idx': Not a directory
+I[01:52:27.208] --> $/progress
+I[01:52:27.208] --> $/progress
+I[01:52:27.319] <-- textDocument/documentSymbol(114)
+I[01:52:27.319] --> reply:textDocument/documentSymbol(114) 0 ms
+I[01:52:27.320] --> textDocument/clangd.fileStatus
+I[01:52:27.385] <-- textDocument/hover(115)
+I[01:52:27.387] --> reply:textDocument/hover(115) 1 ms
+I[01:52:27.388] --> textDocument/clangd.fileStatus
+I[01:52:27.540] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/disassembler/disassembler.cpp (3 symbols, 16682 refs, 499 files)
+E[01:52:27.547] Failed to write background-index shard for file /home/anton/tmp/build/disassembler/get_language_specific_metadata.inc: '/home/anton/tmp/build/.cache/clangd/index/get_language_specific_metadata.inc.110614FAA7DCC9B8.idx': Not a directory
+E[01:52:27.548] Failed to write background-index shard for file /home/anton/tmp/build/runtime/profiling/generated/find_method_in_profile.h: '/home/anton/tmp/build/.cache/clangd/index/find_method_in_profile.h.975000484A27CEC3.idx': Not a directory
+E[01:52:27.548] Failed to write background-index shard for file /home/anton/tmp/build/runtime/profiling/generated/destroy_profile.h: '/home/anton/tmp/build/.cache/clangd/index/destroy_profile.h.4CB4AB2999E1135A.idx': Not a directory
+E[01:52:27.549] Failed to write background-index shard for file /home/anton/tmp/build/runtime/profiling/generated/read_profile.h: '/home/anton/tmp/build/.cache/clangd/index/read_profile.h.7C1A3752EAE39F39.idx': Not a directory
+E[01:52:27.549] Failed to write background-index shard for file /home/anton/tmp/build/runtime/profiling/generated/profiling_includes_disasm.h: '/home/anton/tmp/build/.cache/clangd/index/profiling_includes_disasm.h.9B59636C0867BDA0.idx': Not a directory
+E[01:52:27.549] Failed to write background-index shard for file /home/anton/tmp/build/runtime/profiling/generated/dump_profile.h: '/home/anton/tmp/build/.cache/clangd/index/dump_profile.h.EC0FFD7712FAD592.idx': Not a directory
+E[01:52:27.550] Failed to write background-index shard for file /home/anton/tmp/build/disassembler/disasm_plugins.inc: '/home/anton/tmp/build/.cache/clangd/index/disasm_plugins.inc.B56BA73A70998F43.idx': Not a directory
+I[01:52:27.558] --> $/progress
+I[01:52:27.558] --> $/progress
+I[01:52:27.606] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/verification/absint/absint.cpp (176 symbols, 30782 refs, 754 files)
+E[01:52:27.619] Failed to write background-index shard for file /home/anton/tmp/build/verification/gen/include/handle_gen.h: '/home/anton/tmp/build/.cache/clangd/index/handle_gen.h.75DFACC050CEAEDC.idx': Not a directory
+E[01:52:27.619] Failed to write background-index shard for file /home/anton/tmp/build/verification/gen/include/abs_int_inl_gen.h: '/home/anton/tmp/build/.cache/clangd/index/abs_int_inl_gen.h.428FC641803AD46B.idx': Not a directory
+I[01:52:27.624] --> $/progress
+I[01:52:27.625] --> $/progress
+I[01:52:27.983] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/third_party/openssl/crypto/ts/ts_rsp_print.c (55 symbols, 13678 refs, 159 files)
+E[01:52:27.989] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/include/openssl/ess.h: '/home/anton/tmp/build/.cache/clangd/index/ess.h.F70C100C49242AA5.idx': Not a directory
+I[01:52:27.990] --> $/progress
+I[01:52:27.991] --> $/progress
+I[01:52:30.807] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/bytecode_optimizer/runtime_adapter.cpp (0 symbols, 19828 refs, 652 files)
+E[01:52:30.816] Failed to write background-index shard for file /home/anton/tmp/build/bytecode_optimizer/generated/get_intrinsic_id.inc: '/home/anton/tmp/build/.cache/clangd/index/get_intrinsic_id.inc.1C329A8B142B1F1B.idx': Not a directory
+I[01:52:30.824] --> $/progress
+I[01:52:30.824] --> $/progress
+I[01:52:31.086] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/third_party/openssl/crypto/ct/ct_sct.c (99 symbols, 14571 refs, 157 files)
+E[01:52:31.094] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/include/openssl/ct.h: '/home/anton/tmp/build/.cache/clangd/index/ct.h.7F7CD23D6293A9F6.idx': Not a directory
+I[01:52:31.096] --> $/progress
+I[01:52:31.096] --> $/progress
+I[01:52:31.149] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/compiler/tools/paoc/paoc_llvm.cpp (600 symbols, 27215 refs, 777 files)
+I[01:52:31.149] Failed to compile /home/anton/tmp/pass-test/runtime_core/static_core/compiler/tools/paoc/paoc_llvm.cpp, index may be incomplete
+E[01:52:31.161] Failed to write background-index shard for file /home/anton/tmp/build/libllvmbackend/generated/llvm_options_gen.h: '/home/anton/tmp/build/.cache/clangd/index/llvm_options_gen.h.8D150D9A0964A5BF.idx': Not a directory
+E[01:52:31.161] Failed to write background-index shard for file /home/anton/tmp/build/compiler/ark_aot/generated/paoc_options.h: '/home/anton/tmp/build/.cache/clangd/index/paoc_options.h.78D4AE3420F18428.idx': Not a directory
+I[01:52:31.173] --> $/progress
+I[01:52:31.173] --> $/progress
+I[01:52:31.182] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/runtime/bridge/arch/amd64/interpreter_to_compiled_code_bridge_dyn_amd64.S (0 symbols, 248 refs, 5 files)
+I[01:52:31.182] Failed to compile /home/anton/tmp/pass-test/runtime_core/static_core/runtime/bridge/arch/amd64/interpreter_to_compiled_code_bridge_dyn_amd64.S, index may be incomplete
+E[01:52:31.182] Failed to write background-index shard for file /home/anton/tmp/build/runtime/include/bridge_dispatch_dyn_amd64.S: '/home/anton/tmp/build/.cache/clangd/index/bridge_dispatch_dyn_amd64.S.3E5C28976C831316.idx': Not a directory
+I[01:52:31.183] --> $/progress
+I[01:52:31.183] --> $/progress
+I[01:52:31.475] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/third_party/openssl/crypto/passphrase.c (0 symbols, 13309 refs, 158 files)
+I[01:52:31.482] --> $/progress
+I[01:52:31.482] --> $/progress
+I[01:52:33.977] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/compiler/optimizer/ir/graph_checker.cpp (184 symbols, 30052 refs, 699 files)
+E[01:52:33.994] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/inst_checker_gen.h: '/home/anton/tmp/build/.cache/clangd/index/inst_checker_gen.h.CFAB1A3DE4E97293.idx': Not a directory
+E[01:52:33.994] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/intrinsics_graph_checker.inl: '/home/anton/tmp/build/.cache/clangd/index/intrinsics_graph_checker.inl.E465CC1149E7D2FC.idx': Not a directory
+I[01:52:34.003] --> $/progress
+I[01:52:34.004] --> $/progress
+I[01:52:34.005] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/assembler/meta.cpp (0 symbols, 16441 refs, 443 files)
+E[01:52:34.013] Failed to write background-index shard for file /home/anton/tmp/build/assembler/meta_gen.h: '/home/anton/tmp/build/.cache/clangd/index/meta_gen.h.FA057966B02B069B.idx': Not a directory
+I[01:52:34.018] --> $/progress
+I[01:52:34.018] --> $/progress
+I[01:52:35.402] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/libllvmbackend/lowering/llvm_ir_constructor.cpp (106 symbols, 23799 refs, 897 files)
+E[01:52:35.412] Failed to write background-index shard for file /home/anton/tmp/build/libllvmbackend/generated/llvm_options_gen.h: '/home/anton/tmp/build/.cache/clangd/index/llvm_options_gen.h.8D150D9A0964A5BF.idx': Not a directory
+E[01:52:35.413] Failed to write background-index shard for file /home/anton/tmp/build/libllvmbackend/generated/llvm_ir_constructor_gen.inl: '/home/anton/tmp/build/.cache/clangd/index/llvm_ir_constructor_gen.inl.238BF71F46CBA6C9.idx': Not a directory
+E[01:52:35.413] Failed to write background-index shard for file /home/anton/tmp/build/libllvmbackend/generated/llvm_logger_components.inc: '/home/anton/tmp/build/.cache/clangd/index/llvm_logger_components.inc.C58539B969D00C04.idx': Not a directory
+E[01:52:35.413] Failed to write background-index shard for file /home/anton/tmp/build/libllvmbackend/generated/can_compile_intrinsics_gen.inl: '/home/anton/tmp/build/.cache/clangd/index/can_compile_intrinsics_gen.inl.CBC3AF8FD86C8E91.idx': Not a directory
+E[01:52:35.413] Failed to write background-index shard for file /home/anton/tmp/build/libllvmbackend/generated/emit_intrinsic_llvm_ir_constructor_gen.inl: '/home/anton/tmp/build/.cache/clangd/index/emit_intrinsic_llvm_ir_constructor_gen.inl.A4346733AE9EADAE.idx': Not a directory
+E[01:52:35.413] Failed to write background-index shard for file /home/anton/tmp/build/libllvmbackend/generated/intrinsics_llvm_codegen.inl: '/home/anton/tmp/build/.cache/clangd/index/intrinsics_llvm_codegen.inl.DD89D551A8A5097D.idx': Not a directory
+E[01:52:35.413] Failed to write background-index shard for file /home/anton/tmp/build/libllvmbackend/generated/llvm_ir_constructor_gen.h.inl: '/home/anton/tmp/build/.cache/clangd/index/llvm_ir_constructor_gen.h.inl.23A1ECB0C8F74057.idx': Not a directory
+E[01:52:35.413] Failed to write background-index shard for file /home/anton/tmp/build/libllvmbackend/generated/get_intrinsic_id_llvm_ark_interface_gen.h.inl: '/home/anton/tmp/build/.cache/clangd/index/get_intrinsic_id_llvm_ark_interface_gen.h.inl.70DF1E107E9D79EB.idx': Not a directory
+E[01:52:35.413] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/intrinsics_ir_build.inl: '/home/anton/tmp/build/.cache/clangd/index/intrinsics_ir_build.inl.4B17470609D3310E.idx': Not a directory
+I[01:52:35.421] --> $/progress
+I[01:52:35.422] --> $/progress
+I[01:52:37.761] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/libllvmbackend/llvm_ark_interface.cpp (454 symbols, 37929 refs, 828 files)
+I[01:52:37.761] Failed to compile /home/anton/tmp/pass-test/runtime_core/static_core/libllvmbackend/llvm_ark_interface.cpp, index may be incomplete
+E[01:52:37.772] Failed to write background-index shard for file /home/anton/tmp/build/libllvmbackend/generated/get_intrinsic_id_llvm_ark_interface_gen.h.inl: '/home/anton/tmp/build/.cache/clangd/index/get_intrinsic_id_llvm_ark_interface_gen.h.inl.70DF1E107E9D79EB.idx': Not a directory
+E[01:52:37.773] Failed to write background-index shard for file /home/anton/tmp/build/libllvmbackend/generated/entrypoints_gen.inl: '/home/anton/tmp/build/.cache/clangd/index/entrypoints_gen.inl.0122ABAEE357DA2C.idx': Not a directory
+E[01:52:37.773] Failed to write background-index shard for file /home/anton/tmp/build/libllvmbackend/generated/get_intrinsic_id_llvm_ark_interface_gen.inl: '/home/anton/tmp/build/.cache/clangd/index/get_intrinsic_id_llvm_ark_interface_gen.inl.9BA9A34B34B0FB48.idx': Not a directory
+E[01:52:37.773] Failed to write background-index shard for file /home/anton/tmp/build/libllvmbackend/generated/llvm_logger_components.inc: '/home/anton/tmp/build/.cache/clangd/index/llvm_logger_components.inc.C58539B969D00C04.idx': Not a directory
+E[01:52:37.776] Failed to write background-index shard for file /home/anton/tmp/build/libllvmbackend/generated/intrinsics_gen.inl: '/home/anton/tmp/build/.cache/clangd/index/intrinsics_gen.inl.B17E5C14488ADAB3.idx': Not a directory
+E[01:52:37.777] Failed to write background-index shard for file /home/anton/tmp/build/libllvmbackend/generated/intrinsic_names_gen.inl: '/home/anton/tmp/build/.cache/clangd/index/intrinsic_names_gen.inl.EDAFE04BE28F3C3D.idx': Not a directory
+E[01:52:37.778] Failed to write background-index shard for file /home/anton/tmp/build/libllvmbackend/generated/entrypoints_llvm_ark_interface_gen.inl: '/home/anton/tmp/build/.cache/clangd/index/entrypoints_llvm_ark_interface_gen.inl.2FD8AF4001337855.idx': Not a directory
+I[01:52:37.784] --> $/progress
+I[01:52:37.785] --> $/progress
+I[01:52:38.320] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/compiler/optimizer/optimizations/lse.cpp (0 symbols, 20670 refs, 697 files)
+E[01:52:38.327] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/intrinsics_lse_heap_inv_args.inl: '/home/anton/tmp/build/.cache/clangd/index/intrinsics_lse_heap_inv_args.inl.BA6C1169054FB0A7.idx': Not a directory
+I[01:52:38.332] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/libllvmbackend/transforms/llvm_optimizer.cpp (30 symbols, 16699 refs, 561 files)
+I[01:52:38.337] --> $/progress
+I[01:52:38.337] --> $/progress
+E[01:52:38.340] Failed to write background-index shard for file /home/anton/tmp/build/libllvmbackend/generated/get_intrinsic_id_llvm_ark_interface_gen.h.inl: '/home/anton/tmp/build/.cache/clangd/index/get_intrinsic_id_llvm_ark_interface_gen.h.inl.70DF1E107E9D79EB.idx': Not a directory
+E[01:52:38.342] Failed to write background-index shard for file /home/anton/tmp/build/libllvmbackend/generated/llvm_passes.inl: '/home/anton/tmp/build/.cache/clangd/index/llvm_passes.inl.EC23C7B3AE2E3B62.idx': Not a directory
+E[01:52:38.342] Failed to write background-index shard for file /home/anton/tmp/build/libllvmbackend/generated/pipeline_irtoc_gen.inc: '/home/anton/tmp/build/.cache/clangd/index/pipeline_irtoc_gen.inc.C568C498EE17DCC9.idx': Not a directory
+E[01:52:38.342] Failed to write background-index shard for file /home/anton/tmp/build/libllvmbackend/generated/pipeline_gen.inc: '/home/anton/tmp/build/.cache/clangd/index/pipeline_gen.inc.2527DA1EBBAC4F0E.idx': Not a directory
+I[01:52:38.356] --> $/progress
+I[01:52:38.357] --> $/progress
+I[01:52:39.860] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/plugins/ets/tests/runtime/types/ets_string_builder_members_test.cpp (0 symbols, 21143 refs, 757 files)
+I[01:52:39.879] --> $/progress
+I[01:52:39.880] --> $/progress
+I[01:52:40.057] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/third_party/openssl/crypto/bn/bn_depr.c (0 symbols, 5526 refs, 131 files)
+I[01:52:40.061] --> $/progress
+I[01:52:40.061] --> $/progress
+I[01:52:40.114] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/plugins/ets/assembler/extension/ets_meta.cpp (0 symbols, 16430 refs, 444 files)
+E[01:52:40.120] Failed to write background-index shard for file /home/anton/tmp/build/assembler/ets_meta_gen.h: '/home/anton/tmp/build/.cache/clangd/index/ets_meta_gen.h.D899E23DE452CFD0.idx': Not a directory
+I[01:52:40.126] --> $/progress
+I[01:52:40.127] --> $/progress
+I[01:52:40.276] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/libpandafile/file_items.cpp (0 symbols, 16127 refs, 431 files)
+E[01:52:40.281] Failed to write background-index shard for file /home/anton/tmp/build/libpandafile/include/file_items_gen.inc: '/home/anton/tmp/build/.cache/clangd/index/file_items_gen.inc.31B821C7EDBE48DE.idx': Not a directory
+I[01:52:40.289] --> $/progress
+I[01:52:40.289] --> $/progress
+I[01:52:41.594] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/libllvmbackend/transforms/passes/gc_intrusion_check.cpp (0 symbols, 14136 refs, 444 files)
+E[01:52:41.603] Failed to write background-index shard for file /home/anton/tmp/build/libllvmbackend/generated/get_intrinsic_id_llvm_ark_interface_gen.h.inl: '/home/anton/tmp/build/.cache/clangd/index/get_intrinsic_id_llvm_ark_interface_gen.h.inl.70DF1E107E9D79EB.idx': Not a directory
+I[01:52:41.614] --> $/progress
+I[01:52:41.614] --> $/progress
+I[01:52:41.717] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/third_party/openssl/crypto/encode_decode/encoder_err.c (0 symbols, 4534 refs, 119 files)
+I[01:52:41.722] --> $/progress
+I[01:52:41.722] --> $/progress
+I[01:52:42.097] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/dprof/daemon/main.cpp (24 symbols, 15137 refs, 398 files)
+E[01:52:42.102] Failed to write background-index shard for file /home/anton/tmp/build/dprof/daemon/panda_gen_options/generated/daemon_options.h: '/home/anton/tmp/build/.cache/clangd/index/daemon_options.h.53247DF6F8C1ABC5.idx': Not a directory
+I[01:52:42.229] --> $/progress
+I[01:52:42.230] --> $/progress
+I[01:52:42.936] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/assembler/extensions/extensions.cpp (7 symbols, 16484 refs, 445 files)
+E[01:52:42.940] Failed to write background-index shard for file /home/anton/tmp/build/assembler/register_extensions.h: '/home/anton/tmp/build/.cache/clangd/index/register_extensions.h.F4636D3B29C5B880.idx': Not a directory
+I[01:52:42.945] --> $/progress
+I[01:52:42.946] --> $/progress
+I[01:52:43.090] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/third_party/openssl/providers/implementations/signature/sm2_sig.c (4 symbols, 12022 refs, 156 files)
+E[01:52:43.096] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/providers/common/include/prov/der_sm2.h: '/home/anton/tmp/build/.cache/clangd/index/der_sm2.h.94561BCD424EBE20.idx': Not a directory
+I[01:52:43.098] --> $/progress
+I[01:52:43.098] --> $/progress
+I[01:52:45.656] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/disassembler/tests/literals_test.cpp (0 symbols, 17468 refs, 526 files)
+I[01:52:45.676] --> $/progress
+I[01:52:45.676] --> $/progress
+I[01:52:48.151] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/irtoc/backend/compiler/tests/dangling_pointers_checker_test.cpp (133 symbols, 23534 refs, 826 files)
+E[01:52:48.159] Failed to write background-index shard for file /home/anton/tmp/build/libllvmbackend/generated/llvm_options_gen.h: '/home/anton/tmp/build/.cache/clangd/index/llvm_options_gen.h.8D150D9A0964A5BF.idx': Not a directory
+E[01:52:48.159] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/irtoc_interface_extensions.inl.h: '/home/anton/tmp/build/.cache/clangd/index/irtoc_interface_extensions.inl.h.F0C96087448E997C.idx': Not a directory
+E[01:52:48.160] Failed to write background-index shard for file /home/anton/tmp/build/irtoc/backend/panda_gen_options/generated/irtoc_options_gen.h: '/home/anton/tmp/build/.cache/clangd/index/irtoc_options_gen.h.A6C3A24FA8B5C5AE.idx': Not a directory
+E[01:52:48.160] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/irtoc_interface_extensions_includes.inl.h: '/home/anton/tmp/build/.cache/clangd/index/irtoc_interface_extensions_includes.inl.h.F0A87EF71A322DB5.idx': Not a directory
+I[01:52:48.169] --> $/progress
+I[01:52:48.169] --> $/progress
+I[01:52:48.177] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/runtime/bridge/arch/amd64/interpreter_to_compiled_code_bridge_amd64.S (0 symbols, 331 refs, 12 files)
+I[01:52:48.177] Failed to compile /home/anton/tmp/pass-test/runtime_core/static_core/runtime/bridge/arch/amd64/interpreter_to_compiled_code_bridge_amd64.S, index may be incomplete
+E[01:52:48.178] Failed to write background-index shard for file /home/anton/tmp/build/runtime/include/bridge_dispatch_amd64.S: '/home/anton/tmp/build/.cache/clangd/index/bridge_dispatch_amd64.S.5078956119CE7217.idx': Not a directory
+I[01:52:48.179] --> $/progress
+I[01:52:48.179] --> $/progress
+I[01:52:48.742] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/compiler/optimizer/optimizations/peepholes.cpp (0 symbols, 20781 refs, 702 files)
+E[01:52:48.750] Failed to write background-index shard for file /home/anton/tmp/build/compiler/generated/intrinsics_peephole.inl: '/home/anton/tmp/build/.cache/clangd/index/intrinsics_peephole.inl.5B9E04E0E576E069.idx': Not a directory
+I[01:52:48.757] --> $/progress
+I[01:52:48.757] --> $/progress
+I[01:52:49.565] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/dprof/converter/main.cpp (28 symbols, 14194 refs, 372 files)
+E[01:52:49.572] Failed to write background-index shard for file /home/anton/tmp/build/dprof/converter/panda_gen_options/generated/converter_options.h: '/home/anton/tmp/build/.cache/clangd/index/converter_options.h.5B071332407EF12E.idx': Not a directory
+I[01:52:49.574] --> $/progress
+I[01:52:49.574] --> $/progress
+I[01:52:49.864] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/bytecode_optimizer/tests/irbuilder_test.cpp (45 symbols, 22202 refs, 783 files)
+E[01:52:49.876] Failed to write background-index shard for file /home/anton/tmp/build/bytecode_optimizer/panda_gen_options/generated/bytecodeopt_options_gen.h: '/home/anton/tmp/build/.cache/clangd/index/bytecodeopt_options_gen.h.77F4A311C7A223D3.idx': Not a directory
+I[01:52:49.887] --> $/progress
+I[01:52:49.887] --> $/progress
+I[01:52:50.834] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/runtime/plugins.cpp (6 symbols, 19961 refs, 725 files)
+E[01:52:50.844] Failed to write background-index shard for file /home/anton/tmp/build/runtime/include/plugins.inc: '/home/anton/tmp/build/.cache/clangd/index/plugins.inc.2A7460636681FBD5.idx': Not a directory
+I[01:52:50.854] --> $/progress
+I[01:52:50.854] --> $/progress
+I[01:52:51.034] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/third_party/openssl/crypto/info.c (1 symbols, 11522 refs, 150 files)
+E[01:52:51.036] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/include/crypto/dso_conf.h: '/home/anton/tmp/build/.cache/clangd/index/dso_conf.h.A89763781E2E4BDA.idx': Not a directory
+E[01:52:51.036] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/crypto/buildinf.h: '/home/anton/tmp/build/.cache/clangd/index/buildinf.h.E9908030A6B005B6.idx': Not a directory
+I[01:52:51.038] --> $/progress
+I[01:52:51.038] --> $/progress
+I[01:52:51.231] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/third_party/openssl/providers/implementations/signature/rsa_sig.c (26 symbols, 12207 refs, 151 files)
+E[01:52:51.234] Failed to write background-index shard for file /home/anton/tmp/build/third_party/openssl/generated/linux-x86_64/providers/common/include/prov/der_rsa.h: '/home/anton/tmp/build/.cache/clangd/index/der_rsa.h.0BC41BAF9170C92F.idx': Not a directory
+I[01:52:51.236] --> $/progress
+I[01:52:51.237] --> $/progress
+I[01:52:51.827] Indexed /home/anton/tmp/pass-test/runtime_core/static_core/libpandafile/bytecode_emitter.cpp (0 symbols, 15048 refs, 422 files)
+E[01:52:51.833] Failed to write background-index shard for file /home/anton/tmp/build/libpandafile/include/bytecode_emitter_gen.h: '/home/anton/tmp/build/.cache/clangd/index/bytecode_emitter_gen.h.878E767ECE652818.idx': Not a directory
+I[01:52:51.837] --> $/progress
+I[01:52:51.837] --> $/progress

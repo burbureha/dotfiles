@@ -1,8 +1,0 @@
-{  
-        //"suggest.enablePreselect": false,
-        //"suggest.autoTrigger": "always",
-        //"suggest.triggerAfterInsertEnter": true,
-        "suggest.noselect": true,
-        "snippets.ultisnips.pythonPrompt": false,
-
-}

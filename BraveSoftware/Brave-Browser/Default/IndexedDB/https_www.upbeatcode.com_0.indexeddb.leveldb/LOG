@@ -1,6 +1,0 @@
-2024/04/23-16:32:24.352 bc8 Creating DB /home/anton/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.upbeatcode.com_0.indexeddb.leveldb since it was missing.
-2024/04/23-16:32:24.357 bc8 Reusing MANIFEST /home/anton/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.upbeatcode.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/04/23-16:33:05.099 bc8 Level-0 table #5: started
-2024/04/23-16:33:05.101 bc8 Level-0 table #5: 2202 bytes OK
-2024/04/23-16:33:05.105 bc8 Delete type=0 #3
-2024/04/23-16:33:05.106 bc8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

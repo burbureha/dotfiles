@@ -1,3 +1,0 @@
-2024/04/14-16:22:05.975 73a Creating DB /home/anton/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_rg.ru_0.indexeddb.leveldb since it was missing.
-2024/04/14-16:22:05.977 73a Reusing MANIFEST /home/anton/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_rg.ru_0.indexeddb.leveldb/MANIFEST-000001
-2024/04/14-16:22:05.982 74f Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

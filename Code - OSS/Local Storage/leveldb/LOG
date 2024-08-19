@@ -1,2 +1,3 @@
-2024/04/23-02:32:52.708 753a2 Creating DB /home/anton/.config/Code - OSS/Local Storage/leveldb since it was missing.
-2024/04/23-02:32:52.733 753a2 Reusing MANIFEST /home/anton/.config/Code - OSS/Local Storage/leveldb/MANIFEST-000001
+2024/08/02-01:51:38.123 11ba9 Reusing MANIFEST /home/anton/.config/Code - OSS/Local Storage/leveldb/MANIFEST-000001
+2024/08/02-01:51:38.136 11ba9 Recovering log #3
+2024/08/02-01:51:38.136 11ba9 Reusing old log /home/anton/.config/Code - OSS/Local Storage/leveldb/000003.log 

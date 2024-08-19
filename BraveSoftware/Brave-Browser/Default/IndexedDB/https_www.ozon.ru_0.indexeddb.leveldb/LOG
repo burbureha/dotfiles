@@ -1,7 +1,0 @@
-2024/04/17-03:16:05.886 36688 Reusing MANIFEST /home/anton/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.ozon.ru_0.indexeddb.leveldb/MANIFEST-000001
-2024/04/17-03:16:05.886 36688 Recovering log #3
-2024/04/17-03:16:05.887 36688 Reusing old log /home/anton/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.ozon.ru_0.indexeddb.leveldb/000003.log 
-2024/04/17-03:17:59.110 36689 Level-0 table #5: started
-2024/04/17-03:17:59.115 36689 Level-0 table #5: 30781 bytes OK
-2024/04/17-03:17:59.117 36689 Delete type=0 #3
-2024/04/17-03:17:59.117 36689 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
