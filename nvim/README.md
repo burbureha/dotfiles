@@ -48,3 +48,11 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 # Not sure that want to change
 [] When writing something shadow text appears, should decide whether I like it or not, definitely I should be able  to switch
 [] When completing I'm already on first completion, I want to press `TAB` to start completing, in other word hitting `TAB` once should get me to first completion item
+
+
+Error executing vim.schedule lua callback: /usr/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:309: /usr/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:102: Invalid buffer id: 116
+stack traceback:
+	[builtin#36]: at 0x7c4ef15d10f0
+	/usr/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:309: in function 'handler'
+	/usr/share/nvim/runtime/lua/vim/lsp/client.lua:687: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>

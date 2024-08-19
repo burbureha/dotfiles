@@ -27,16 +27,51 @@ keymap("n", "ZZ", save_and_exit, opts)
 --keymap("n", "ZZ", ":wqa<CR>", opts)
 keymap("n", "ZQ", ":qa!<CR>", opts)
 
--- Close current buffer and move to the buffer to the left
-keymap("n", "<C-c>", function()
-  if vim.fn.bufnr("#") ~= -1 then
-    local current_buf = vim.api.nvim_get_current_buf()
-    vim.cmd.bprevious()
+local function close_buffer_and_move_to_the_left_one()
+  local current_buf = vim.api.nvim_get_current_buf()
+  local buffers = vim.api.nvim_list_bufs()
+
+  -- Filter out non-loaded and special buffers
+  local valid_buffers = {}
+  for _, buf in ipairs(buffers) do
+    if vim.api.nvim_buf_is_valid(buf) and vim.bo[buf].buflisted and vim.api.nvim_buf_get_option(buf, "modifiable") then
+      table.insert(valid_buffers, buf)
+    end
+  end
+
+  -- Find the index of the current buffer
+  local current_index
+  for i, buf in ipairs(valid_buffers) do
+    if buf == current_buf then
+      current_index = i
+      break
+    end
+  end
+
+  if #valid_buffers > 1 and current_index then
+    local target_index = current_index > 1 and current_index - 1 or #valid_buffers
+    local target_buf = valid_buffers[target_index]
+
+    -- Switch to the target buffer
+    vim.api.nvim_set_current_buf(target_buf)
+
+    -- Delete the original buffer
     vim.api.nvim_buf_delete(current_buf, { force = true })
   else
     vim.cmd.bd()
   end
-end, opts)
+end
+-- Close current buffer and move to the buffer to the left
+--keymap("n", "<C-c>", function()
+--  if vim.fn.bufnr("#") ~= -1 then
+--    local current_buf = vim.api.nvim_get_current_buf()
+--    vim.cmd.bprevious()
+--    vim.api.nvim_buf_delete(current_buf, { force = true })
+--  else
+--    vim.cmd.bd()
+--  end
+--end, opts)
+keymap("n", "<C-c>", close_buffer_and_move_to_the_left_one, opts)
 
 -- Terminal --
 local lazyterm = function()

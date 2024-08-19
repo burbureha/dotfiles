@@ -1,4 +1,10 @@
 return {
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "duskfox",
+    },
+  },
 
   { "LunarVim/Colorschemes" }, -- collection of different colorschemes, 'lunar' colorscheme doesn't work with my nvim config for some reason
   { "LunarVim/lunar.nvim" }, -- lunar
@@ -22,5 +28,13 @@ return {
     "b0o/lavi.nvim",
     dependencies = { "rktjmp/lush.nvim" }, -- lavi
   },
-  { "Alexis12119/nightly.nvim" },
+  { "Alexis12119/nightly.nvim" }, -- nightly
+  { "blazkowolf/gruber-darker.nvim" }, -- gruber-darker
+  { "nyoom-engineering/oxocarbon.nvim" }, -- oxocarbon
+  { "jacoborus/tender.vim" }, -- tender
+  { "catppuccin/nvim", name = "catppuccin", priority = 1000 }, -- catppuccin
+  { "dracula/vim" }, -- dracula
+  { "cocopon/iceberg.vim" }, -- iceberg
+  { "slugbyte/lackluster.nvim" }, -- lackluster
+  { "uloco/bluloco.nvim" }, -- bluloco
 }
